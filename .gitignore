@@ -8,3 +8,5 @@ packages/
 .project
 .vs/
 .idea/
+Config.xlsx
+**/Config.xlsx

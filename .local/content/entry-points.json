@@ -73,6 +73,9 @@
           },
           "in_JobId": {
             "type": "string"
+          },
+          "in_TaskId": {
+            "type": "string"
           }
         },
         "required": []

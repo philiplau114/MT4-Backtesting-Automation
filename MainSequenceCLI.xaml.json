@@ -76,6 +76,18 @@
       "IsPrincipal": true,
       "ArgumentType": 0,
       "DataSourceItems": null
+    },
+    {
+      "Name": "in_TaskId",
+      "DisplayName": "in_TaskId",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "1",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
     }
   ]
 }

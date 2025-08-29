@@ -1,5 +1,6 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="MainSequence2" this:MainSequence2.in_InputSetFilePath="C:\Users\Philip\Documents\GitHub\EA_Automation\01_user_inputs\PX3.71_GBPUSD_M30_1500_P4606_DD691_20220822-20250822_SL800_WR60.67_PF1.98_T539_M454776070_V1_S307.set" this:MainSequence2.in_JobId="1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:p="http://schemas.uipath.com/workflow/activities/python" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:sds="clr-namespace:System.Data.SQLite;assembly=System.Data.SQLite" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uwaj="clr-namespace:UiPath.Web.Activities.JSON;assembly=UiPath.Web.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="MainSequence2" this:MainSequence2.in_TaskId="1" this:MainSequence2.in_InputSetFilePath="C:\Users\Philip\Documents\GitHub\EA_Automation\01_user_inputs\PX3.71_GBPUSD_M30_1500_P4606_DD691_20220822-20250822_SL800_WR60.67_PF1.98_T539_M454776070_V1_S307.set" this:MainSequence2.in_JobId="1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:p="http://schemas.uipath.com/workflow/activities/python" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:sds="clr-namespace:System.Data.SQLite;assembly=System.Data.SQLite" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uwaj="clr-namespace:UiPath.Web.Activities.JSON;assembly=UiPath.Web.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
+    <x:Property Name="in_TaskId" Type="InArgument(x:String)" />
     <x:Property Name="out_ErrorMessage" Type="OutArgument(x:String)" />
     <x:Property Name="out_Artifacts" Type="OutArgument(x:String)" />
     <x:Property Name="out_Status" Type="OutArgument(x:String)" />
@@ -166,7 +167,7 @@
       <AssemblyReference>UiPath.GSuite</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="MainSequenceCLI" sap:VirtualizedContainerService.HintSize="1347,3918" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="MainSequenceCLI" sap:VirtualizedContainerService.HintSize="1219,5130.5" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="s:String[]" Name="allArtifacts" />
       <Variable x:TypeArguments="s:String[]" Name="optimizationFiles" />
@@ -232,13 +233,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="556,3895" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="574,5107.5" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ReadConfigSequence - Invoke Workflow File (ReadConfigSequence.xaml)" sap:VirtualizedContainerService.HintSize="522,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ReadConfigSequence.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ReadConfigSequence - Invoke Workflow File (ReadConfigSequence.xaml)" sap:VirtualizedContainerService.HintSize="540,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ReadConfigSequence.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <OutArgument x:TypeArguments="sd:DataTable" x:Key="dtSymbol">
             <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">dtSymbol</CSharpReference>
@@ -252,7 +253,7 @@
           <InArgument x:TypeArguments="x:String" x:Key="ConfigPath">.\data\config.xlsx</InArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
-      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="522,57" sap2010:WorkflowViewState.IdRef="CommentOut_23">
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="540,57" sap2010:WorkflowViewState.IdRef="CommentOut_23">
         <ui:CommentOut.Body>
           <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="517.3333333333334,373.77777777777777" sap2010:WorkflowViewState.IdRef="Sequence_68">
             <sap:WorkflowViewStateService.ViewState>
@@ -2847,7 +2848,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:CommentOut>
-      <Assign sap:VirtualizedContainerService.HintSize="522,115.5" sap2010:WorkflowViewState.IdRef="Assign_87">
+      <Assign sap:VirtualizedContainerService.HintSize="540,115.5" sap2010:WorkflowViewState.IdRef="Assign_87">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">
             <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_211">CurrentFile</CSharpReference>
@@ -2859,7 +2860,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
           </InArgument>
         </Assign.Value>
       </Assign>
-      <Assign sap:VirtualizedContainerService.HintSize="522,115.5" sap2010:WorkflowViewState.IdRef="Assign_92">
+      <Assign sap:VirtualizedContainerService.HintSize="540,115.5" sap2010:WorkflowViewState.IdRef="Assign_92">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">
             <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_214">out_Status</CSharpReference>
@@ -2869,7 +2870,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
           <InArgument x:TypeArguments="x:String">In Progress</InArgument>
         </Assign.Value>
       </Assign>
-      <Assign sap:VirtualizedContainerService.HintSize="522,117" sap2010:WorkflowViewState.IdRef="Assign_100">
+      <Assign sap:VirtualizedContainerService.HintSize="540,117" sap2010:WorkflowViewState.IdRef="Assign_100">
         <Assign.To>
           <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:String)">
             <CSharpReference x:TypeArguments="scg:Dictionary(x:String, x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_223">settingsDict</CSharpReference>
@@ -2892,23 +2893,23 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </Assign>
-      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="522,3230" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="540,4442.5" sap2010:WorkflowViewState.IdRef="TryCatch_1">
         <TryCatch.Try>
-          <Sequence DisplayName="Process Set File" sap:VirtualizedContainerService.HintSize="520,2642.5" sap2010:WorkflowViewState.IdRef="Sequence_67">
+          <Sequence DisplayName="Process Set File" sap:VirtualizedContainerService.HintSize="538,3855" sap2010:WorkflowViewState.IdRef="Sequence_67">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:StartProcess Arguments="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Start Process" sap:VirtualizedContainerService.HintSize="486,120" sap2010:WorkflowViewState.IdRef="StartProcess_2">
+            <ui:StartProcess Arguments="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Start Process" sap:VirtualizedContainerService.HintSize="504,120" sap2010:WorkflowViewState.IdRef="StartProcess_2">
               <ui:StartProcess.FileName>
                 <InArgument x:TypeArguments="x:String">
                   <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_227">settingsDict["MT4Path"]</CSharpValue>
                 </InArgument>
               </ui:StartProcess.FileName>
             </ui:StartProcess>
-            <uix:NCheckState DisplayName="Check App State 'Navigator'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="NCheckState_3" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Navigator'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="504,57" sap2010:WorkflowViewState.IdRef="NCheckState_3" Version="V5">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,92" sap2010:WorkflowViewState.IdRef="Sequence_69">
                   <sap:WorkflowViewStateService.ViewState>
@@ -2954,7 +2955,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NCheckState>
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="CommentOut_24">
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="504,57" sap2010:WorkflowViewState.IdRef="CommentOut_24">
               <ui:CommentOut.Body>
                 <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="1124,1394" sap2010:WorkflowViewState.IdRef="Sequence_76">
                   <sap:WorkflowViewStateService.ViewState>
@@ -3114,7 +3115,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:CommentOut>
-            <Sequence DisplayName="Prepare Setting Dict Sequence" sap:VirtualizedContainerService.HintSize="486,57" sap2010:WorkflowViewState.IdRef="Sequence_79">
+            <Sequence DisplayName="Prepare Setting Dict Sequence" sap:VirtualizedContainerService.HintSize="504,57" sap2010:WorkflowViewState.IdRef="Sequence_79">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3194,13 +3195,13 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
                 </If.Else>
               </If>
             </Sequence>
-            <p:PythonScope OperationTimeout="{x:Null}" DisplayName="Python Scope" sap:VirtualizedContainerService.HintSize="486,2185" sap2010:WorkflowViewState.IdRef="PythonScope_2">
+            <p:PythonScope OperationTimeout="{x:Null}" DisplayName="Python Scope" sap:VirtualizedContainerService.HintSize="504,3397.5" sap2010:WorkflowViewState.IdRef="PythonScope_2">
               <p:PythonScope.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="PythonEngineSessionProperty" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,1949.5" sap2010:WorkflowViewState.IdRef="Sequence_119">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="502,3162" sap2010:WorkflowViewState.IdRef="Sequence_119">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="messageString" />
                       <Variable x:TypeArguments="x:String" Name="EAFile" />
@@ -3211,7 +3212,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="Extract Set File Info" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_83">
+                    <Sequence DisplayName="Extract Set File Info" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="Sequence_83">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3392,14 +3393,14 @@ new List&lt;Object&gt; {CurrentFile.ToString(), settingsDict["SymbolListPath"]}<
                         </sap:WorkflowViewStateService.ViewState>
                       </Assign>
                     </Sequence>
-                    <Sequence DisplayName="create set_file_jobs" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_85">
+                    <Sequence DisplayName="create set_file_jobs" sap:VirtualizedContainerService.HintSize="468,1269.5" sap2010:WorkflowViewState.IdRef="Sequence_85">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <p:LoadScript Code="{x:Null}" DisplayName="Load Python Script" sap:VirtualizedContainerService.HintSize="433.77777777777777,228" sap2010:WorkflowViewState.IdRef="LoadScript_15">
+                      <p:LoadScript Code="{x:Null}" DisplayName="Load Python Script" sap:VirtualizedContainerService.HintSize="434,228.5" sap2010:WorkflowViewState.IdRef="LoadScript_15">
                         <p:LoadScript.Result>
                           <OutArgument x:TypeArguments="p:PythonObject">
                             <CSharpReference x:TypeArguments="p:PythonObject" sap2010:WorkflowViewState.IdRef="CSharpReference`1_121">pyScriptObject</CSharpReference>
@@ -3411,7 +3412,7 @@ new List&lt;Object&gt; {CurrentFile.ToString(), settingsDict["SymbolListPath"]}<
                           </InArgument>
                         </p:LoadScript.ScriptFile>
                       </p:LoadScript>
-                      <Assign sap:VirtualizedContainerService.HintSize="433.77777777777777,116.44444444444444" sap2010:WorkflowViewState.IdRef="Assign_53">
+                      <Assign sap:VirtualizedContainerService.HintSize="434,117" sap2010:WorkflowViewState.IdRef="Assign_53">
                         <Assign.To>
                           <OutArgument x:TypeArguments="s:Object[]">
                             <CSharpReference x:TypeArguments="s:Object[]" sap2010:WorkflowViewState.IdRef="CSharpReference`1_122">paramsList</CSharpReference>
@@ -3419,7 +3420,7 @@ new List&lt;Object&gt; {CurrentFile.ToString(), settingsDict["SymbolListPath"]}<
                         </Assign.To>
                         <Assign.Value>
                           <InArgument x:TypeArguments="s:Object[]">
-                            <CSharpValue x:TypeArguments="s:Object[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_248" xml:space="preserve">//new object[] { "Philip", CurrentFile.ToString(), symbol, timeframe, EAFile, "v1", 0, "pending", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") }
+                            <CSharpValue x:TypeArguments="s:Object[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_437" xml:space="preserve">//new object[] { "Philip", CurrentFile.ToString(), symbol, timeframe, EAFile, "v1", 0, "pending", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") }
 new object[] { 
     settingsDict["UserId"],                            // User ID, from config
     CurrentFile.ToString(),                            // File path
@@ -3430,12 +3431,14 @@ new object[] {
     0,                                                 // Current step (likely always 0 here)
     "Pending",                                         // Status (parameterize if desired)
     DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),      // Created at
-    DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")       // Updated at
+    DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),      // Updated at
+    Convert.ToInt32(in_JobId),                         // controller_job_id (cast to int)
+    Convert.ToInt32(in_TaskId)                         // controller_task_id (cast to int)
 }</CSharpValue>
                           </InArgument>
                         </Assign.Value>
                       </Assign>
-                      <uwaj:SerializeJson Settings="{x:Null}" DisplayName="Serialize JSON" sap:VirtualizedContainerService.HintSize="433.77777777777777,123.11111111111111" sap2010:WorkflowViewState.IdRef="SerializeJson_10">
+                      <uwaj:SerializeJson Settings="{x:Null}" DisplayName="Serialize JSON" sap:VirtualizedContainerService.HintSize="434,123.5" sap2010:WorkflowViewState.IdRef="SerializeJson_10">
                         <uwaj:SerializeJson.InputObject>
                           <InArgument x:TypeArguments="x:Object">
                             <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_249">paramsList</CSharpValue>
@@ -3447,7 +3450,7 @@ new object[] {
                           </OutArgument>
                         </uwaj:SerializeJson.Result>
                       </uwaj:SerializeJson>
-                      <p:InvokeMethod DisplayName="Invoke Python Method" sap:VirtualizedContainerService.HintSize="433.77777777777777,123.11111111111111" sap2010:WorkflowViewState.IdRef="InvokeMethod_17" Name="run_sqlite_query">
+                      <p:InvokeMethod DisplayName="Invoke Python Method" sap:VirtualizedContainerService.HintSize="434,123.5" sap2010:WorkflowViewState.IdRef="InvokeMethod_17" Name="run_sqlite_query">
                         <p:InvokeMethod.Instance>
                           <InArgument x:TypeArguments="p:PythonObject">
                             <CSharpValue x:TypeArguments="p:PythonObject" sap2010:WorkflowViewState.IdRef="CSharpValue`1_250">pyScriptObject</CSharpValue>
@@ -3455,12 +3458,12 @@ new object[] {
                         </p:InvokeMethod.Instance>
                         <p:InvokeMethod.Parameters>
                           <InArgument x:TypeArguments="scg:IEnumerable(x:Object)">
-                            <CSharpValue x:TypeArguments="scg:IEnumerable(x:Object)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_251" xml:space="preserve">/*new string[] {"C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db",
+                            <CSharpValue x:TypeArguments="scg:IEnumerable(x:Object)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_438" xml:space="preserve">/*new string[] {"C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db",
 	"INSERT INTO set_file_jobs (user_id, original_file, symbol, timeframe, ea, set_version, current_step, status, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", 
 	paramsJson}*/
 
 new string[] {settingsDict["DBPath"],
-	"INSERT INTO set_file_jobs (user_id, original_file, symbol, timeframe, ea, set_version, current_step, status, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", 
+	"INSERT INTO set_file_jobs (user_id, original_file, symbol, timeframe, ea, set_version, current_step, status, created_at, updated_at, controller_job_id, controller_task_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", 
 	paramsJson}</CSharpValue>
                           </InArgument>
                         </p:InvokeMethod.Parameters>
@@ -3470,7 +3473,7 @@ new string[] {settingsDict["DBPath"],
                           </OutArgument>
                         </p:InvokeMethod.Result>
                       </p:InvokeMethod>
-                      <p:GetObject x:TypeArguments="x:String" DisplayName="Get Python Object" sap:VirtualizedContainerService.HintSize="433.77777777777777,123.11111111111111" sap2010:WorkflowViewState.IdRef="GetObject`1_15">
+                      <p:GetObject x:TypeArguments="x:String" DisplayName="Get Python Object" sap:VirtualizedContainerService.HintSize="434,123.5" sap2010:WorkflowViewState.IdRef="GetObject`1_15">
                         <p:GetObject.PythonObject>
                           <InArgument x:TypeArguments="p:PythonObject">
                             <CSharpValue x:TypeArguments="p:PythonObject" sap2010:WorkflowViewState.IdRef="CSharpValue`1_252">pyResult</CSharpValue>
@@ -3482,7 +3485,7 @@ new string[] {settingsDict["DBPath"],
                           </OutArgument>
                         </p:GetObject.Result>
                       </p:GetObject>
-                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.77777777777777,175.55555555555554" sap2010:WorkflowViewState.IdRef="LogMessage_22" Level="Info">
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,176" sap2010:WorkflowViewState.IdRef="LogMessage_22" Level="Info">
                         <ui:LogMessage.Message>
                           <InArgument x:TypeArguments="x:Object">
                             <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_253">jsonString</CSharpValue>
@@ -3538,7 +3541,7 @@ new string[] {settingsDict["DBPath"],
                         </sap:WorkflowViewStateService.ViewState>
                       </ui:CommentOut>
                     </Sequence>
-                    <Sequence DisplayName="create set_file_steps" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_87">
+                    <Sequence DisplayName="create set_file_steps" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="Sequence_87">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3694,7 +3697,7 @@ new string[] {
                         </sap:WorkflowViewStateService.ViewState>
                       </ui:CommentOut>
                     </Sequence>
-                    <Sequence DisplayName="create set_file_artifacts" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_127">
+                    <Sequence DisplayName="create set_file_artifacts" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="Sequence_127">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:String" Name="setFileArtifactsID" />
                       </Sequence.Variables>
@@ -3834,7 +3837,7 @@ new string[] {
                         </sap:WorkflowViewStateService.ViewState>
                       </ui:CommentOut>
                     </Sequence>
-                    <Sequence DisplayName="Assign Backtest Variable" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_90">
+                    <Sequence DisplayName="Assign Backtest Variable" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="Sequence_90">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -3866,7 +3869,7 @@ new string[] {
                         </Assign.Value>
                       </Assign>
                     </Sequence>
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="MT4backtest - Invoke Workflow File (MT4backtest.xaml)" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="MT4backtest.xaml">
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="MT4backtest - Invoke Workflow File (MT4backtest.xaml)" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="MT4backtest.xaml">
                       <ui:InvokeWorkflowFile.Arguments>
                         <InArgument x:TypeArguments="sd:DataTable" x:Key="dtSymbol">
                           <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_279">dtSymbol</CSharpValue>
@@ -3916,7 +3919,7 @@ new string[] {
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:InvokeWorkflowFile>
-                    <Sequence DisplayName="Extract MT4 Report to DB" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_91">
+                    <Sequence DisplayName="Extract MT4 Report to DB" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="Sequence_91">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -4036,7 +4039,7 @@ new List&lt;object&gt; {
                         </ui:LogMessage.Message>
                       </ui:LogMessage>
                     </Sequence>
-                    <Sequence DisplayName="Create Backtest Completed and Start Optimization Steps" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_92">
+                    <Sequence DisplayName="Create Backtest Completed and Start Optimization Steps" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="Sequence_92">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -4158,7 +4161,7 @@ new string[] {
                         </Assign.Value>
                       </Assign>
                     </Sequence>
-                    <Sequence DisplayName="create Optimzation set_file_artifacts" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_128">
+                    <Sequence DisplayName="create Optimzation set_file_artifacts" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="Sequence_128">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:String" Name="setFileArtifactsID" />
                       </Sequence.Variables>
@@ -4280,7 +4283,7 @@ new string[] {
                         </sap:WorkflowViewStateService.ViewState>
                       </Assign>
                     </Sequence>
-                    <Sequence DisplayName="Assign Optimzation Variable" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_94">
+                    <Sequence DisplayName="Assign Optimzation Variable" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="Sequence_94">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -4312,7 +4315,7 @@ new string[] {
                         </Assign.Value>
                       </Assign>
                     </Sequence>
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="MT4backtest - Invoke Workflow File (MT4backtest.xaml)" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="MT4backtest.xaml">
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="MT4backtest - Invoke Workflow File (MT4backtest.xaml)" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="MT4backtest.xaml">
                       <ui:InvokeWorkflowFile.Arguments>
                         <InArgument x:TypeArguments="sd:DataTable" x:Key="dtSymbol">
                           <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_320">dtSymbol</CSharpValue>
@@ -4362,7 +4365,7 @@ new string[] {
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:InvokeWorkflowFile>
-                    <Sequence DisplayName="Extract MT4 Optimization Report to DB" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_106">
+                    <Sequence DisplayName="Extract MT4 Optimization Report to DB" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="Sequence_106">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:Int32" Default="0" Name="currentIndex" />
                       </Sequence.Variables>
@@ -5075,21 +5078,21 @@ new List&lt;object&gt; {
                         </sap:WorkflowViewStateService.ViewState>
                       </ui:ForEach>
                     </Sequence>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,176" sap2010:WorkflowViewState.IdRef="LogMessage_39" Level="Info">
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="468,176" sap2010:WorkflowViewState.IdRef="LogMessage_39" Level="Info">
                       <ui:LogMessage.Message>
                         <InArgument x:TypeArguments="x:Object">
                           <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_434">settingsDict["BacktestReportPath"]</CSharpValue>
                         </InArgument>
                       </ui:LogMessage.Message>
                     </ui:LogMessage>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,176" sap2010:WorkflowViewState.IdRef="LogMessage_38" Level="Info">
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="468,176" sap2010:WorkflowViewState.IdRef="LogMessage_38" Level="Info">
                       <ui:LogMessage.Message>
                         <InArgument x:TypeArguments="x:Object">
                           <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_433">System.IO.Path.GetDirectoryName(settingsDict["BacktestReportPath"])</CSharpValue>
                         </InArgument>
                       </ui:LogMessage.Message>
                     </ui:LogMessage>
-                    <Assign sap:VirtualizedContainerService.HintSize="450,115.5" sap2010:WorkflowViewState.IdRef="Assign_94">
+                    <Assign sap:VirtualizedContainerService.HintSize="468,115.5" sap2010:WorkflowViewState.IdRef="Assign_94">
                       <Assign.To>
                         <OutArgument x:TypeArguments="s:String[]">
                           <CSharpReference x:TypeArguments="s:String[]" sap2010:WorkflowViewState.IdRef="CSharpReference`1_218">backtestFiles</CSharpReference>
@@ -5101,7 +5104,7 @@ new List&lt;object&gt; {
                         </InArgument>
                       </Assign.Value>
                     </Assign>
-                    <Assign sap:VirtualizedContainerService.HintSize="450,115.5" sap2010:WorkflowViewState.IdRef="Assign_95">
+                    <Assign sap:VirtualizedContainerService.HintSize="468,115.5" sap2010:WorkflowViewState.IdRef="Assign_95">
                       <Assign.To>
                         <OutArgument x:TypeArguments="s:String[]">
                           <CSharpReference x:TypeArguments="s:String[]" sap2010:WorkflowViewState.IdRef="CSharpReference`1_219">optimizationFiles</CSharpReference>
@@ -5113,7 +5116,7 @@ new List&lt;object&gt; {
                         </InArgument>
                       </Assign.Value>
                     </Assign>
-                    <Assign sap:VirtualizedContainerService.HintSize="450,115.5" sap2010:WorkflowViewState.IdRef="Assign_96">
+                    <Assign sap:VirtualizedContainerService.HintSize="468,115.5" sap2010:WorkflowViewState.IdRef="Assign_96">
                       <Assign.To>
                         <OutArgument x:TypeArguments="s:String[]">
                           <CSharpReference x:TypeArguments="s:String[]" sap2010:WorkflowViewState.IdRef="CSharpReference`1_220">allArtifacts</CSharpReference>
@@ -5125,7 +5128,7 @@ new List&lt;object&gt; {
                         </InArgument>
                       </Assign.Value>
                     </Assign>
-                    <Assign sap:VirtualizedContainerService.HintSize="450,115.5" sap2010:WorkflowViewState.IdRef="Assign_97">
+                    <Assign sap:VirtualizedContainerService.HintSize="468,115.5" sap2010:WorkflowViewState.IdRef="Assign_97">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">
                           <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_221">out_Artifacts</CSharpReference>
@@ -5137,7 +5140,7 @@ new List&lt;object&gt; {
                         </InArgument>
                       </Assign.Value>
                     </Assign>
-                    <Assign sap:VirtualizedContainerService.HintSize="450,115.5" sap2010:WorkflowViewState.IdRef="Assign_101">
+                    <Assign sap:VirtualizedContainerService.HintSize="468,115.5" sap2010:WorkflowViewState.IdRef="Assign_101">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">
                           <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_224">out_worker_JobId</CSharpReference>
@@ -5149,7 +5152,7 @@ new List&lt;object&gt; {
                         </InArgument>
                       </Assign.Value>
                     </Assign>
-                    <ui:ForEachFileX DisplayName="For Each File in Folder" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="ForEachFileX_2" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+                    <ui:ForEachFileX DisplayName="For Each File in Folder" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="ForEachFileX_2" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
                       <ui:ForEachFileX.Body>
                         <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
                           <ActivityAction.Argument1>
@@ -5192,7 +5195,7 @@ new List&lt;object&gt; {
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:ForEachFileX>
-                    <ui:ForEachFileX DisplayName="For Each File in Folder" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="ForEachFileX_3" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+                    <ui:ForEachFileX DisplayName="For Each File in Folder" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="ForEachFileX_3" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
                       <ui:ForEachFileX.Body>
                         <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
                           <ActivityAction.Argument1>
@@ -5234,7 +5237,7 @@ new List&lt;object&gt; {
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:ForEachFileX>
-                    <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="MoveFile_2" Overwrite="True">
+                    <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="MoveFile_2" Overwrite="True">
                       <ui:MoveFile.Destination>
                         <InArgument x:TypeArguments="x:String">
                           <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_389" xml:space="preserve">/*Path.Combine("C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\01_user_inputs\\Processed", Path.GetFileName(CurrentFile.ToString()))*/
@@ -5253,7 +5256,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:MoveFile>
-                    <Sequence DisplayName="Update set_file_steps Status" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_112">
+                    <Sequence DisplayName="Update set_file_steps Status" sap:VirtualizedContainerService.HintSize="468,57" sap2010:WorkflowViewState.IdRef="Sequence_112">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -5430,7 +5433,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
                         </sap:WorkflowViewStateService.ViewState>
                       </ui:CommentOut>
                     </Sequence>
-                    <Sequence DisplayName="Update set_file_jobs Status" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_118">
+                    <Sequence DisplayName="Update set_file_jobs Status" sap:VirtualizedContainerService.HintSize="468,48" sap2010:WorkflowViewState.IdRef="Sequence_118">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -5632,7 +5635,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
                 </InArgument>
               </p:PythonScope.WorkingFolder>
             </p:PythonScope>
-            <Assign sap:VirtualizedContainerService.HintSize="486,106.5" sap2010:WorkflowViewState.IdRef="Assign_93">
+            <Assign sap:VirtualizedContainerService.HintSize="504,106.5" sap2010:WorkflowViewState.IdRef="Assign_93">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">
                   <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_217">out_Status</CSharpReference>
@@ -5650,13 +5653,13 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="520,397.5" sap2010:WorkflowViewState.IdRef="Sequence_120">
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="538,397.5" sap2010:WorkflowViewState.IdRef="Sequence_120">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Assign sap:VirtualizedContainerService.HintSize="486,115.5" sap2010:WorkflowViewState.IdRef="Assign_88">
+                <Assign sap:VirtualizedContainerService.HintSize="504,115.5" sap2010:WorkflowViewState.IdRef="Assign_88">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">
                       <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_212">out_Status</CSharpReference>
@@ -5666,7 +5669,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
                     <InArgument x:TypeArguments="x:String">Failed</InArgument>
                   </Assign.Value>
                 </Assign>
-                <Assign sap:VirtualizedContainerService.HintSize="486,115.5" sap2010:WorkflowViewState.IdRef="Assign_89">
+                <Assign sap:VirtualizedContainerService.HintSize="504,115.5" sap2010:WorkflowViewState.IdRef="Assign_89">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">
                       <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_213">out_ErrorMessage</CSharpReference>
@@ -5678,7 +5681,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
                     </InArgument>
                   </Assign.Value>
                 </Assign>
-                <Assign sap:VirtualizedContainerService.HintSize="486,106.5" sap2010:WorkflowViewState.IdRef="Assign_90">
+                <Assign sap:VirtualizedContainerService.HintSize="504,106.5" sap2010:WorkflowViewState.IdRef="Assign_90">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">
                       <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_215">out_Artifacts</CSharpReference>
@@ -5695,7 +5698,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
           </Catch>
         </TryCatch.Catches>
         <TryCatch.Finally>
-          <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="520,25" sap2010:WorkflowViewState.IdRef="Sequence_121">
+          <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="538,25" sap2010:WorkflowViewState.IdRef="Sequence_121">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
