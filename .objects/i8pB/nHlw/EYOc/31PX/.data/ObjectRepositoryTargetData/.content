@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="g-E56HEP70q84tz3uoXi_Q" Reference="EoK9QnnZwUOAEw3B5dGgtA/31PXrCqKTE2ai2pnWRRK6w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="0e82ca73-df5f-4758-af59-cba4d3e0f95b" CvElementArea="1619, 842, 122, 22" CvType="InputBox" DesignTimeRectangle="3534, 1718, 200, 26" ElementType="InputBox" FuzzyMatches="10000" FuzzySelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Spread:' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' cls='ComboBox' /&gt;&lt;wnd aaname='Spread:' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' cls='Edit' /&gt;" Guid="6c7869bf-a002-4a87-a38f-dcd3ad7ee05c" ImageBase64="" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0e82ca73-df5f-4758-af59-cba4d3e0f95b" CvTextArea="1576, 846, 37, 14" CvTextArgument="Spread:" CvType="Text" DesignTimeRectangle="3277, 1723, 240, 32" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Static' title='Spread:' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Spread:' /&gt;" Guid="6b116746-51d0-4180-b08f-95104095f260" ImageBase64="" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5e0ff8d77712458c47a0a8606b35f9fd.png" xmlns="">0HX1T4wSmOkqrNxPkVxOPIA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

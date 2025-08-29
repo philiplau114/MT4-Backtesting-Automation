@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="u6IYHbpR2kOnATH4rZCwWA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="07ac1d81-56c5-4ddb-afd6-d23021752bbf" CvElementArea="387, 964, 124, 26" CvTextArea="433, 969, 30, 13" CvTextArgument="Load" CvType="Button" DesignTimeRectangle="387, 964, 123, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd cls='#32770' title='Inputs' /&gt;&lt;wnd ctrlid='4011' title='&amp;amp;Load' /&gt;" FuzzySelectorArgument="&lt;wnd cls='#32770' title='Inputs' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlid='4011' title='&amp;amp;Load' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='&amp;amp;Load' /&gt;" Guid="9bcb4c6c-d3bb-4bd0-9c07-1079f6863beb" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32770' title='Ace Phoenix Std v3.71' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="9bd3796ff8a542d415737ec57a08f427.png" xmlns="">026C4ixQYskiKYTN28aFWzw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

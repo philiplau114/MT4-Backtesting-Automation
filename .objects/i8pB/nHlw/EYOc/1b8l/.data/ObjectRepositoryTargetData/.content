@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="p1OWpPoZk0Obkb5aFYpvug" Reference="EoK9QnnZwUOAEw3B5dGgtA/1b8l49zSy0WzXtdWaGBV2w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="9aeee886-0b86-46e8-a6f8-c2c7548301b3" CvTextArea="71, 34, 30, 12" CvTextArgument="View" CvType="Text" DesignTimeRectangle="45, 31, 45, 19" FullSelectorArgument="&lt;ctrl automationid='MenuBar' name='應用程式' role='menu bar' /&gt;&lt;ctrl name='View' role='menu item' /&gt;" Guid="1c8e52e3-c5f7-4bf6-a34a-136e3c88490d" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3dd0a97e15674a96367b9149ea9916f0.png" xmlns="">0x8ZL_og100WBNs1OxgGP3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

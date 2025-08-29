@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EEl3koxa3U6vuuBrm2dR-w" Reference="EoK9QnnZwUOAEw3B5dGgtA/8n6laKLYCkKf97VkEO5ZjQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="faef06ca-92e5-4a49-85d0-a8dc8b68259a" CvElementArea="15, 39, 58, 24" CvTextArea="21, 43, 43, 15" CvTextArgument="Testing" CvType="Button" DesignTimeRectangle="39, 96, 134, 49" ElementType="TabPage" FullSelectorArgument="&lt;wnd ctrlid='12320' /&gt;&lt;ctrl name='Testing' role='page tab' /&gt;" Guid="4ace8fa0-bec5-4afb-9aef-a3604534edbd" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32770' title='Ace Phoenix Std v3.71' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="97e313cd-c343-405c-bb67-68f696fe8d5c" CvElementArea="177, 95, 113, 53" CvTextArea="185, 107, 92, 35" CvTextArgument="Inputs" CvType="Button" DesignTimeRectangle="173, 96, 119, 49" ElementType="TabPage" FuzzySelectorArgument="&lt;wnd ctrlid='12320' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;ctrl name='Inputs' role='page tab' check:text='Inputs' /&gt;" Guid="4c014c1d-1f0f-4c23-b148-fda488fa7c42" ImageBase64="" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7ae0e6dc1cb8e45b6120b84400718465.png" xmlns="">0G3HvbuQaZ0Cmp5Zl68bh9g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

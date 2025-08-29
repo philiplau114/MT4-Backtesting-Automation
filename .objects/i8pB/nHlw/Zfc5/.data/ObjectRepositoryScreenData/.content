@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="jW5EdyTigkaGUV5C-ZMK9Q" Reference="EoK9QnnZwUOAEw3B5dGgtA/Zfc5hGzgRkuNpHvtQLuO2g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" ContentHash="7jYE_xw330Wdz7YE9jbvMA" Reference="EoK9QnnZwUOAEw3B5dGgtA/Zfc5hGzgRkuNpHvtQLuO2g" Selector="&lt;wnd app='terminal.exe' cls='#32768' idx='*' /&gt;" Url="[Nothing]" />
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="*" Name="Nothing" />
+    </scg:List>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

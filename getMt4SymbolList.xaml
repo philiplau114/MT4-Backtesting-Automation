@@ -1,0 +1,515 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="getMt4SymbolList" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Python.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="getMt4SymbolList" sap:VirtualizedContainerService.HintSize="1150,1005.5" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="556.5,982.5" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: 892422018: VantageInternational-Demo - Demo Account - Vantage In*" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="541,1417.5" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" IsDisplayNameAuto="True" ScopeGuid="549c3bb4-b1a6-49eb-969a-c9eee0f5359b" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="507,1147.5" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="scg:IEnumerable(ui:UiElement)" Name="symbolItems" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NSelectItem DisplayName="Select Item 'Symbol'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,190.5" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="EURGBP, Euro vs Great Britain Pound " ScopeIdentifier="549c3bb4-b1a6-49eb-969a-c9eee0f5359b" Version="V5">
+                <uix:NSelectItem.Items>
+                  <scg:List x:TypeArguments="x:String" Capacity="267">
+                    <x:String>XAUUSD, Gold US Dollar</x:String>
+                    <x:String>EURNZD, Euro vs New Zealand Dollar</x:String>
+                    <x:String>AUDCAD, Australian Dollar vs Canadian Dollar</x:String>
+                    <x:String xml:space="preserve">EURGBP, Euro vs Great Britain Pound </x:String>
+                    <x:String>EURJPY, Euro vs Japanese Yen</x:String>
+                    <x:String>EURSGD, Euro vs Singapore Dollar</x:String>
+                    <x:String>EURTRY, Euro vs Turkish Lira</x:String>
+                    <x:String>EURUSD, Euro vs US Dollar</x:String>
+                    <x:String>GBPAUD, Great Britain Pound vs Australian Dollar</x:String>
+                    <x:String>GBPCHF, Great Britain Pound vs Swiss Franc</x:String>
+                    <x:String>GBPJPY, Great Britain Pound vs Japanese Yen</x:String>
+                    <x:String>GBPNZD, Great Britain Pound vs New Zealand Dollar</x:String>
+                    <x:String>GBPSGD, Great Britain Pound vs Singapore Dollar</x:String>
+                    <x:String>GBPUSD, Great Britain Pound vs US Dollar</x:String>
+                    <x:String>AUDCNH, Australian Dollar vs Chinese Yuan</x:String>
+                    <x:String>NZDCAD, New Zealand Dollar vs Canadian Dollar</x:String>
+                    <x:String>NZDCHF, New Zealand Dollar vs Swiss Franc</x:String>
+                    <x:String>NZDJPY, New Zealand Dollar vs Japanese Yen</x:String>
+                    <x:String>NZDSGD, New Zealand Dollar vs Singapore Dollar</x:String>
+                    <x:String>GBPCAD, Great Britain Pound vs Canadian Dollar</x:String>
+                    <x:String>AUDSGD, Australian Dollar vs Singapore Dollar</x:String>
+                    <x:String>AUDUSD, Australian Dollar vs US Dollar</x:String>
+                    <x:String>CADJPY, Canadian Dollar vs Japanese Yen</x:String>
+                    <x:String>AUDCHF, Australian Dollar vs Swiss Franc</x:String>
+                    <x:String>CADCHF, Canadian Dollar vs Swiss Franc</x:String>
+                    <x:String>CHFJPY, Swiss Franc vs Japanese Yen</x:String>
+                    <x:String>AUDJPY, Australian Dollar vs Japanese Yen</x:String>
+                    <x:String>EURAUD, Euro vs Australian Dollar</x:String>
+                    <x:String>AUDNZD, Australian Dollar vs New Zealand Dollar</x:String>
+                    <x:String>EURCAD, Euro vs Canadian Dollar</x:String>
+                    <x:String>EURCHF, Euro vs Swiss Franc</x:String>
+                    <x:String>NZDUSD, New Zealand Dollar vs US Dollar</x:String>
+                    <x:String>SGDJPY, Singapore Dollar vs Japanese Yen</x:String>
+                    <x:String>USDCAD, US Dollar vs Canadian Dollar</x:String>
+                    <x:String>USDCHF, US Dollar vs Swiss Franc</x:String>
+                    <x:String>USDCNH, US Dollar vs Chinese Yuan</x:String>
+                    <x:String>USDHKD, US Dollar vs Hong Kong Dollar</x:String>
+                    <x:String>USDNOK, US Dollar vs Norwegian Krone</x:String>
+                    <x:String>USDJPY, US Dollar vs Japanese Yen</x:String>
+                    <x:String>USDSEK, US Dollar vs Swedish Krona</x:String>
+                    <x:String>USDSGD, US Dollar vs Singapore Dollar</x:String>
+                    <x:String>USDTRY, US Dollar vs Turkish Lira</x:String>
+                    <x:String>XAGAUD, Silver vs Australian Dollar</x:String>
+                    <x:String>XAGUSD, Silver - US Dollar</x:String>
+                    <x:String>XAUAUD, Gold vs Australian Dollar</x:String>
+                    <x:String>Nikkei225, Nikkei Index Cash CFD (JPY)</x:String>
+                    <x:String>CL-OIL, Crude Oil Future CFD (USD)</x:String>
+                    <x:String>USOUSD, WTI Crude Oil Cash</x:String>
+                    <x:String xml:space="preserve">UKOUSD, Brent Crude Oil Cash </x:String>
+                    <x:String>BTCUSD, Bitcoin</x:String>
+                    <x:String>BCHUSD, Bitcoin Cash</x:String>
+                    <x:String>LTCUSD, Litecoin</x:String>
+                    <x:String>ETHUSD, Ethereum</x:String>
+                    <x:String>XRPUSD, Ripple</x:String>
+                    <x:String>EURDKK, Euro vs Danish Krone</x:String>
+                    <x:String>CHFSGD, Swiss Franc vs Singapore Dollar</x:String>
+                    <x:String>EURNOK, Euro vs Norwegian Krone</x:String>
+                    <x:String>EURPLN, Euro vs Polish Zloty</x:String>
+                    <x:String>EURSEK, Euro vs Swedish Krona</x:String>
+                    <x:String>USDMXN, US Dollar vs Mexican Peso</x:String>
+                    <x:String>USDPLN, US Dollar vs Polish Zloty</x:String>
+                    <x:String>USDZAR, US Dollar vs South African Rand</x:String>
+                    <x:String>USDCZK, US Dollar vs Czech Koruna</x:String>
+                    <x:String>USDDKK, US Dollar vs Danish Krone</x:String>
+                    <x:String>USDHUF, US Dollar vs Hungarian Forint</x:String>
+                    <x:String>SPI200.r, S&amp;P/ASX 200 Index Cash CFD (AUD)</x:String>
+                    <x:String>DJ30.r, Dow Jones Index Cash CFD (USD)</x:String>
+                    <x:String>SP500.r, S&amp;P Index Cash CFD (USD)</x:String>
+                    <x:String>NAS100.r, NAS100 Cash</x:String>
+                    <x:String>EU50.r, EUSTX50 Cash</x:String>
+                    <x:String>FRA40.r, France 40 Index</x:String>
+                    <x:String>ES35.r, ES35 Index Cash</x:String>
+                    <x:String>USDX.r, US Dollar Index CFD (USD)</x:String>
+                    <x:String>VIX.r, Volatility Index</x:String>
+                    <x:String>CHINA50.r, China A50 Index Cash CFD (USD)</x:String>
+                    <x:String>COPPER-Cr, Copper</x:String>
+                    <x:String>Cotton-Cr, Cotton - Cash</x:String>
+                    <x:String>GASOIL-Cr, Low Sulphur Gasoil - Cash</x:String>
+                    <x:String>NG-Cr, Natural Gas</x:String>
+                    <x:String>OJ-Cr, Orange Juice - Cash</x:String>
+                    <x:String>Sugar-Cr, Sugar Raw - Cash</x:String>
+                    <x:String>Coffee-Cr, Coffee Arabica - Cash</x:String>
+                    <x:String>Cocoa-Cr, US Cocoa - Cash</x:String>
+                    <x:String>GAS-Cr, Gasoline</x:String>
+                    <x:String>US2000.r, US SMALL CAP 2000 - CASH</x:String>
+                    <x:String>SA40.r, South Africa 40 - CASH</x:String>
+                    <x:String>EOSUSD, EOS</x:String>
+                    <x:String>XLMUSD, Stellar Lumens</x:String>
+                    <x:String>XAUEUR, Gold Euro</x:String>
+                    <x:String>BTCEUR, BitCoin vs Euro</x:String>
+                    <x:String>ETHEUR, Ethereum vs Euro</x:String>
+                    <x:String xml:space="preserve">BTCBCH, Bitcoin  vs Bitcoin Cash</x:String>
+                    <x:String>ETHBCH, Ethereum vs Bitcoin Cash</x:String>
+                    <x:String xml:space="preserve">BTCETH, Bitcoin vs Ethereum </x:String>
+                    <x:String>BTCLTC, Bitcoin vs Litecoin</x:String>
+                    <x:String>ETHLTC, Ethereum vs Litecoin</x:String>
+                    <x:String>HOOD, ROBINHOOD MARKETS INC - A</x:String>
+                    <x:String>TSLA, Tesla</x:String>
+                    <x:String>SPOT, Spotify Technology SA</x:String>
+                    <x:String>UL, Unilever Plc</x:String>
+                    <x:String>CRM, SALESFORCE.COM INC</x:String>
+                    <x:String>IBM, INTL BUSINESS MACHINES CORP</x:String>
+                    <x:String>AAPL, Apple Inc.</x:String>
+                    <x:String>GOOG, ALPHABET INC-CL C</x:String>
+                    <x:String xml:space="preserve">MSFT, MICROSOFT  CORP</x:String>
+                    <x:String>AMAZON, AMAZON.COM INC</x:String>
+                    <x:String>ALIBABA, ALIBABA GROUP HOLDING-SP ADR</x:String>
+                    <x:String>JNJ, JOHNSON &amp; JOHNSON</x:String>
+                    <x:String>EXXON, EXXON MOBIL CORP</x:String>
+                    <x:String>BAC, BANK OF AMERICA CORP</x:String>
+                    <x:String>WFC, WELLS FARGO &amp; CO</x:String>
+                    <x:String>WMT, WALMART INC</x:String>
+                    <x:String>VISA, VISA INC-CLASS A SHARES</x:String>
+                    <x:String>CVX, CHEVRON CORP</x:String>
+                    <x:String>HD, HOME DEPOT INC</x:String>
+                    <x:String>TSM, TAIWAN SEMICONDUCTOR-SP ADR</x:String>
+                    <x:String>UNH, UNITEDHEALTH GROUP INC</x:String>
+                    <x:String>AT&amp;T, AT&amp;T INC</x:String>
+                    <x:String>INTEL, INTEL CORP</x:String>
+                    <x:String>PFIZER, PFIZER INC</x:String>
+                    <x:String>VZ, VERIZON COMMUNICATIONS INC</x:String>
+                    <x:String>JPM, JPMORGAN CHASE &amp; CO</x:String>
+                    <x:String>PG, PROCTER &amp; GAMBLE CO/THE</x:String>
+                    <x:String>HSBCn, HSBC HOLDINGS PLC-SPONS ADR</x:String>
+                    <x:String>NVS, NOVARTIS AG-SPONSORED ADR</x:String>
+                    <x:String>ORCL, ORACLE CORP</x:String>
+                    <x:String>CISCO, CISCO SYSTEMS INC</x:String>
+                    <x:String>TOYOTA, TOYOTA MOTOR CORP -SPON ADR</x:String>
+                    <x:String>CITI, CITIGROUP INC</x:String>
+                    <x:String>KO, COCA-COLA CO/THE</x:String>
+                    <x:String>BOEING, BOEING CO/THE</x:String>
+                    <x:String>CMCSA, COMCAST CORP-CLASS A</x:String>
+                    <x:String>MA, MASTERCARD INC - A</x:String>
+                    <x:String>BUD, ANHEUSER-BUSCH INBEV SPN ADR</x:String>
+                    <x:String>PEP, PEPSICO INC</x:String>
+                    <x:String>PM, PHILIP MORRIS INTERNATIONAL</x:String>
+                    <x:String>DISNEY, WALT DISNEY CO/THE</x:String>
+                    <x:String>MMM, 3M CO</x:String>
+                    <x:String>NVIDIA, NVIDIA CORP</x:String>
+                    <x:String>NFLX, NETFLIX INC</x:String>
+                    <x:String>BAIDU, BAIDU INC - SPON ADR</x:String>
+                    <x:String>JD, JD.COM INC-ADR</x:String>
+                    <x:String>NTES, NETEASE INC-ADR</x:String>
+                    <x:String>MCD, MCDONALD'S CORP</x:String>
+                    <x:String>SBUX, STARBUCKS CORP</x:String>
+                    <x:String>ABBVIE, ABBVIE INC</x:String>
+                    <x:String>TCOM, Trip.com Group Ltd</x:String>
+                    <x:String>SHOP, SHOPIFY INC - CLASS A</x:String>
+                    <x:String>HON, HONEYWELL INTERNATIONAL INC</x:String>
+                    <x:String>SE, SEA LTD-ADR</x:String>
+                    <x:String>MRNA, MODERNA INC</x:String>
+                    <x:String>ZM, ZOOM VIDEO COMMUNICATIONS-A</x:String>
+                    <x:String>SNOW, SNOWFLAKE INC-CLASS A</x:String>
+                    <x:String>BNTX, BIONTECH SE-ADR</x:String>
+                    <x:String>NIO, NIO INC - ADR</x:String>
+                    <x:String>COIN, COINBASE GLOBAL INC -CLASS A</x:String>
+                    <x:String>LULU, LULULEMON ATHLETICA INC</x:String>
+                    <x:String>XPEV, XPENG INC - ADR</x:String>
+                    <x:String>U, UNITY SOFTWARE INC</x:String>
+                    <x:String>LI, LI AUTO INC - ADR</x:String>
+                    <x:String>TRMB, TRIMBLE INC</x:String>
+                    <x:String>ABNB, Airbnb Inc</x:String>
+                    <x:String>AMAT, Applied Materials Inc</x:String>
+                    <x:String>AVGO, Broadcom Inc</x:String>
+                    <x:String>AXP, American Express Co</x:String>
+                    <x:String>CAT, Caterpillar Inc</x:String>
+                    <x:String>GS, Goldman Sachs Group Inc</x:String>
+                    <x:String>LMT, Lockheed Martin Corp</x:String>
+                    <x:String>NKE, Nike Inc</x:String>
+                    <x:String>PYPL, PayPal Holdings Inc</x:String>
+                    <x:String>UBER, Uber Technologies Inc</x:String>
+                    <x:String>META, Meta Platforms Inc</x:String>
+                    <x:String>SPCE, VIRGIN GALACTIC HOLDINGS INC</x:String>
+                    <x:String>AALG, AMERICAN AIRLINES GROUP INC</x:String>
+                    <x:String>USDBRL, US Dollar vs Brazilian</x:String>
+                    <x:String>USDINR, US Dollar vs Indian Rupee</x:String>
+                    <x:String>ADAUSD, Cardano</x:String>
+                    <x:String>SOLUSD, Solana</x:String>
+                    <x:String>DOTUSD, Polkadot</x:String>
+                    <x:String>UNIUSD, Uniswap</x:String>
+                    <x:String>DOGUSD, Dogecoin</x:String>
+                    <x:String>LNKUSD, Chainlink</x:String>
+                    <x:String>HK50ft.r, HK50 Future</x:String>
+                    <x:String>DJ30ft.r, DJ30 Future</x:String>
+                    <x:String>NAS100ft.r, NAS100 Future</x:String>
+                    <x:String>SP500ft.r, SP500 Future</x:String>
+                    <x:String>CHINA50ft.r, CHINA50 Future</x:String>
+                    <x:String>BATUSD, Basic Attention Token</x:String>
+                    <x:String>IOTUSD, IOTA</x:String>
+                    <x:String>TRXUSD, TRON</x:String>
+                    <x:String>ZECUSD, Zcash</x:String>
+                    <x:String>ALGUSD, Algorand</x:String>
+                    <x:String>FILUSD, Filecoin</x:String>
+                    <x:String>MKRUSD, Maker</x:String>
+                    <x:String>SHBUSD, 10000SHIBA</x:String>
+                    <x:String>AVAUSD, Avalanche</x:String>
+                    <x:String>NEOUSD, Neo</x:String>
+                    <x:String>UKOUSDft, Brent Crude Oil Future</x:String>
+                    <x:String>HK50.r, Hang Seng Index Cash CFD (HKD)</x:String>
+                    <x:String>ETCUSD, Ethereum Classic</x:String>
+                    <x:String>NERUSD, NEAR protocol</x:String>
+                    <x:String>ATMUSD, Cosmos</x:String>
+                    <x:String>SANUSD, The Sandbox</x:String>
+                    <x:String>SUSUSD, Sushi</x:String>
+                    <x:String>AXSUSD, Axie Infinity</x:String>
+                    <x:String>CRVUSD, Curve</x:String>
+                    <x:String>ONEUSD, Harmony</x:String>
+                    <x:String>LRCUSD, Loopring</x:String>
+                    <x:String>INCUSD, 1inch</x:String>
+                    <x:String>XTZUSD, Tezos</x:String>
+                    <x:String>BNBUSD, Binance Coin</x:String>
+                    <x:String>XPTUSD.r, Platinum vs US Dollar</x:String>
+                    <x:String>XPDUSD.r, Palladium - Cash</x:String>
+                    <x:String>Soybean-Cr, Soybean - Cash</x:String>
+                    <x:String>Wheat-Cr, US Wheat (SRW) - Cash</x:String>
+                    <x:String>BVSPX.r, Bovespa Cash CFD (BRL)</x:String>
+                    <x:String>USDCLP, US Dollar vs Chile Peso</x:String>
+                    <x:String>USDCOP, US Dollar vs Colombia Peso</x:String>
+                    <x:String>USDIDR, US Dollar vs Indonesian Rupiah</x:String>
+                    <x:String>USDKRW, US Dollar vs South Korean won</x:String>
+                    <x:String>USDTWD, US Dollar vs Taiwan Dollar</x:String>
+                    <x:String>USDTHB, United States Dollar vs Thai Baht</x:String>
+                    <x:String>JPN225ft, Nikkei Future</x:String>
+                    <x:String>FRA40ft.r, FRA40 Future</x:String>
+                    <x:String>GRTUSD, The Graph</x:String>
+                    <x:String>EURHUF, Euro vs Hungarian Forint</x:String>
+                    <x:String>GER40.r, GER40 Cash</x:String>
+                    <x:String>GER40ft.r, GER40 Future</x:String>
+                    <x:String>UK100.r, UK 100 Cash</x:String>
+                    <x:String>UK100ft.r, UK100 Future</x:String>
+                    <x:String>EURCZK, Euro vs Czech Koruna</x:String>
+                    <x:String>BTCJPY, BitCoin vs Japanese Yen</x:String>
+                    <x:String>ETHJPY, Ethereum vs Japanese Yen</x:String>
+                    <x:String>USDTJPY, Tether vs Japanese Yen</x:String>
+                    <x:String>BITO, ProShares Bitcoin Strategy ETF</x:String>
+                    <x:String>BITB, Bitwise Bitcoin ETP Trust</x:String>
+                    <x:String>ARKB, ARK 21Shares Bitcoin ETF</x:String>
+                    <x:String>BTCO, Invesco Galaxy Bitcoin ETF</x:String>
+                    <x:String>IBIT, iShares Bitcoin Trust</x:String>
+                    <x:String>GBTC, Grayscale Bitcoin Trust</x:String>
+                    <x:String>XAUJPY, Gold vs Japanese Yen</x:String>
+                    <x:String>EURIBOR3M, EURIBOR Futures</x:String>
+                    <x:String>EUB10Y, Euro - Bund Futures</x:String>
+                    <x:String>EUB5Y, Euro - BOBL Futures</x:String>
+                    <x:String>EUB2Y, Euro - Schatz Futures</x:String>
+                    <x:String>EUB30Y, Euro - BUXL Futures</x:String>
+                    <x:String>LongGilt, UK Long Gilt Futures</x:String>
+                    <x:String>USNote10Y, US 10 YR T-Note Futures Decimalised</x:String>
+                    <x:String>TWINDEX.r, Taiwan RIC Index Cash CFD</x:String>
+                    <x:String>SGP20.r, Singapore 20 Index Cash CFD</x:String>
+                    <x:String xml:space="preserve">HKTECH.r, Hang Seng TECH Index CASH CFD  (HKD)</x:String>
+                    <x:String>USTUSD, Tether vs US Dollar</x:String>
+                    <x:String>SOLJPY, Solana vs Japanese Yen</x:String>
+                    <x:String>ADAJPY, Cardano vs Japanese Yen</x:String>
+                    <x:String>BCHJPY, Bitcoin Cash vs Japanese Yen</x:String>
+                    <x:String>LTCJPY, Litecoin vs Japanese Yen</x:String>
+                    <x:String>XLMJPY, Stellar Lumens vs Japanese Yen</x:String>
+                    <x:String>XRPJPY, Ripple vs Japanese Yen</x:String>
+                    <x:String>TRUMPUSD, TrumpCoin</x:String>
+                    <x:String>USDILS, US dollar vs Israeli Shekel</x:String>
+                    <x:String>IND50.r, India 50 Cash</x:String>
+                    <x:String>CHINAH.r, Hong Kong China H-shares Cash</x:String>
+                    <x:String>NETH25.r, Netherlands 25 Cash</x:String>
+                    <x:String>SWI20.r, Switzerland 20 Cash</x:String>
+                    <x:String>BTCGLD, Bitcoin vs Gold</x:String>
+                    <x:String>ETHGLD, Ethereum vs Gold</x:String>
+                    <x:String>GLDUSD, Gold US Dollar</x:String>
+                  </scg:List>
+                </uix:NSelectItem.Items>
+                <uix:NSelectItem.Target>
+                  <uix:TargetAnchorable CVScreenId="ff26dd02-82c9-41af-b7f2-891b6ecca091" ContentHash="lAdTglX2NEyeG3FPIeFvkw" CvElementArea="156, 831, 1349, 22" CvType="InputBox" DesignTimeRectangle="314, 1666, 2949, 32" ElementType="DropDown" FuzzySelectorArgument="&lt;wnd aaname='Symbol:' cls='ComboBox' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="6c631def-b3e9-4f37-888d-0eec2bc5e5d3" InformativeScreenshot="d97d20e0ba7a7bd092a35a86caac30fd.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/xmGuI6preUqL40j6pXLppA" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="ff26dd02-82c9-41af-b7f2-891b6ecca091" CvTextArea="110, 835, 41, 14" CvTextArgument="Symbol:" CvType="Text" DesignTimeRectangle="60, 1674, 240, 32" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='Static' title='Symbol:' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Symbol:' /&gt;" Guid="9f15eb0f-6539-4534-8440-14c2617037fa" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NSelectItem.Target>
+              </uix:NSelectItem>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Drop down 'Symbol''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,228" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="549c3bb4-b1a6-49eb-969a-c9eee0f5359b" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable CVScreenId="a328ccdd-b984-48d8-a49e-63070353b851" ContentHash="jAaTuEmMbUaFxPha_L3_lA" CvElementArea="153, 814, 1350, 21" CvType="InputBox" DesignTimeRectangle="158, 815, 1346, 20" ElementType="DropDown" FuzzySelectorArgument="&lt;wnd aaname='Symbol:' cls='ComboBox' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="7ab09736-1ae5-4ff0-89f7-c65b28f86e2c" InformativeScreenshot="0075ccb7add92dcf254908f875de20f0.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/RYCc-JGkqUybxrmVViSbyA" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="a328ccdd-b984-48d8-a49e-63070353b851" CvTextArea="110, 818, 41, 14" CvTextArgument="Symbol:" CvType="Text" DesignTimeRectangle="31, 819, 120, 16" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='Static' title='Symbol:' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Symbol:' /&gt;" Guid="cb650ded-5571-4b96-ae0d-0b592688606d" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <ui:FindChildren DisplayName="Find Children 'ComboBox'" Filter="&lt;wnd role='list item' /&gt;" sap:VirtualizedContainerService.HintSize="470,139" sap2010:WorkflowViewState.IdRef="FindChildren_1" Scope="FIND_DESCENDANTS">
+                <ui:FindChildren.Children>
+                  <OutArgument x:TypeArguments="scg:IEnumerable(ui:UiElement)">
+                    <CSharpReference x:TypeArguments="scg:IEnumerable(ui:UiElement)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">symbolItems</CSharpReference>
+                  </OutArgument>
+                </ui:FindChildren.Children>
+                <ui:FindChildren.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="fa26700a-ff1d-4861-b6ce-febdc43a8819" InformativeScreenshot="9394f7082cb9a7c91a3eb79b4c31c576" Selector="&lt;wnd aaname='Symbol:' cls='ComboBox' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:FindChildren.Target>
+              </ui:FindChildren>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="470,118.5" sap2010:WorkflowViewState.IdRef="MessageBox_2">
+                <ui:MessageBox.Text>
+                  <InArgument x:TypeArguments="x:Object">
+                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">symbolItems</CSharpValue>
+                  </InArgument>
+                </ui:MessageBox.Text>
+              </ui:MessageBox>
+              <ui:ForEach x:TypeArguments="ui:UiElement" CurrentIndex="{x:Null}" DisplayName="For Each currentUiElement" sap:VirtualizedContainerService.HintSize="470,409.5" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
+                <ui:ForEach.Body>
+                  <ActivityAction x:TypeArguments="ui:UiElement">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="ui:UiElement" Name="currentUiElement" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,285" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:String" Name="symbolNmae" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Assign sap:VirtualizedContainerService.HintSize="434,115.5" sap2010:WorkflowViewState.IdRef="Assign_1">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:String">
+                            <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">symbolNmae</CSharpReference>
+                          </OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:String">
+                            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">currentUiElement.Attributes.FirstOrDefault(x =&gt; x == "aaname")</CSharpValue>
+                          </InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="434,109.5" sap2010:WorkflowViewState.IdRef="MessageBox_1">
+                        <ui:MessageBox.Text>
+                          <InArgument x:TypeArguments="x:Object">
+                            <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">symbolNmae</CSharpValue>
+                          </InArgument>
+                        </ui:MessageBox.Text>
+                      </ui:MessageBox>
+                    </Sequence>
+                  </ActivityAction>
+                </ui:ForEach.Body>
+                <ui:ForEach.Values>
+                  <InArgument x:TypeArguments="sc:IEnumerable">
+                    <CSharpValue x:TypeArguments="sc:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">symbolItems</CSharpValue>
+                  </InArgument>
+                </ui:ForEach.Values>
+              </ui:ForEach>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="4, 1, 1918, 1030" ContentHash="HAx7FK7km0We64oqER-_1A" FilePath="C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOCSURBVFhH7ZZfSBRBHMf39NJEe4mQ6MFItMySspewLo3z3L09/9zt3t4pGP0h8CF8CYmiIrB6iLAoEgoihKIHQwisqCCKChISooewUuvF1FKLkoKou/vGzO6sc3vn3RZZLx58md/N7czvM9/5zewJmV4N/1OCteNfax4gJUCGFKRicaYR05aPreO4lsWzKQEgLqG1j0EljfmEej9pZ+LkMAkAVhhbDkjGGNIaIKxlsXVupgQAPqFDVE0IBkBjUZ2JqQsMSI95OdjvFCZxu1ICkEQEQvAE4KhRqGifFIQg6pM7WGuRYLQZkr4I2wBkEANwiAr9vqiuCbm+EPJ8YX2lYgBLpACyJQVZooocr4ociUih8UJJQa6kUHgdQnfHYQcgzgESu/04e/0mht6NYWh0DN2PniC/TsOBhgr0a2vRp63BfbUMD4NleBxciwdqGfq1UrT7K5ApkjkUZHhVfU6jTQlAqPlWqKyFZ98R/IhEwD67OjqR5ZKww1+NZ8FSfAsXYiJcjPehIkyEijAeKoZLFiGIZE7dhT9ygNlHIC7dvgfEYohEo3j+5i0WB5ohuFXkewM45q/AoFaC4dAqTIWKcMq/EUINmWOmiFmBWvOlBhBVOMlDVbVY17IXU1+m8dNwou1CFxybJQhyIy3Ia0o5PoaL8EJbjVLZR/ucpA7iAOJzpQTgjyB9sKoWp3t6afJIJILh0XEUNO1GhrsB2bKKy8oGfA8X4rB/E119pqiY483CtuMAD8JcoNvgbsCK5haMTE5RAPI5eqUbwhYfFng19KjrMaCVYJm3nq6e2M9WrydOTJ4UgN8CHsIpaxBcMg51XTVd+PDpM1bu3ANhaz1uaeXY30BWH4LTktyc0w4AD8KLVnG1H0u17Xg9MopoNEpBOm/chbNKxkmlAsuN1ZPK55MnS5wWwAphHkuXD63nLpouTE5/hau1DQXuGroVpvVxyZPbnxKA3wq+IB2eAPLqmvD05SBisRgFOd97B0JVne6ScfTY2Z+t+tMCzAbilEO0FhqPd9A7gRzLbSfOQKj00TrRnTJeXClWzpQWgCmuHiQVWTUK+gZeUTk9Af0NyT1nHT+b0gKwyfgrml5OLhnywXYqEpO+uGvcJkRaACbeAfNu8ASorHXyVx1g4mthZiu4Pylc4jkBYOL/3/Hif/sd2QZI5kAy8c/akW2AudI8wDzAL2++5MtaHPlCAAAAAElFTkSuQmCC" InformativeScreenshot="a86d2ba99f3070c623b5a1be0783e0bc.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/EYOcM0uOCU2G8d1ODrJiow" Selector="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

@@ -1,0 +1,1500 @@
+08/16/2025 01:12:36 => [Trace] Debug started for file: MainSequence
+08/16/2025 01:12:37 => [Information] MT4 Backtesting Automation execution started
+{
+  "message": "MT4 Backtesting Automation execution started",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "01:12:37",
+  "fileName": "MainSequence",
+  "initiatedBy": "Studio",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:12:40 => [Information] Healing agent configuration.
+{
+  "message": "Healing agent configuration.",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "01:12:40",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "healingAgentConfig": {
+    "orchestratorEnableHeal": false,
+    "orchestratorEnableAnalysis": false
+  },
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:13:14 => [Information] {"EA": "PX3.71", "Symbol": "AUDCAD", "Timeframe": "M30", "InitialDeposit": "", "ProfitAmount": "3438", "DrawDown": "375", "StartDate": "20200101", "EndDate": "20250715", "Stoploss": "", "WinRate": "", "ProfitFactor": "2.06", "NumTrade": "2671", "SetVersion": "3.71", "Step": ""}
+{
+  "message": "{\"EA\": \"PX3.71\", \"Symbol\": \"AUDCAD\", \"Timeframe\": \"M30\", \"InitialDeposit\": \"\", \"ProfitAmount\": \"3438\", \"DrawDown\": \"375\", \"StartDate\": \"20200101\", \"EndDate\": \"20250715\", \"Stoploss\": \"\", \"WinRate\": \"\", \"ProfitFactor\": \"2.06\", \"NumTrade\": \"2671\", \"SetVersion\": \"3.71\", \"Step\": \"\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:13:14",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:13:14 => [Information] {"rowcount": 1, "lastrowid": 56, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 56, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:13:14",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:13:14 => [Information] {"rowcount": 1, "lastrowid": 102, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 102, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:13:14",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:13:14 => [Information] {"rowcount": 1, "lastrowid": 102, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 102, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:13:14",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:13:14 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "01:13:14",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 01:13:30 => [Information] btSymbol: AUDCAD, FoundSymbol: AUDCAD, Australian Dollar vs Canadian Dollar
+{
+  "message": "btSymbol: AUDCAD, FoundSymbol: AUDCAD, Australian Dollar vs Canadian Dollar",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:13:30",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:13:37 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\eareview.net\\Tick Data Suite\\tick data manager.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "01:13:37",
+  "fileName": "InvokeTickData",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 01:14:26 => [Warning] Target was found using fallback method 'Computer Vision'.
+{
+  "message": "Target was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "01:14:26",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:20:12 => [Information] BacktestReportPath: C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest\PX3.71 AUDCAD M30 P3438 DD375 PF2.06 T2671 20200101-20250715-backtest_report.htm
+setFileStepsID: 102
+Type: MT4 Backtest Report
+EA: PX3.71
+CurrentFile: C:\Users\Philip\Documents\GitHub\EA_Automation\01_user_inputs\PX3.71 AUDCAD M30 P3438 DD375 PF2.06 T2671 20200101-20250715.set
+OutputFolder: C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest
+DB Path: C:\Users\Philip\Documents\GitHub\EA_Automation\EA_Automation.db
+Summary Metrics: _summary_metrics.csv
+Config: C:\Users\Philip\Documents\UiPath\MT4 Backtesting Automation\Data\Config.xlsx
+Perf Criteria: C:\Users\Philip\Documents\UiPath\MT4 Backtesting Automation\Data\Config.xlsx
+{
+  "message": "BacktestReportPath: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71 AUDCAD M30 P3438 DD375 PF2.06 T2671 20200101-20250715-backtest_report.htm\r\nsetFileStepsID: 102\r\nType: MT4 Backtest Report\r\nEA: PX3.71\r\nCurrentFile: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\01_user_inputs\\PX3.71 AUDCAD M30 P3438 DD375 PF2.06 T2671 20200101-20250715.set\r\nOutputFolder: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\r\nDB Path: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db\r\nSummary Metrics: _summary_metrics.csv\r\nConfig: C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx\r\nPerf Criteria: C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:20:12",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:20:25 => [Information] C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest\PX3.71_AUDCAD_M30_1500_P2119_DD279_20220816-20250816_WR71.12_PF2.62_T1458_M456961894_V1_S102-AI-Suggest-Opt.set
+{
+  "message": "C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_AUDCAD_M30_1500_P2119_DD279_20220816-20250816_WR71.12_PF2.62_T1458_M456961894_V1_S102-AI-Suggest-Opt.set",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:20:25",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:20:25 => [Information] {"rowcount": 1, "lastrowid": 103, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 103, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:20:25",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:20:25 => [Information] {"rowcount": 1, "lastrowid": 103, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 103, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:20:25",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:20:25 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "01:20:25",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 01:20:30 => [Information] btSymbol: AUDCAD, FoundSymbol: AUDCAD, Australian Dollar vs Canadian Dollar
+{
+  "message": "btSymbol: AUDCAD, FoundSymbol: AUDCAD, Australian Dollar vs Canadian Dollar",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:20:30",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:20:36 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\eareview.net\\Tick Data Suite\\tick data manager.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "01:20:36",
+  "fileName": "InvokeTickData",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 01:21:19 => [Warning] Target was found using fallback method 'Computer Vision'.
+{
+  "message": "Target was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "01:21:19",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:31:18 => [Information] 47
+{
+  "message": "47",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:31:18",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:31:18 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "01:31:18",
+  "fileName": "SelectBestPass",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 01:36:48 => [Information] Extract Best Pass Backtest Report to DB - ["C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_AUDCAD_M30_1500_P2119_DD279_20220816-20250816_WR71.12_PF2.62_T1458_M456961894_V1_S102-AI-Suggest-Opt-47-backtest_report.htm","103","Best Pass Backtest Report","PX3.71","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_AUDCAD_M30_1500_P2119_DD279_20220816-20250816_WR71.12_PF2.62_T1458_M456961894_V1_S102-AI-Suggest-Opt-47.set","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db","_summary_metrics.csv","","C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx"]
+{
+  "message": "Extract Best Pass Backtest Report to DB - [\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_AUDCAD_M30_1500_P2119_DD279_20220816-20250816_WR71.12_PF2.62_T1458_M456961894_V1_S102-AI-Suggest-Opt-47-backtest_report.htm\",\"103\",\"Best Pass Backtest Report\",\"PX3.71\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_AUDCAD_M30_1500_P2119_DD279_20220816-20250816_WR71.12_PF2.62_T1458_M456961894_V1_S102-AI-Suggest-Opt-47.set\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\EA_Automation.db\",\"_summary_metrics.csv\",\"\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\UiPath\\\\MT4 Backtesting Automation\\\\Data\\\\Config.xlsx\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:36:48",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:36:49 => [Information] {"result": "success"}
+{
+  "message": "{\"result\": \"success\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:36:49",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:36:49 => [Information] Create Best Pass Backtest Complete Steps - ["56",2,"Best Pass Backtest Completed","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_AUDCAD_M30_1500_P2119_DD279_20220816-20250816_WR71.12_PF2.62_T1458_M456961894_V1_S102-AI-Suggest-Opt-47.set","Best Pass set file C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_AUDCAD_M30_1500_P2119_DD279_20220816-20250816_WR71.12_PF2.62_T1458_M456961894_V1_S102-AI-Suggest-Opt-47.set at: 2025-08-16 01:36:49","V1.0","","Completed"]
+{
+  "message": "Create Best Pass Backtest Complete Steps - [\"56\",2,\"Best Pass Backtest Completed\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_AUDCAD_M30_1500_P2119_DD279_20220816-20250816_WR71.12_PF2.62_T1458_M456961894_V1_S102-AI-Suggest-Opt-47.set\",\"Best Pass set file C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_AUDCAD_M30_1500_P2119_DD279_20220816-20250816_WR71.12_PF2.62_T1458_M456961894_V1_S102-AI-Suggest-Opt-47.set at: 2025-08-16 01:36:49\",\"V1.0\",\"\",\"Completed\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:36:49",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:36:49 => [Information] {"rowcount": 1, "lastrowid": 104, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 104, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:36:49",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:36:49 => [Information] create Optimzation set_file_artifacts - ["104","Best Pass set_file","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_AUDCAD_M30_1500_P2119_DD279_20220816-20250816_WR71.12_PF2.62_T1458_M456961894_V1_S102-AI-Suggest-Opt-47.set",""]
+{
+  "message": "create Optimzation set_file_artifacts - [\"104\",\"Best Pass set_file\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_AUDCAD_M30_1500_P2119_DD279_20220816-20250816_WR71.12_PF2.62_T1458_M456961894_V1_S102-AI-Suggest-Opt-47.set\",\"\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:36:49",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:36:49 => [Information] {"rowcount": 1, "lastrowid": 104, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 104, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:36:49",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:37:24 => [Information] {"EA": "PX3.71", "Symbol": "EURCAD", "Timeframe": "H1", "InitialDeposit": "", "ProfitAmount": "3091", "DrawDown": "632", "StartDate": "20200101", "EndDate": "20250717", "Stoploss": "", "WinRate": "", "ProfitFactor": "1.84", "NumTrade": "867", "SetVersion": "3.71", "Step": ""}
+{
+  "message": "{\"EA\": \"PX3.71\", \"Symbol\": \"EURCAD\", \"Timeframe\": \"H1\", \"InitialDeposit\": \"\", \"ProfitAmount\": \"3091\", \"DrawDown\": \"632\", \"StartDate\": \"20200101\", \"EndDate\": \"20250717\", \"Stoploss\": \"\", \"WinRate\": \"\", \"ProfitFactor\": \"1.84\", \"NumTrade\": \"867\", \"SetVersion\": \"3.71\", \"Step\": \"\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:37:24",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:37:24 => [Information] {"rowcount": 1, "lastrowid": 57, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 57, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:37:24",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:37:24 => [Information] {"rowcount": 1, "lastrowid": 105, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 105, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:37:24",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:37:24 => [Information] {"rowcount": 1, "lastrowid": 105, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 105, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:37:24",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:37:24 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "01:37:24",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 01:37:40 => [Information] btSymbol: EURCAD, FoundSymbol: EURCAD, Euro vs Canadian Dollar
+{
+  "message": "btSymbol: EURCAD, FoundSymbol: EURCAD, Euro vs Canadian Dollar",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:37:40",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:37:46 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\eareview.net\\Tick Data Suite\\tick data manager.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "01:37:46",
+  "fileName": "InvokeTickData",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 01:38:34 => [Warning] Target was found using fallback method 'Computer Vision'.
+{
+  "message": "Target was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "01:38:34",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:43:50 => [Information] BacktestReportPath: C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest\PX3.71 EURCAD H1 P3091 DD632 PF1.84 T867 20200101-20250717-backtest_report.htm
+setFileStepsID: 105
+Type: MT4 Backtest Report
+EA: PX3.71
+CurrentFile: C:\Users\Philip\Documents\GitHub\EA_Automation\01_user_inputs\PX3.71 EURCAD H1 P3091 DD632 PF1.84 T867 20200101-20250717.set
+OutputFolder: C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest
+DB Path: C:\Users\Philip\Documents\GitHub\EA_Automation\EA_Automation.db
+Summary Metrics: _summary_metrics.csv
+Config: C:\Users\Philip\Documents\UiPath\MT4 Backtesting Automation\Data\Config.xlsx
+Perf Criteria: C:\Users\Philip\Documents\UiPath\MT4 Backtesting Automation\Data\Config.xlsx
+{
+  "message": "BacktestReportPath: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71 EURCAD H1 P3091 DD632 PF1.84 T867 20200101-20250717-backtest_report.htm\r\nsetFileStepsID: 105\r\nType: MT4 Backtest Report\r\nEA: PX3.71\r\nCurrentFile: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\01_user_inputs\\PX3.71 EURCAD H1 P3091 DD632 PF1.84 T867 20200101-20250717.set\r\nOutputFolder: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\r\nDB Path: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db\r\nSummary Metrics: _summary_metrics.csv\r\nConfig: C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx\r\nPerf Criteria: C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:43:50",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:44:00 => [Information] C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest\PX3.71_EURCAD_H1_1500_P467_DD1046_20220816-20250816_WR73.59_PF1.20_T1189_M2058251340_V1_S105-AI-Suggest-Opt.set
+{
+  "message": "C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURCAD_H1_1500_P467_DD1046_20220816-20250816_WR73.59_PF1.20_T1189_M2058251340_V1_S105-AI-Suggest-Opt.set",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:44:00",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:44:00 => [Information] {"rowcount": 1, "lastrowid": 106, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 106, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:44:00",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:44:00 => [Information] {"rowcount": 1, "lastrowid": 106, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 106, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:44:00",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:44:00 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "01:44:00",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 01:44:05 => [Information] btSymbol: EURCAD, FoundSymbol: EURCAD, Euro vs Canadian Dollar
+{
+  "message": "btSymbol: EURCAD, FoundSymbol: EURCAD, Euro vs Canadian Dollar",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:44:05",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:44:11 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\eareview.net\\Tick Data Suite\\tick data manager.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "01:44:11",
+  "fileName": "InvokeTickData",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 01:44:55 => [Warning] Target was found using fallback method 'Computer Vision'.
+{
+  "message": "Target was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "01:44:55",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:47:46 => [Information] 
+{
+  "message": "",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:47:46",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:47:47 => [Information] {"EA": "PX3.71", "Symbol": "GBPAUD", "Timeframe": "M30", "InitialDeposit": "", "ProfitAmount": "1547", "DrawDown": "301", "StartDate": "20200101", "EndDate": "20250715", "Stoploss": "", "WinRate": "", "ProfitFactor": "2.8", "NumTrade": "817", "SetVersion": "3.71", "Step": ""}
+{
+  "message": "{\"EA\": \"PX3.71\", \"Symbol\": \"GBPAUD\", \"Timeframe\": \"M30\", \"InitialDeposit\": \"\", \"ProfitAmount\": \"1547\", \"DrawDown\": \"301\", \"StartDate\": \"20200101\", \"EndDate\": \"20250715\", \"Stoploss\": \"\", \"WinRate\": \"\", \"ProfitFactor\": \"2.8\", \"NumTrade\": \"817\", \"SetVersion\": \"3.71\", \"Step\": \"\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:47:47",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:47:47 => [Information] {"rowcount": 1, "lastrowid": 58, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 58, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:47:47",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:47:47 => [Information] {"rowcount": 1, "lastrowid": 107, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 107, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:47:47",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:47:47 => [Information] {"rowcount": 1, "lastrowid": 107, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 107, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:47:47",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:47:47 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "01:47:47",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 01:47:52 => [Information] btSymbol: GBPAUD, FoundSymbol: GBPAUD, Great Britain Pound vs Australian Dollar
+{
+  "message": "btSymbol: GBPAUD, FoundSymbol: GBPAUD, Great Britain Pound vs Australian Dollar",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:47:52",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:47:58 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\eareview.net\\Tick Data Suite\\tick data manager.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "01:47:58",
+  "fileName": "InvokeTickData",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 01:48:46 => [Warning] Target was found using fallback method 'Computer Vision'.
+{
+  "message": "Target was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "01:48:46",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:54:31 => [Information] BacktestReportPath: C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest\PX3.71 GBPAUD M30 P1547 DD301 PF2.8 T817 20200101-20250715-backtest_report.htm
+setFileStepsID: 107
+Type: MT4 Backtest Report
+EA: PX3.71
+CurrentFile: C:\Users\Philip\Documents\GitHub\EA_Automation\01_user_inputs\PX3.71 GBPAUD M30 P1547 DD301 PF2.8 T817 20200101-20250715.set
+OutputFolder: C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest
+DB Path: C:\Users\Philip\Documents\GitHub\EA_Automation\EA_Automation.db
+Summary Metrics: _summary_metrics.csv
+Config: C:\Users\Philip\Documents\UiPath\MT4 Backtesting Automation\Data\Config.xlsx
+Perf Criteria: C:\Users\Philip\Documents\UiPath\MT4 Backtesting Automation\Data\Config.xlsx
+{
+  "message": "BacktestReportPath: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71 GBPAUD M30 P1547 DD301 PF2.8 T817 20200101-20250715-backtest_report.htm\r\nsetFileStepsID: 107\r\nType: MT4 Backtest Report\r\nEA: PX3.71\r\nCurrentFile: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\01_user_inputs\\PX3.71 GBPAUD M30 P1547 DD301 PF2.8 T817 20200101-20250715.set\r\nOutputFolder: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\r\nDB Path: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db\r\nSummary Metrics: _summary_metrics.csv\r\nConfig: C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx\r\nPerf Criteria: C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:54:31",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:54:42 => [Information] C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest\PX3.71_GBPAUD_M30_1500_P808_DD200_20220816-20250816_WR85.09_PF3.02_T436_M945725436_V1_S107-AI-Suggest-Opt.set
+{
+  "message": "C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_GBPAUD_M30_1500_P808_DD200_20220816-20250816_WR85.09_PF3.02_T436_M945725436_V1_S107-AI-Suggest-Opt.set",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:54:42",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:54:42 => [Information] {"rowcount": 1, "lastrowid": 108, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 108, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:54:42",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:54:42 => [Information] {"rowcount": 1, "lastrowid": 108, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 108, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:54:42",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:54:42 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "01:54:42",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 01:54:47 => [Information] btSymbol: GBPAUD, FoundSymbol: GBPAUD, Great Britain Pound vs Australian Dollar
+{
+  "message": "btSymbol: GBPAUD, FoundSymbol: GBPAUD, Great Britain Pound vs Australian Dollar",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "01:54:47",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 01:54:53 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\eareview.net\\Tick Data Suite\\tick data manager.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "01:54:53",
+  "fileName": "InvokeTickData",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 01:55:37 => [Warning] Target was found using fallback method 'Computer Vision'.
+{
+  "message": "Target was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "01:55:37",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:03:03 => [Information] 133
+{
+  "message": "133",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:03:03",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:03:03 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "02:03:03",
+  "fileName": "SelectBestPass",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 02:09:03 => [Information] Extract Best Pass Backtest Report to DB - ["C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_GBPAUD_M30_1500_P808_DD200_20220816-20250816_WR85.09_PF3.02_T436_M945725436_V1_S107-AI-Suggest-Opt-133-backtest_report.htm","108","Best Pass Backtest Report","PX3.71","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_GBPAUD_M30_1500_P808_DD200_20220816-20250816_WR85.09_PF3.02_T436_M945725436_V1_S107-AI-Suggest-Opt-133.set","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db","_summary_metrics.csv","","C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx"]
+{
+  "message": "Extract Best Pass Backtest Report to DB - [\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_GBPAUD_M30_1500_P808_DD200_20220816-20250816_WR85.09_PF3.02_T436_M945725436_V1_S107-AI-Suggest-Opt-133-backtest_report.htm\",\"108\",\"Best Pass Backtest Report\",\"PX3.71\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_GBPAUD_M30_1500_P808_DD200_20220816-20250816_WR85.09_PF3.02_T436_M945725436_V1_S107-AI-Suggest-Opt-133.set\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\EA_Automation.db\",\"_summary_metrics.csv\",\"\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\UiPath\\\\MT4 Backtesting Automation\\\\Data\\\\Config.xlsx\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:09:03",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:09:03 => [Information] {"result": "success"}
+{
+  "message": "{\"result\": \"success\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:09:03",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:09:03 => [Information] Create Best Pass Backtest Complete Steps - ["58",2,"Best Pass Backtest Completed","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_GBPAUD_M30_1500_P808_DD200_20220816-20250816_WR85.09_PF3.02_T436_M945725436_V1_S107-AI-Suggest-Opt-133.set","Best Pass set file C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_GBPAUD_M30_1500_P808_DD200_20220816-20250816_WR85.09_PF3.02_T436_M945725436_V1_S107-AI-Suggest-Opt-133.set at: 2025-08-16 02:09:03","V1.0","","Completed"]
+{
+  "message": "Create Best Pass Backtest Complete Steps - [\"58\",2,\"Best Pass Backtest Completed\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_GBPAUD_M30_1500_P808_DD200_20220816-20250816_WR85.09_PF3.02_T436_M945725436_V1_S107-AI-Suggest-Opt-133.set\",\"Best Pass set file C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_GBPAUD_M30_1500_P808_DD200_20220816-20250816_WR85.09_PF3.02_T436_M945725436_V1_S107-AI-Suggest-Opt-133.set at: 2025-08-16 02:09:03\",\"V1.0\",\"\",\"Completed\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:09:03",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:09:03 => [Information] {"rowcount": 1, "lastrowid": 109, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 109, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:09:03",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:09:03 => [Information] create Optimzation set_file_artifacts - ["109","Best Pass set_file","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_GBPAUD_M30_1500_P808_DD200_20220816-20250816_WR85.09_PF3.02_T436_M945725436_V1_S107-AI-Suggest-Opt-133.set",""]
+{
+  "message": "create Optimzation set_file_artifacts - [\"109\",\"Best Pass set_file\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_GBPAUD_M30_1500_P808_DD200_20220816-20250816_WR85.09_PF3.02_T436_M945725436_V1_S107-AI-Suggest-Opt-133.set\",\"\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:09:03",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:09:03 => [Information] {"rowcount": 1, "lastrowid": 109, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 109, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:09:03",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:09:39 => [Information] {"EA": "PX3.71", "Symbol": "NZDUSD", "Timeframe": "M30", "InitialDeposit": "", "ProfitAmount": "3484", "DrawDown": "478", "StartDate": "20200101", "EndDate": "20250715", "Stoploss": "", "WinRate": "", "ProfitFactor": "2.61", "NumTrade": "1112", "SetVersion": "3.71", "Step": ""}
+{
+  "message": "{\"EA\": \"PX3.71\", \"Symbol\": \"NZDUSD\", \"Timeframe\": \"M30\", \"InitialDeposit\": \"\", \"ProfitAmount\": \"3484\", \"DrawDown\": \"478\", \"StartDate\": \"20200101\", \"EndDate\": \"20250715\", \"Stoploss\": \"\", \"WinRate\": \"\", \"ProfitFactor\": \"2.61\", \"NumTrade\": \"1112\", \"SetVersion\": \"3.71\", \"Step\": \"\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:09:39",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:09:39 => [Information] {"rowcount": 1, "lastrowid": 59, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 59, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:09:39",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:09:39 => [Information] {"rowcount": 1, "lastrowid": 110, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 110, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:09:39",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:09:39 => [Information] {"rowcount": 1, "lastrowid": 110, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 110, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:09:39",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:09:39 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "02:09:39",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 02:09:54 => [Information] btSymbol: NZDUSD, FoundSymbol: NZDUSD, New Zealand Dollar vs US Dollar
+{
+  "message": "btSymbol: NZDUSD, FoundSymbol: NZDUSD, New Zealand Dollar vs US Dollar",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:09:54",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:10:00 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\eareview.net\\Tick Data Suite\\tick data manager.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "02:10:00",
+  "fileName": "InvokeTickData",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 02:10:50 => [Warning] Target was found using fallback method 'Computer Vision'.
+{
+  "message": "Target was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "02:10:50",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:15:05 => [Information] BacktestReportPath: C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest\PX3.71 NZDUSD M30 P3484 DD478 PF2.61 T1112 20200101 20250715-backtest_report.htm
+setFileStepsID: 110
+Type: MT4 Backtest Report
+EA: PX3.71
+CurrentFile: C:\Users\Philip\Documents\GitHub\EA_Automation\01_user_inputs\PX3.71 NZDUSD M30 P3484 DD478 PF2.61 T1112 20200101 20250715.set
+OutputFolder: C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest
+DB Path: C:\Users\Philip\Documents\GitHub\EA_Automation\EA_Automation.db
+Summary Metrics: _summary_metrics.csv
+Config: C:\Users\Philip\Documents\UiPath\MT4 Backtesting Automation\Data\Config.xlsx
+Perf Criteria: C:\Users\Philip\Documents\UiPath\MT4 Backtesting Automation\Data\Config.xlsx
+{
+  "message": "BacktestReportPath: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71 NZDUSD M30 P3484 DD478 PF2.61 T1112 20200101 20250715-backtest_report.htm\r\nsetFileStepsID: 110\r\nType: MT4 Backtest Report\r\nEA: PX3.71\r\nCurrentFile: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\01_user_inputs\\PX3.71 NZDUSD M30 P3484 DD478 PF2.61 T1112 20200101 20250715.set\r\nOutputFolder: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\r\nDB Path: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db\r\nSummary Metrics: _summary_metrics.csv\r\nConfig: C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx\r\nPerf Criteria: C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:15:05",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:15:16 => [Information] C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest\PX3.71_NZDUSD_M30_1500_P1815_DD472_20220816-20250816_WR75.21_PF2.58_T605_M594709770_V1_S110-AI-Suggest-Opt.set
+{
+  "message": "C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_NZDUSD_M30_1500_P1815_DD472_20220816-20250816_WR75.21_PF2.58_T605_M594709770_V1_S110-AI-Suggest-Opt.set",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:15:16",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:15:17 => [Information] {"rowcount": 1, "lastrowid": 111, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 111, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:15:17",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:15:17 => [Information] {"rowcount": 1, "lastrowid": 111, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 111, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:15:17",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:15:17 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "02:15:17",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 02:15:22 => [Information] btSymbol: NZDUSD, FoundSymbol: NZDUSD, New Zealand Dollar vs US Dollar
+{
+  "message": "btSymbol: NZDUSD, FoundSymbol: NZDUSD, New Zealand Dollar vs US Dollar",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:15:22",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:15:28 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\eareview.net\\Tick Data Suite\\tick data manager.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "02:15:28",
+  "fileName": "InvokeTickData",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 02:16:12 => [Warning] Target was found using fallback method 'Computer Vision'.
+{
+  "message": "Target was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "02:16:12",
+  "fileName": "MT4backtest",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:24:39 => [Information] 46
+{
+  "message": "46",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:24:39",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:24:39 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "02:24:39",
+  "fileName": "SelectBestPass",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/16/2025 02:29:05 => [Information] Extract Best Pass Backtest Report to DB - ["C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_NZDUSD_M30_1500_P1815_DD472_20220816-20250816_WR75.21_PF2.58_T605_M594709770_V1_S110-AI-Suggest-Opt-46-backtest_report.htm","111","Best Pass Backtest Report","PX3.71","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_NZDUSD_M30_1500_P1815_DD472_20220816-20250816_WR75.21_PF2.58_T605_M594709770_V1_S110-AI-Suggest-Opt-46.set","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db","_summary_metrics.csv","","C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx"]
+{
+  "message": "Extract Best Pass Backtest Report to DB - [\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_NZDUSD_M30_1500_P1815_DD472_20220816-20250816_WR75.21_PF2.58_T605_M594709770_V1_S110-AI-Suggest-Opt-46-backtest_report.htm\",\"111\",\"Best Pass Backtest Report\",\"PX3.71\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_NZDUSD_M30_1500_P1815_DD472_20220816-20250816_WR75.21_PF2.58_T605_M594709770_V1_S110-AI-Suggest-Opt-46.set\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\EA_Automation.db\",\"_summary_metrics.csv\",\"\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\UiPath\\\\MT4 Backtesting Automation\\\\Data\\\\Config.xlsx\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:29:05",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:29:06 => [Information] {"result": "success"}
+{
+  "message": "{\"result\": \"success\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:29:06",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:29:06 => [Information] Create Best Pass Backtest Complete Steps - ["59",2,"Best Pass Backtest Completed","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_NZDUSD_M30_1500_P1815_DD472_20220816-20250816_WR75.21_PF2.58_T605_M594709770_V1_S110-AI-Suggest-Opt-46.set","Best Pass set file C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_NZDUSD_M30_1500_P1815_DD472_20220816-20250816_WR75.21_PF2.58_T605_M594709770_V1_S110-AI-Suggest-Opt-46.set at: 2025-08-16 02:29:06","V1.0","","Completed"]
+{
+  "message": "Create Best Pass Backtest Complete Steps - [\"59\",2,\"Best Pass Backtest Completed\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_NZDUSD_M30_1500_P1815_DD472_20220816-20250816_WR75.21_PF2.58_T605_M594709770_V1_S110-AI-Suggest-Opt-46.set\",\"Best Pass set file C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_NZDUSD_M30_1500_P1815_DD472_20220816-20250816_WR75.21_PF2.58_T605_M594709770_V1_S110-AI-Suggest-Opt-46.set at: 2025-08-16 02:29:06\",\"V1.0\",\"\",\"Completed\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:29:06",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:29:06 => [Information] {"rowcount": 1, "lastrowid": 112, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 112, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:29:06",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:29:06 => [Information] create Optimzation set_file_artifacts - ["112","Best Pass set_file","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_NZDUSD_M30_1500_P1815_DD472_20220816-20250816_WR75.21_PF2.58_T605_M594709770_V1_S110-AI-Suggest-Opt-46.set",""]
+{
+  "message": "create Optimzation set_file_artifacts - [\"112\",\"Best Pass set_file\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_NZDUSD_M30_1500_P1815_DD472_20220816-20250816_WR75.21_PF2.58_T605_M594709770_V1_S110-AI-Suggest-Opt-46.set\",\"\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:29:06",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:29:06 => [Information] {"rowcount": 1, "lastrowid": 112, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 112, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "02:29:06",
+  "fileName": "MainSequence",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}
+08/16/2025 02:29:07 => [Information] MT4 Backtesting Automation execution ended in: 01:16:30
+{
+  "message": "MT4 Backtesting Automation execution ended",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "02:29:07",
+  "fileName": "MainSequence",
+  "totalExecutionTimeInSeconds": 4590,
+  "totalExecutionTime": "01:16:30",
+  "jobId": "0931b811-d388-4d2c-99a2-7531e009a5da",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "101e98d92009418bb7e3cb67ab0d2878-50a9a22e765e4ce7953895c16c968266"
+}

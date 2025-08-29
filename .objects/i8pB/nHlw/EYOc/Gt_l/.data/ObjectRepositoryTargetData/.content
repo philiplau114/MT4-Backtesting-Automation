@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oqTr06jyGEWv2PUiNIqFdA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8c6ea6a0-9314-412b-b66e-76be056c7071" CvTextArea="66, 290, 266, 30" CvTextArgument="Login to Trade Account" CvType="Text" DesignTimeRectangle="3, 283, 414, 41" DesignTimeScaleFactor="2" FullSelectorArgument="&lt;ctrl name='File' role='popup menu' /&gt;&lt;ctrl automationid='35429' /&gt;" FuzzySelectorArgument="&lt;ctrl name='File' role='popup menu' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='35429' role='menu item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Login to Trade Account' /&gt;" Guid="49513924-90bb-49ea-94ab-89bd4c62d935" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="1445cd16ea9b33347fa91cf23a219f28.png" xmlns="">0UEQiHxjakU63_j58MkH6Qw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

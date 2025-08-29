@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QhS5fu2TJkSeETQnyIe12Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="dd218dad-fe4d-4c73-98ae-076dcf6bdd44" CvElementArea="128, 877, 1769, 24" CvType="InputBox" DesignTimeRectangle="136, 881, 1751, 17" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname='檔案總管窗格' cls='DirectUIHWND' /&gt;&lt;wnd aaname='檔案名稱:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" Guid="80284297-5583-4725-a47b-adc8283f07d9" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32770' title='另存新檔' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="18, 878, 115, 23" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='檔案總管窗格' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='檔案總管窗格' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='[資料夾配置] 窗格' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='詳細資料窗格' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='檔案名稱:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='檔案名稱:' /&gt;" Guid="9be73212-da6e-43a6-b770-36cd3e87a55e" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bc95b64da319ef23981ecd766400d422.png" xmlns="">0hK2_cUJDakOEGbKdWP_oUg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qlhsvhY-SkaQJqMhXEdSnA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="5f5d3b51-4a98-43fe-85c0-89a5d4ba7480" CvElementArea="19, 160, 53, 21" CvTextArea="22, 163, 45, 13" CvTextArgument="Refresh" CvType="Button" DesignTimeRectangle="24, 163, 42, 15" ElementType="Text" FuzzySelectorArgument="&lt;ctrl automationid='TabBasicSettings' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl name='Local availability' role='grouping' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='BtnRefresh' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl name='Refresh' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Refresh' /&gt;" Guid="c370bb04-20bb-4704-823a-d106f10573fd" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='HwndWrapper*' title='Tick data settings' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5f5d3b51-4a98-43fe-85c0-89a5d4ba7480" CvElementArea="19, 160, 53, 21" CvTextArea="22, 163, 45, 13" CvTextArgument="Refresh" CvType="Button" DesignTimeRectangle="19, 161, 52, 19" ElementType="Button" FuzzySelectorArgument="&lt;ctrl automationid='TabBasicSettings' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl name='Local availability' role='grouping' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='BtnRefresh' role='push button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Refresh' /&gt;" Guid="947c8b9f-7372-40e9-9c68-0e3b143b5d9d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e15bb857a10f7176df60a1dde1d6506f.png" xmlns="">0mUhEgee8wEeIIhxykDj8VA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

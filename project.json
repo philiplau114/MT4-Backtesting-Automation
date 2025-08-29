@@ -1,0 +1,72 @@
+{
+  "name": "MT4 Backtesting Automation",
+  "projectId": "538a57b3-0850-4bf5-9158-45802dc9c6a2",
+  "description": "MT4 Backtesting Automation",
+  "main": "MainSequenceCLI.xaml",
+  "dependencies": {
+    "UiPath.Database.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[3.2.0-preview]",
+    "UiPath.GSuite.Activities": "[3.3.1-preview]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.3.2-preview]",
+    "UiPath.Python.Activities": "[2.0.0-preview]",
+    "UiPath.System.Activities": "[25.6.1]",
+    "UiPath.UIAutomation.Activities": "25.10.8",
+    "UiPath.WebAPI.Activities": "[2.0.0-preview]",
+    "Witrics.SQLite.Activities": "[2.0.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.172.0",
+  "projectVersion": "1.0.1-alpha.2",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "MT4backtest.xaml",
+      "uniqueId": "db840873-8a34-4304-a2ea-1bc315414a89",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "MainSequenceCLI.xaml",
+      "uniqueId": "650dbe7f-b6ca-4b19-8897-6a94de15b08b",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

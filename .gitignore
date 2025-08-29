@@ -1,0 +1,10 @@
+*.user
+*.tmp
+*.log
+*.cache
+.env
+*.settings
+packages/
+.project
+.vs/
+.idea/

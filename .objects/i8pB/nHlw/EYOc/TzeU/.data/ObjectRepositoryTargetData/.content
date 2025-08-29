@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6OjfFMfhyECvpPKKT3UsTA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="232, 94, 82, 17" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd cls='#32770' title='Testing' /&gt;&lt;wnd ctrlid='1102' /&gt;&lt;wnd ctrlid='1001' /&gt;" FuzzySelectorArgument="&lt;wnd cls='#32770' title='Testing' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlid='1102' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1001' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="6fe984d0-64ec-418d-b038-f7706f9b157c" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32770' title='Ace Phoenix Std v3.71' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="951ea2dc406ecf077986f8b9d4126fa4.png" xmlns="">0kPolQpffNkWxo8ibEYFC-Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

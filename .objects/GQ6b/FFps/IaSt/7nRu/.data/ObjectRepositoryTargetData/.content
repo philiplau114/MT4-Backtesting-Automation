@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vYhSzhwczUmn5mGlv_x-8A" Reference="EoK9QnnZwUOAEw3B5dGgtA/7nRuoyfmyk26fDMOIcujWg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="556da65d-496b-480f-8a42-53d8a3383dd1" CvElementArea="1717, 35, 133, 28" CvType="InputBox" DesignTimeRectangle="1718, 36, 130, 25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='TxtFilter' /&gt;" Guid="7388378e-b9cb-489d-ae9d-8fba44d46b80" ScopeSelectorArgument="&lt;wnd app='tick data manager.exe' cls='HwndWrapper*' title='數據管理器' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="556da65d-496b-480f-8a42-53d8a3383dd1" CvElementArea="1851, 37, 25, 24" CvType="Button" DesignTimeRectangle="1853, 39, 22, 20" ElementType="Button" FullSelectorArgument="&lt;ctrl idx='9' role='push button' /&gt;" Guid="396138a7-fe8b-4f0f-b244-6fbdf91b4cc2" SearchSteps="Selector, CV" />
+          <Target CVScreenId="556da65d-496b-480f-8a42-53d8a3383dd1" CvElementArea="1877, 37, 25, 23" CvType="Button" DesignTimeRectangle="1879, 39, 22, 20" ElementType="Button" FullSelectorArgument="&lt;ctrl idx='10' role='push button' /&gt;" Guid="c79fdf10-5397-4e6e-a43b-5b2d4aba3aed" SearchSteps="Selector, CV" />
+          <Target CVScreenId="556da65d-496b-480f-8a42-53d8a3383dd1" CvElementArea="1901, 37, 25, 23" CvType="Button" DesignTimeRectangle="1903, 39, 22, 20" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='BtnOptions' /&gt;" Guid="0932f5be-0e40-44f7-acf4-4cd14c8e069c" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d660e86bce92d0cd08d954d9afa9cfe4.png" xmlns="">0u6UWgPDpDEiGcbOfM0mlMQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

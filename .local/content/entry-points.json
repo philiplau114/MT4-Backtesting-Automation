@@ -1,0 +1,99 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "MT4backtest.xaml",
+      "uniqueId": "db840873-8a34-4304-a2ea-1bc315414a89",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string"
+          },
+          "InitialDeposit": {
+            "type": "string"
+          },
+          "OptimizedParameter": {
+            "type": "string"
+          },
+          "OptimizationReportPath": {
+            "type": "string"
+          },
+          "BacktestReportPath": {
+            "type": "string"
+          },
+          "SettingsFilePath": {
+            "type": "string"
+          },
+          "DateTo": {
+            "type": "string"
+          },
+          "DateFrom": {
+            "type": "string"
+          },
+          "Spread": {
+            "type": "string"
+          },
+          "Period": {
+            "type": "string"
+          },
+          "btSymbol": {
+            "type": "string"
+          },
+          "TargetEA": {
+            "type": "string"
+          },
+          "CloseMT4": {
+            "enum": [
+              "Never",
+              "IfOpenedByAppBrowser",
+              "Always"
+            ]
+          },
+          "dtSymbol": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        },
+        "required": []
+      }
+    },
+    {
+      "filePath": "MainSequenceCLI.xaml",
+      "uniqueId": "650dbe7f-b6ca-4b19-8897-6a94de15b08b",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "in_InputSetFilePath": {
+            "type": "string"
+          },
+          "in_JobId": {
+            "type": "string"
+          }
+        },
+        "required": []
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "out_ErrorMessage": {
+            "type": "string"
+          },
+          "out_Artifacts": {
+            "type": "string"
+          },
+          "out_Status": {
+            "type": "string"
+          },
+          "out_worker_JobId": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  ]
+}

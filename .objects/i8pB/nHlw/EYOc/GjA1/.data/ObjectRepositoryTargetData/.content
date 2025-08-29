@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WFgvGcZcp0-oPXusMpDmpg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b9ca8b07-59e4-41c0-a35d-020ec26907b0" CvElementArea="155, 842, 1335, 22" CvType="InputBox" DesignTimeRectangle="1470, 844, 15, 18" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' /&gt;&lt;wnd aaname='Model:' cls='ComboBox' /&gt;&lt;ctrl name='Model:' role='combo box' /&gt;&lt;ctrl automationid='DropDown' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Model:' cls='ComboBox' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='Model:' role='combo box' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='DropDown' role='push button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='開啟' /&gt;" Guid="b534f515-71d3-4dad-8cf8-0c19476dda4c" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b9ca8b07-59e4-41c0-a35d-020ec26907b0" CvTextArea="116, 846, 35, 12" CvTextArgument="Model:" CvType="Text" DesignTimeRectangle="31, 847, 120, 16" ElementType="Text" FullSelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' /&gt;&lt;wnd cls='Static' title='Model:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Static' title='Model:' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Model:' /&gt;" Guid="5a0768f0-e029-44a4-84a6-4b66b0a116df" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="98e04a445fa8f7f07c3eaa3860addfac.png" xmlns="">0-BoVzKoGeU-4wb3frMm-iA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

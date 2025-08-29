@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WrrfaJlWhUG0e45Zh5795g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="85a46be6-241f-4a97-acc8-a6d10b2114cc" CvElementArea="155, 783, 1332, 22" CvType="InputBox" DesignTimeRectangle="161, 788, 1305, 14" ElementType="Text" FullSelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' /&gt;&lt;wnd aaname='*' cls='Edit' /&gt;" Guid="d85c9514-a189-4760-af45-ae389e9a043b" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="85a46be6-241f-4a97-acc8-a6d10b2114cc" CvElementArea="30, 784, 122, 22" CvType="InputBox" DesignTimeRectangle="31, 785, 120, 20" ElementType="DropDown" FullSelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' /&gt;&lt;wnd cls='ComboBox' idx='2' /&gt;" Guid="4211c819-06cd-4f7a-ada6-1c23abfe011a" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0e7f9552a2c700b0d69f62713559d8ee.png" xmlns="">0YNX7O9Pbe0-2eTO6_JvdUg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

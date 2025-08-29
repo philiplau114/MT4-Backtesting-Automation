@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'Ace Bubo v1.2.ex4'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "oHf0zovseUm3p02WXQ-Nmg",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/oHf0zovseUm3p02WXQ-Nmg",
+  "ParentRef": "EoK9QnnZwUOAEw3B5dGgtA/EYOcM0uOCU2G8d1ODrJiow",
+  "Created": "2025-08-01T03:06:27.3113081Z",
+  "Updated": "2025-08-01T03:06:27.3113081Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

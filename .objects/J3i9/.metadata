@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Tick Data Manager",
+  "Type": "App",
+  "Id": "J3i9zFRGRUmUzVsYkRzykA",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/J3i9zFRGRUmUzVsYkRzykA",
+  "Created": "2025-08-15T05:17:44.5585749Z",
+  "Updated": "2025-08-15T05:17:44.5585749Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

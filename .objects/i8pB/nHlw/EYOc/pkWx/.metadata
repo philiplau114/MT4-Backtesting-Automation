@@ -1,0 +1,14 @@
+﻿{
+  "Name": "檔案名稱(&N)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "pkWx00f06UOhxp0L8iNhQg",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/pkWx00f06UOhxp0L8iNhQg",
+  "ParentRef": "EoK9QnnZwUOAEw3B5dGgtA/EYOcM0uOCU2G8d1ODrJiow",
+  "Created": "2025-08-01T01:53:00.4059643Z",
+  "Updated": "2025-08-01T01:53:00.4059643Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

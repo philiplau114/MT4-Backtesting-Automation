@@ -1,0 +1,360 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="InvokeTickData" this:InvokeTickData.symbol="USDMXN" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Diagnostics;assembly=System.Diagnostics.Process" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="symbol" Type="InArgument(x:String)">
+      <x:Property.Attributes>
+        <RequiredArgumentAttribute />
+      </x:Property.Attributes>
+    </x:Property>
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Python.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="InvokeTickData" sap:VirtualizedContainerService.HintSize="1226.5,2657.5" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Boolean" Default="False" Name="isDone" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="644,2634.5" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:StartProcess WorkingDirectory="{x:Null}" DisplayName="Start Process" FileName="C:\Program Files (x86)\eareview.net\Tick Data Suite\Tick Data Manager.exe" sap:VirtualizedContainerService.HintSize="610,120" sap2010:WorkflowViewState.IdRef="StartProcess_1" StartType="Asynchronously">
+        <ui:StartProcess.Arguments>
+          <InArgument x:TypeArguments="x:String">
+            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"/update:Dukascopy:" + symbol</CSharpValue>
+          </InArgument>
+        </ui:StartProcess.Arguments>
+      </ui:StartProcess>
+      <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="610,2431.5" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+        <ui:InterruptibleWhile.Body>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="608,2309" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="sco:Collection(sd:Process)" Name="allProcesses" />
+              <Variable x:TypeArguments="x:Boolean" Name="isRunning" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:GetProcesses ContinueOnError="{x:Null}" DisplayName="Get Processes" sap:VirtualizedContainerService.HintSize="574,57" sap2010:WorkflowViewState.IdRef="GetProcesses_1">
+              <ui:GetProcesses.Processes>
+                <OutArgument x:TypeArguments="sco:Collection(sd:Process)">
+                  <CSharpReference x:TypeArguments="sco:Collection(sd:Process)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">allProcesses</CSharpReference>
+                </OutArgument>
+              </ui:GetProcesses.Processes>
+            </ui:GetProcesses>
+            <Assign sap:VirtualizedContainerService.HintSize="574,117" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Boolean">
+                  <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">isRunning</CSharpReference>
+                </OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Boolean">
+                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8" xml:space="preserve">//allProcesses.Any(p =&gt; p.ProcessName.ToLower().Contains("Tick Data Manager"))
+allProcesses.Any(p =&gt; p.ProcessName.Equals("Tick Data Manager", StringComparison.OrdinalIgnoreCase))</CSharpValue>
+                </InArgument>
+              </Assign.Value>
+            </Assign>
+            <If sap:VirtualizedContainerService.HintSize="574,2075" sap2010:WorkflowViewState.IdRef="If_1">
+              <If.Condition>
+                <InArgument x:TypeArguments="x:Boolean">
+                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">!isRunning</CSharpValue>
+                </InArgument>
+              </If.Condition>
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="572,166.5" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Assign sap:VirtualizedContainerService.HintSize="538,106.5" sap2010:WorkflowViewState.IdRef="Assign_2">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Boolean">
+                        <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">isDone</CSharpReference>
+                      </OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="572,1778" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Tick Data Manager" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="538,1718" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" IsDisplayNameAuto="True" ScopeGuid="3033ac2d-44a0-410d-a01b-a1eaaba29bff" Version="V2">
+                    <uix:NApplicationCard.Body>
+                      <ActivityAction x:TypeArguments="x:Object">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="504,1385" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                          <Sequence.Variables>
+                            <Variable x:TypeArguments="x:String" Default="downloading" Name="TickDataStatus" />
+                          </Sequence.Variables>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="470,681.5" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                            <TryCatch.Try>
+                              <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Status: downloading'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="468,158.5" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="3033ac2d-44a0-410d-a01b-a1eaaba29bff" Version="V5">
+                                <uix:NGetText.Target>
+                                  <uix:TargetAnchorable CVScreenId="3546086a-635b-4798-bb31-48898a27d473" ContentHash="9NunIPPyTEerab2Ty0pYQg" CvType="AnyWordGroup" DesignTimeRectangle="3750, 2040, 123, 30" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='TxtStatus' /&gt;" Guid="67e7a8c5-cd00-4481-aaa4-9e478f897548" InformativeScreenshot="1b8a0f2f5dde10303872e79aee9bae8f.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/y5zb74hi_U-6a_TZyIUBRA" ScopeSelectorArgument="&lt;wnd app='tick data manager.exe' cls='HwndWrapper*' title='Tick Data Manager' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target DesignTimeRectangle="3883, 2037, 2, 36" FullSelectorArgument="&lt;ctrl idx='2' role='separator' /&gt;" Guid="466d0201-9521-40c1-ad72-6cf924847da7" SearchSteps="Selector" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                    <uix:TargetAnchorable.PointOffset>
+                                      <uix:PointOffset />
+                                    </uix:TargetAnchorable.PointOffset>
+                                  </uix:TargetAnchorable>
+                                </uix:NGetText.Target>
+                                <uix:NGetText.TextString>
+                                  <OutArgument x:TypeArguments="x:String">
+                                    <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">TickDataStatus</CSharpReference>
+                                  </OutArgument>
+                                </uix:NGetText.TextString>
+                              </uix:NGetText>
+                            </TryCatch.Try>
+                            <TryCatch.Catches>
+                              <Catch x:TypeArguments="ui:SelectorNotFoundException" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+                                <ActivityAction x:TypeArguments="ui:SelectorNotFoundException">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="ui:SelectorNotFoundException" Name="exception" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,166.5" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <Assign sap:VirtualizedContainerService.HintSize="434,106.5" sap2010:WorkflowViewState.IdRef="Assign_4">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:String">
+                                          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">TickDataStatus</CSharpReference>
+                                        </OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:String">Status: idle</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                  </Sequence>
+                                </ActivityAction>
+                              </Catch>
+                            </TryCatch.Catches>
+                            <TryCatch.Finally>
+                              <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="468,166.5" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Assign sap:VirtualizedContainerService.HintSize="434,106.5" sap2010:WorkflowViewState.IdRef="Assign_5">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:String">
+                                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">TickDataStatus</CSharpReference>
+                                    </OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:String">Status: idle</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                              </Sequence>
+                            </TryCatch.Finally>
+                          </TryCatch>
+                          <If sap:VirtualizedContainerService.HintSize="470,641.5" sap2010:WorkflowViewState.IdRef="If_2">
+                            <If.Condition>
+                              <InArgument x:TypeArguments="x:Boolean">
+                                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">TickDataStatus.ToLower().Contains("idle")</CSharpValue>
+                              </InArgument>
+                            </If.Condition>
+                            <If.Then>
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,334.5" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Assign sap:VirtualizedContainerService.HintSize="434,115.5" sap2010:WorkflowViewState.IdRef="Assign_3">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:Boolean">
+                                      <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">isDone</CSharpReference>
+                                    </OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                                <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="434,159" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="Tick Data Manager" />
+                              </Sequence>
+                            </If.Then>
+                            <If.Else>
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,174.5" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="434,114.5" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                              </Sequence>
+                            </If.Else>
+                          </If>
+                        </Sequence>
+                      </ActivityAction>
+                    </uix:NApplicationCard.Body>
+                    <uix:NApplicationCard.TargetApp>
+                      <uix:TargetApp Area="-13, -13, 4122, 2090" ContentHash="qU0BMXWRFE67uClSeoSKVw" FilePath="C:\\Program Files (x86)\\eareview.net\\Tick Data Suite\\tick data manager.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAHYcAAB2HAY/l8WUAABG8SURBVHhe7ZkHVFTXt8aNLw+wi4pSpIPAMMzcYYY+hSYoiBQLRsSGaBQVEEssERuWYMEWRCEIzFCGGYYWmigiKqgoNlRUYkFAsWIXk3xv3VF4eIklav5lLX5rnQXce+4+e3/n7H3OvXTp0kknnXTSSSeddNJJJ5100kknnXxt7sZ26VUvVLJrFKtMvpXUfemtJMXNtxIVo+RNqLiuLlEhtF6o4FmfoKRFffa/EqDLN425VlYPj82JeHRsZuWDI5N/f1A2AfeKh+N2hh7qhYrvb6JuN2+K+kbXJg3gUe3+x3NTbN3tyeWY4GdX4688vybCk/Pr8ejYLNwv8URTrjkaUvt1DFgetCIaUrujMb0Xbmf0QUPGANSKDVGdzDp5SsjzpI7zH8mz69LRL2+X3HpRl4WnF6PQXDkPD0rH4m4BD42SwagXKnUMXKiIhuRuaEzviTuyvrib2x/38lVwr2gQmgrUcStbFzXpBM4ns/ddjDfSoY75H8F5cReF5zfEMS8bCvHs8i40n1oM+XIvckJTNgMNKX07BN0WfGp33Jb0RlOWMu7lDcD9fap4eHAwHpVp4dERHTw4qI3bBTq4mamH2jS9B9eTBrhTx/+3Qgb/+NzavGe1e/H4zAo8PBogz/OmXDbuZBp9dMnflvZGU3Y/3MtTaQu++agOnlQa4GmVEZ6eMkJzuT7uH9DGnTx11Ev6/V4n7B5I9ePfAlnoHpT5pZB5/vDoVNwttMdNCR21Ii3cTlfHbalWx8BbZz6FnPleHWa++agunlQa4tlZE7y4QMfLGgZeVJviyckheFSmjXsFg8g68WddktIEqj//cuoTFWcf3qmPyBAGfpjlhmlTxsPdzQ021tYgzEzgZKmOOT59kb+OkgIiJTSKe7Tl/P3CQXhYooHmw9p4clwfz04b40U1Ha+uEHh9nYPXNyzw8jITT08byVOjKbc/WU9eyVb3t6f69C+DzmIxFs10e7JwwUJErFqN0LnB8B/vB/dhw2FnZQ0GzRRD9PSho6mF/sr9wCX6IX+d8hsBkpXk1f4OOfv5A/CgWA2PDmnicYUunp4yxPNzNLy8xEBLrTl+r7PCH422chGen6fJ+90S98a6mVpgsNgPTNlsfapv/zhcvv2sWTODXi4IC8OUSZPgOcIDfDsuCDMGjPQNoK+tAz0t7Xdan169odStG8InD8QtIbkCer4VQAUP9qvj0WFtPD6uL8/75+dN5Uv/5RUCL2uYeHaOhscVemjKGwjpGlWMcKbDjOCAwbIgfx6g+vePYsbkLPAdMxajvLzhKBCATbBgbGAIncGaGKym1ta0NAZDV1OrTQBVlYEgy8a3336LeeNU36ZBOxGK1fCwdLBciOYjOvKlTqbGncy+OPazMjbN0YSrPeNt4BwETAvE2LG+sLK2eUj18R+DTrDdtLV1/zQ1MYG6qqp8Vrt364ZevXpAWbk3lJV7oF+/7lBR6YkB/XugTx8l9OihhJ49ekBRQUEuANkUFBQRHTqwrR6QBbExrQdupfXC6T3KyF2ngu2hGpj7nQGc+Ex50O2bOccKnp6esLO1xLJJ6r83JHzLIQsy1d+vCo1GU1DX0LzWtWtXaGlpw9SMAJPFAZdrg02bNiAtNQmLF8+Gt5cdRrgTcBtOg6uLEXg8PRgaDECfPj2hrqGJAf0HyEXQUOuPUU5qcLFVxwgnOvh2hHxmqcH+VWOyLMDj8SCwMsTlWKXX8l1FpHjjjrTnxnpxTy7Cu3Sl+v/FmDI4/tq6Bujdpy8cnVxgacMDj2eHlBQh7t+/i6dPHuPKlWqUluQgQ7IbqclbsHvXj/hx6QS4DDWGtrYytHX14OM9GiamDPRV7gf1wVrQ0NSGCZ3oECQ1YG+f0bC144LONJdfI/OfYFs0e7qYatYlKbjXixQTG8Q9msnzxIP9avUPi9W3kWJQ4/hszAi2VEfPEDo6euALHGFpbYvJkybgdFUlrl+vxa26a7hQXYmDB6TIkGxDctJKCBOWIjZmHmZ+L4CNjTYGDVKGi6sbhrq4yYPQ0TeUCzDE2LRD0O2b+wgPTJjgD56tOTgcDoxN36QFg2BPbO/jTXGXbnWJCqNui3umNeX0ex611BnTp0+f277PZ0MnONdIZ+l0BmzsBGCZm2PlimUo3peH4xWlOFlZhqOH81CYvxcZkg1IS16MFGEIoneOw/JlQ+HtRYe2ljI4ljYY7+cvD8DAiAYjExqCg0PkAbI5FjBlvJnh9o3L5YHJZOLoZgWUR/XCXF9tsFisCKqP7bkj7tLT329Mlbunp5h677OgE5yH6hpaYBLmsLTmgkYzxuqVSyFMjEGWLAn5vwqRlxuLbNlmyCTLkZ46G2kpEyFO8Uf0zlGYEWgNM7oqaHQGZnw/Sx6YobEpvLy9MWXKFLi6DgOfzwedweoggIWVDWxsbPDTTA38Ft/t7Vmi29WG5G7fk0dxqq+tjBnrWxUTs0dGvf5ZmBHsRk1tPTAYBDhWttA30MOcoKnYuGEp9sREQJS4HuLUCGSk/wipeDayMwNQXDgDB/Z9j/S0ifhhkQMsLDTBZLExK2jOGwGMaPKgbW0sEDxGFe6ODJgxWaAz2R1EIMwtQZhb1AV4G41pSFLYXS9Sek0eo+/mqdxoyuw7l1z+VJ+/qgB0grNfz8AIRsam4FjYQEdPFy5DbRAWMhHr1sxE9I5QJPwSAlHSdGTLAlF6YBZOnQjB2ap5KMqfjuU/DgWLpYHh7h6YOHmqPCh9Q2MwCRb83A3lsypdOUCeFtQ0oDPZz+lMdqSlpWXvVn8aEhRM6oWKWXekvfHwgAbuFQxsOLxN452XpK8qgBmTvYgsPrp6huBwrGBoZAJd3YHw9LBGaLAXVq0Yi6jNY5GUMBF5uYE4Xj4XNRcW4drVJfJVMD9MAGNjTYTNXwSBw1B5YOSuQtYVS0s2rot6oilfBXwrA9DMWtOAfd+Myd7IZFprUP1ppT5JiVcvUiy/ldID84On/enr6zum9R4pwM8/x+RyXFw0w8PDv2xrZDAYA1kc6z/ks8ZkkRUYgwb1B5M5GJ4jGZgdxEfEGnfE7fFFbnYAjlcEo/byYlyvXQqJeCK8POkw53CwJmKdPDhylsngB2vpyP/OihiIY3uNsXSy1nMTOlNiyuD4agsESlQ//gryEFSwob/fuHHj4ezsspe8lpSUJMovKEBeYT5kOVmQyWR9qc/9LZaELtGYv3AxaGYEaOS+TWfAmGYGVdU+YLMHw8fHDCHBPPy0wR0J8eOQkzlVvvRThH4ImGoJIxN9rFodAWfXN1ug/hATUoAWTR29i2YERxzsZyLx9/eHs5NDM3XsT4HJZPadPGUqgucvjCH/XrpkiSwpMRFpUgmS09O+XAC/sWOt4xOSYMdzkBcpuhkBYyMTGNHoUFPrB1PTQXB2NoTfeBaCZtnKxZgeaA0HBwMYGRtg4aIlmDBxypucJjgnhwxh6AoEgm9b7Ts6Og4KX7Hy8Ugv78p3R/40SAGmBgQiNjZOvgKc7R1kc4JmIzM3G6eqKrGvrExPLBa/d8f4KD6enl57E5IwceJk2Njy3ixjOgEWYQ6WuSV09Q2gqaUKHR0VGBoMxJAh6jAw1AHf3hFr166H73cT3uQ1k32EIAiVDvbdfLTjftl7x3vU6FrqvY/B5vHM3Xy8VpECxO1NuCOUSq7MCQlpCZw+HYfLD+PQ0TKIs7OQU1T4pListKKsonxfXX1dHAB/AKYAPv4e4e/vP4kUICBgGrjWNnAd5vYHx9pOfiTlcgUY4e4BDw8vuI/whJf3aEyZGoglS5YhJDRMfnAyI9gv6ARnNflOQbVN4urkZJ+QKIS3zyjyXeFvQxCEISnA+siNh7luw8KHjfZJ9vhuXJW3/4Rn46dPw5gpk+Ayyuu6uT1/O4vPXUXwueEsAdefxeebdOnynhcpACpXamtnywryKyKjokAK4Os7DkEzZ2JHdDTWRW2BJZfXtm2RByR7Rxc4uwwHV+D4drmza+hMdoSZmeVgqv32fKkATCZTp30KtBEe3pXp6Khha2vb653rHyIzL5PV0tKS2/L6dcv5mktIyZShVYAxY32RkJKMJEk6Fq9eCZatTTnNwmIYjWbdj8EwdyTP52YEe5IZwXGmWVioUm2/jy8RwNrauhvLymokKcBPGzcf5PB4mtQ+fwuyOIUtWeKeU1iYunV3zMblG9ZFroiIaGkTQJyGVRsjyz0mjBtGffZz+RIBRCKR1664WGyL/hmJKSIU7d9XRe3zJXwTGBo6Y8bcOfdIAby9fV5NmT17OLXTl/IlAixesMArKzMTjY0NqL54HqVHSr+qAF3M+XyejZMj9sTFw32kJ+zdh1+j9vkSxowZ8z9OTk4jWgXgcLl61D4fwsXR0Wvh/Pk4VFaKvKICiMSpX1cAkTg5MjYxHtt3R2ND1GasXLX8qwqQkp5u7+rthZjYOHh4eYPgcxvZbPb/Uvu1h8x791Gj7AOD56zw9fM74WTvgNj4X5AiEaO4pLhFJJOmCSUSh0/a4j7G/tKSqMpTJ3Dp8kVcrb0MYULcVxWgpKTE/vTZM0jLkOAXYQJSJGnIyclhUvu95ZuhI0dsmREy99XaqM3YI0zCirUR8k/wO3buwJkzp3C++ixEGdI3TSq9JJRIwkTZ2QOohj5KolRKF8kkXkJxmkyWk41Dhw/h7PkziI/bfSM+Pr7v1q1bFanPfA5btmyxP1ZRjt+uXUXN5YsgxS45XEJQ+7VCFulVmyIX7xEJX7QG+tPWKCSLU5FbVIBkWYb8WoosA9Jfc1F4sAQVJytf1N64kfjg8eNP+0yWkJFhIpJKHpKGpDlZSBanISVdjPyiQmzbFoW9aanYHL0TcxctgKv3yIfGLOY+qo2Poaam1l1LS0t5tLf3OJlMinPnz6L08CFIszIRtnhx6IRp0yYG/RDUn/pcKz6TvjMO37D+aEK6uG3GyeDTc7LlO9WkWTNrVm2MfFV96RJOVFVhW8yulzPDQpdT7XQgOStrkFAqudZq9EjFUZyoPIbMnCwIU1OwZm2E/HpsshBrt2xCwJxZ4A93iaXa+Sv09PT66Bkb3TdimIFpaQEbBwEcXV2wdWsUfi3MlwudLpNiR+xubI/bg1iR8NAHz/Dh4V1HT/IPidiy6Vl2USEOHj2KqvPn8NuNGzh55kxV0Lx5QyydHVcRfLuJbGfnPtTHO1BZWdm94GBJRWpWZpuqZeWHcfXqJVy8eA4lpSXYHhMtv04ehqIT4rEsYjVshw395H9WBi2Yl790zSqQORy1e5c8h0NCQyESp6FwXyEuXDiHzPy8/89jmTTpY8WM3DlmzQ87kF1QgG27Y1omB83MJ3i8ADab3Z3a972Qg9T89lt6+cmTyC3e15ZLHZpU0vZ7YroYP6xeCTaPp0a19z4SJeIAYTsbpL2169ah/NhR1NRU41JNNTLyciljSldQ7fwF3xB8u+EEl9vhZeuTePXq1frbTU2ovlyDQxUVkLWfhQ+0aSHBF6m2PoRYLO4nypC2tLfxjiB/0YRSyZ8iqfSdz+BfFQCBAPDs+XPUNdTjdPV5FJeVIWz5j+C6DcOI73zls011jEwDgYfbDqq9jyHKkORTbX2okasxNSvzVXZRkYBq66twpbY2bGvMrt/jhElITEtFojgNuxLiYenk0Ejw+RYbtm9LpzpFtnVbo0AIuKOp9j5GklQ6jWqLDDJy53bw3IbB2sUZcclC7C87hCMnjuPUubO4cPkyrtXV3W9ubjai2vtizHk8V5aAu5EQ8OJYAl4GIeCWEgLuWRaf70PeJ/h8Q7aDoMVumAucvEbCzXcsRk3yx1Afrz/YAsHfPmQkSqUDpXm//p6zrwhFpQdxqKIcJ05XyduyiIhgNp9vNm/Z0u2Zeb8iRSoBOTFbd0UjYtNGRGyKjKTa+8ehjaEpkIWO4HJpbIEdl8W38yDseZPISkvt+6kEhgQXj506BSPG+cJhpAcsnBzAEvBACHgbyPtkBWfxeSWEgLufEHAlLD53D8Hn/sTic+eR7w9Ue/91sO25VuRXGXMBdwTB49mSX2fojo6DSLGpfTvppJNOOunkn+P/APyMpo4NGEvbAAAAAElFTkSuQmCC" InformativeScreenshot="9a95d5b845697195553672778b27b1dd.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/8i0eyUJUS0ieuKCOTDip0Q" Selector="&lt;wnd app='tick data manager.exe' cls='HwndWrapper*' title='Tick Data Manager' /&gt;" Version="V2" />
+                    </uix:NApplicationCard.TargetApp>
+                  </uix:NApplicationCard>
+                </Sequence>
+              </If.Else>
+            </If>
+          </Sequence>
+        </ui:InterruptibleWhile.Body>
+        <ui:InterruptibleWhile.Condition>
+          <CSharpValue x:TypeArguments="x:Boolean" DisplayName="C sharp value" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">!isDone</CSharpValue>
+        </ui:InterruptibleWhile.Condition>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:InterruptibleWhile>
+    </Sequence>
+  </Sequence>
+</Activity>

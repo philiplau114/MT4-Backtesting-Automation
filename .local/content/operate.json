@@ -1,0 +1,26 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/operate",
+  "contentType": "Process",
+  "projectId": "538a57b3-0850-4bf5-9158-45802dc9c6a2",
+  "main": "MainSequenceCLI.xaml",
+  "dependencies": {
+    "UiPath.Database.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[3.2.0-preview]",
+    "UiPath.GSuite.Activities": "[3.3.1-preview]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.3.2-preview]",
+    "UiPath.Python.Activities": "[2.0.0-preview]",
+    "UiPath.System.Activities.Runtime": "[25.6.1]",
+    "UiPath.UIAutomation.Activities.Runtime": "25.10.8",
+    "UiPath.WebAPI.Activities.Runtime": "[2.0.0-preview]",
+    "Witrics.SQLite.Activities": "[2.0.2]"
+  },
+  "targetFramework": "Windows",
+  "runtimeOptions": {
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "robotVersion": "25.0.172"
+  },
+  "designOptions": {
+    "fileInfoCollection": []
+  }
+}

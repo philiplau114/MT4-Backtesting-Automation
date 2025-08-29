@@ -1,0 +1,1528 @@
+08/21/2025 18:24:56 => [Trace] Debug started for file: MainSequence2
+08/21/2025 18:24:57 => [Information] MT4 Backtesting Automation execution started
+{
+  "message": "MT4 Backtesting Automation execution started",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "18:24:57",
+  "fileName": "MainSequence2",
+  "initiatedBy": "Studio",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:24:59 => [Information] Healing agent configuration.
+{
+  "message": "Healing agent configuration.",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "18:24:59",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "healingAgentConfig": {
+    "orchestratorEnableHeal": false,
+    "orchestratorEnableAnalysis": false
+  },
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:25:33 => [Information] {"EA": "PX3.71", "Symbol": "EURJPY", "Timeframe": "M30", "InitialDeposit": "1500", "ProfitAmount": "529", "DrawDown": "443", "StartDate": "20220822", "EndDate": "20250820", "Stoploss": "500", "WinRate": "80", "ProfitFactor": "1.64", "NumTrade": "426", "SetVersion": "1", "Step": "257"}
+{
+  "message": "{\"EA\": \"PX3.71\", \"Symbol\": \"EURJPY\", \"Timeframe\": \"M30\", \"InitialDeposit\": \"1500\", \"ProfitAmount\": \"529\", \"DrawDown\": \"443\", \"StartDate\": \"20220822\", \"EndDate\": \"20250820\", \"Stoploss\": \"500\", \"WinRate\": \"80\", \"ProfitFactor\": \"1.64\", \"NumTrade\": \"426\", \"SetVersion\": \"1\", \"Step\": \"257\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:25:33",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:25:34 => [Information] {"rowcount": 1, "lastrowid": 126, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 126, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:25:34",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:25:34 => [Information] {"rowcount": 1, "lastrowid": 265, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 265, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:25:34",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:25:34 => [Information] {"rowcount": 1, "lastrowid": 265, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 265, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:25:34",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:25:34 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "18:25:34",
+  "fileName": "MT4backtest",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/21/2025 18:25:40 => [Information] btSymbol: EURJPY, FoundSymbol: EURJPY, Euro vs Japanese Yen
+{
+  "message": "btSymbol: EURJPY, FoundSymbol: EURJPY, Euro vs Japanese Yen",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:25:40",
+  "fileName": "MT4backtest",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:25:47 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\eareview.net\\Tick Data Suite\\tick data manager.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "18:25:47",
+  "fileName": "InvokeTickData",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe",
+  "auditMessage": true,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/21/2025 18:31:51 => [Information] BacktestReportPath: C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest\PX3.71_EURJPY_M30_1500_P529_DD443_20220822-20250820_SL500_WR80.05_PF1.64_T426_M504935252_V1_S257-backtest_report.htm
+setFileStepsID: 265
+Type: MT4 Backtest Report
+EA: PX3.71
+CurrentFile: C:\Users\Philip\Documents\GitHub\EA_Automation\01_user_inputs\PX3.71_EURJPY_M30_1500_P529_DD443_20220822-20250820_SL500_WR80.05_PF1.64_T426_M504935252_V1_S257.set
+OutputFolder: C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest
+DB Path: C:\Users\Philip\Documents\GitHub\EA_Automation\EA_Automation.db
+Summary Metrics: _summary_metrics.csv
+Config: C:\Users\Philip\Documents\UiPath\MT4 Backtesting Automation\Data\Config.xlsx
+Perf Criteria: C:\Users\Philip\Documents\UiPath\MT4 Backtesting Automation\Data\Config.xlsx
+{
+  "message": "BacktestReportPath: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P529_DD443_20220822-20250820_SL500_WR80.05_PF1.64_T426_M504935252_V1_S257-backtest_report.htm\r\nsetFileStepsID: 265\r\nType: MT4 Backtest Report\r\nEA: PX3.71\r\nCurrentFile: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\01_user_inputs\\PX3.71_EURJPY_M30_1500_P529_DD443_20220822-20250820_SL500_WR80.05_PF1.64_T426_M504935252_V1_S257.set\r\nOutputFolder: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\r\nDB Path: C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db\r\nSummary Metrics: _summary_metrics.csv\r\nConfig: C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx\r\nPerf Criteria: C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:31:51",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:32:07 => [Information] C:\Users\Philip\Documents\GitHub\EA_Automation\02_backtest\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt.set
+{
+  "message": "C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt.set",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:32:07",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:32:07 => [Information] {"rowcount": 1, "lastrowid": 266, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 266, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:32:07",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:32:07 => [Information] {"rowcount": 1, "lastrowid": 266, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 266, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:32:07",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:32:07 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "18:32:07",
+  "fileName": "MT4backtest",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/21/2025 18:32:12 => [Information] btSymbol: EURJPY, FoundSymbol: EURJPY, Euro vs Japanese Yen
+{
+  "message": "btSymbol: EURJPY, FoundSymbol: EURJPY, Euro vs Japanese Yen",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:32:12",
+  "fileName": "MT4backtest",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:32:18 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\eareview.net\\Tick Data Suite\\tick data manager.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "18:32:18",
+  "fileName": "InvokeTickData",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\eareview.net\\\\Tick Data Suite\\\\tick data manager.exe",
+  "auditMessage": true,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/21/2025 18:38:57 => [Information] Pass Number: 138, Optimization Pass ID: 15138
+{
+  "message": "Pass Number: 138, Optimization Pass ID: 15138",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:38:57",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:38:57 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "18:38:57",
+  "fileName": "SelectBestPass",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/21/2025 18:46:04 => [Information] Extract Best Pass Backtest Report to DB - ["C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-138-backtest_report.htm","266","Best Pass Backtest Report","PX3.71","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-138.set","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db","_summary_metrics.csv","","C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx"]
+{
+  "message": "Extract Best Pass Backtest Report to DB - [\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-138-backtest_report.htm\",\"266\",\"Best Pass Backtest Report\",\"PX3.71\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-138.set\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\EA_Automation.db\",\"_summary_metrics.csv\",\"\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\UiPath\\\\MT4 Backtesting Automation\\\\Data\\\\Config.xlsx\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:46:04",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:46:04 => [Information] {"result": "success"}
+{
+  "message": "{\"result\": \"success\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:46:04",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:46:04 => [Information] Create Best Pass Backtest Complete Steps - ["126",2,"Best Pass Backtest Completed","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-138.set","Best Pass set file C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-138.set at: 2025-08-21 18:46:04","V1.0","","Completed"]
+{
+  "message": "Create Best Pass Backtest Complete Steps - [\"126\",2,\"Best Pass Backtest Completed\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-138.set\",\"Best Pass set file C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-138.set at: 2025-08-21 18:46:04\",\"V1.0\",\"\",\"Completed\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:46:04",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:46:04 => [Information] {"rowcount": 1, "lastrowid": 267, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 267, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:46:04",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:46:04 => [Information] create Optimzation set_file_artifacts - ["267","Best Pass set_file","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-138.set",""]
+{
+  "message": "create Optimzation set_file_artifacts - [\"267\",\"Best Pass set_file\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-138.set\",\"\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:46:04",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:46:04 => [Information] {"rowcount": 1, "lastrowid": 267, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 267, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:46:04",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:46:04 => [Information] Pass Number: 154, Optimization Pass ID: 15139
+{
+  "message": "Pass Number: 154, Optimization Pass ID: 15139",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:46:04",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:46:04 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "18:46:04",
+  "fileName": "SelectBestPass",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/21/2025 18:53:22 => [Information] Extract Best Pass Backtest Report to DB - ["C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-154-backtest_report.htm","267","Best Pass Backtest Report","PX3.71","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-154.set","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db","_summary_metrics.csv","","C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx"]
+{
+  "message": "Extract Best Pass Backtest Report to DB - [\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-154-backtest_report.htm\",\"267\",\"Best Pass Backtest Report\",\"PX3.71\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-154.set\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\EA_Automation.db\",\"_summary_metrics.csv\",\"\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\UiPath\\\\MT4 Backtesting Automation\\\\Data\\\\Config.xlsx\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:53:22",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:53:23 => [Information] {"result": "success"}
+{
+  "message": "{\"result\": \"success\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:53:23",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:53:23 => [Information] Create Best Pass Backtest Complete Steps - ["126",2,"Best Pass Backtest Completed","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-154.set","Best Pass set file C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-154.set at: 2025-08-21 18:53:23","V1.0","","Completed"]
+{
+  "message": "Create Best Pass Backtest Complete Steps - [\"126\",2,\"Best Pass Backtest Completed\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-154.set\",\"Best Pass set file C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-154.set at: 2025-08-21 18:53:23\",\"V1.0\",\"\",\"Completed\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:53:23",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:53:23 => [Information] {"rowcount": 1, "lastrowid": 268, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 268, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:53:23",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:53:23 => [Information] create Optimzation set_file_artifacts - ["268","Best Pass set_file","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-154.set",""]
+{
+  "message": "create Optimzation set_file_artifacts - [\"268\",\"Best Pass set_file\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-154.set\",\"\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:53:23",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:53:23 => [Information] {"rowcount": 1, "lastrowid": 268, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 268, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:53:23",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:53:23 => [Information] Pass Number: 155, Optimization Pass ID: 15140
+{
+  "message": "Pass Number: 155, Optimization Pass ID: 15140",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "18:53:23",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 18:53:23 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "18:53:23",
+  "fileName": "SelectBestPass",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/21/2025 19:00:41 => [Information] Extract Best Pass Backtest Report to DB - ["C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-155-backtest_report.htm","268","Best Pass Backtest Report","PX3.71","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-155.set","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db","_summary_metrics.csv","","C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx"]
+{
+  "message": "Extract Best Pass Backtest Report to DB - [\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-155-backtest_report.htm\",\"268\",\"Best Pass Backtest Report\",\"PX3.71\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-155.set\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\EA_Automation.db\",\"_summary_metrics.csv\",\"\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\UiPath\\\\MT4 Backtesting Automation\\\\Data\\\\Config.xlsx\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:00:41",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:00:42 => [Information] {"result": "success"}
+{
+  "message": "{\"result\": \"success\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:00:42",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:00:42 => [Information] Create Best Pass Backtest Complete Steps - ["126",2,"Best Pass Backtest Completed","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-155.set","Best Pass set file C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-155.set at: 2025-08-21 19:00:42","V1.0","","Completed"]
+{
+  "message": "Create Best Pass Backtest Complete Steps - [\"126\",2,\"Best Pass Backtest Completed\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-155.set\",\"Best Pass set file C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-155.set at: 2025-08-21 19:00:42\",\"V1.0\",\"\",\"Completed\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:00:42",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:00:42 => [Information] {"rowcount": 1, "lastrowid": 269, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 269, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:00:42",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:00:42 => [Information] create Optimzation set_file_artifacts - ["269","Best Pass set_file","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-155.set",""]
+{
+  "message": "create Optimzation set_file_artifacts - [\"269\",\"Best Pass set_file\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-155.set\",\"\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:00:42",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:00:42 => [Information] {"rowcount": 1, "lastrowid": 269, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 269, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:00:42",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:00:42 => [Information] Pass Number: 156, Optimization Pass ID: 15142
+{
+  "message": "Pass Number: 156, Optimization Pass ID: 15142",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:00:42",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:00:42 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "19:00:42",
+  "fileName": "SelectBestPass",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/21/2025 19:08:02 => [Information] Extract Best Pass Backtest Report to DB - ["C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-156-backtest_report.htm","269","Best Pass Backtest Report","PX3.71","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-156.set","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db","_summary_metrics.csv","","C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx"]
+{
+  "message": "Extract Best Pass Backtest Report to DB - [\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-156-backtest_report.htm\",\"269\",\"Best Pass Backtest Report\",\"PX3.71\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-156.set\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\EA_Automation.db\",\"_summary_metrics.csv\",\"\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\UiPath\\\\MT4 Backtesting Automation\\\\Data\\\\Config.xlsx\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:08:02",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:08:02 => [Information] {"result": "success"}
+{
+  "message": "{\"result\": \"success\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:08:02",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:08:02 => [Information] Create Best Pass Backtest Complete Steps - ["126",2,"Best Pass Backtest Completed","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-156.set","Best Pass set file C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-156.set at: 2025-08-21 19:08:02","V1.0","","Completed"]
+{
+  "message": "Create Best Pass Backtest Complete Steps - [\"126\",2,\"Best Pass Backtest Completed\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-156.set\",\"Best Pass set file C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-156.set at: 2025-08-21 19:08:02\",\"V1.0\",\"\",\"Completed\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:08:02",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:08:02 => [Information] {"rowcount": 1, "lastrowid": 270, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 270, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:08:02",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:08:02 => [Information] create Optimzation set_file_artifacts - ["270","Best Pass set_file","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-156.set",""]
+{
+  "message": "create Optimzation set_file_artifacts - [\"270\",\"Best Pass set_file\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-156.set\",\"\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:08:02",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:08:02 => [Information] {"rowcount": 1, "lastrowid": 270, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 270, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:08:02",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:08:02 => [Information] Pass Number: 136, Optimization Pass ID: 15141
+{
+  "message": "Pass Number: 136, Optimization Pass ID: 15141",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:08:02",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:08:02 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "19:08:02",
+  "fileName": "SelectBestPass",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/21/2025 19:17:25 => [Information] Extract Best Pass Backtest Report to DB - ["C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-136-backtest_report.htm","270","Best Pass Backtest Report","PX3.71","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-136.set","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db","_summary_metrics.csv","","C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx"]
+{
+  "message": "Extract Best Pass Backtest Report to DB - [\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-136-backtest_report.htm\",\"270\",\"Best Pass Backtest Report\",\"PX3.71\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-136.set\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\EA_Automation.db\",\"_summary_metrics.csv\",\"\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\UiPath\\\\MT4 Backtesting Automation\\\\Data\\\\Config.xlsx\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:17:25",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:17:25 => [Information] {"result": "success"}
+{
+  "message": "{\"result\": \"success\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:17:25",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:17:25 => [Information] Create Best Pass Backtest Complete Steps - ["126",2,"Best Pass Backtest Completed","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-136.set","Best Pass set file C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-136.set at: 2025-08-21 19:17:25","V1.0","","Completed"]
+{
+  "message": "Create Best Pass Backtest Complete Steps - [\"126\",2,\"Best Pass Backtest Completed\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-136.set\",\"Best Pass set file C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-136.set at: 2025-08-21 19:17:25\",\"V1.0\",\"\",\"Completed\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:17:25",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:17:25 => [Information] {"rowcount": 1, "lastrowid": 271, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 271, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:17:25",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:17:25 => [Information] create Optimzation set_file_artifacts - ["271","Best Pass set_file","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-136.set",""]
+{
+  "message": "create Optimzation set_file_artifacts - [\"271\",\"Best Pass set_file\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-136.set\",\"\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:17:25",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:17:25 => [Information] {"rowcount": 1, "lastrowid": 271, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 271, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:17:25",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:17:25 => [Information] Pass Number: 137, Optimization Pass ID: 15143
+{
+  "message": "Pass Number: 137, Optimization Pass ID: 15143",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:17:25",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:17:25 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "19:17:25",
+  "fileName": "SelectBestPass",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/21/2025 19:27:20 => [Information] Extract Best Pass Backtest Report to DB - ["C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-137-backtest_report.htm","271","Best Pass Backtest Report","PX3.71","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-137.set","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db","_summary_metrics.csv","","C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx"]
+{
+  "message": "Extract Best Pass Backtest Report to DB - [\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-137-backtest_report.htm\",\"271\",\"Best Pass Backtest Report\",\"PX3.71\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-137.set\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\EA_Automation.db\",\"_summary_metrics.csv\",\"\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\UiPath\\\\MT4 Backtesting Automation\\\\Data\\\\Config.xlsx\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:27:20",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:27:21 => [Information] {"result": "success"}
+{
+  "message": "{\"result\": \"success\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:27:21",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:27:21 => [Information] Create Best Pass Backtest Complete Steps - ["126",2,"Best Pass Backtest Completed","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-137.set","Best Pass set file C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-137.set at: 2025-08-21 19:27:21","V1.0","","Completed"]
+{
+  "message": "Create Best Pass Backtest Complete Steps - [\"126\",2,\"Best Pass Backtest Completed\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-137.set\",\"Best Pass set file C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-137.set at: 2025-08-21 19:27:21\",\"V1.0\",\"\",\"Completed\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:27:21",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:27:21 => [Information] {"rowcount": 1, "lastrowid": 272, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 272, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:27:21",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:27:21 => [Information] create Optimzation set_file_artifacts - ["272","Best Pass set_file","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-137.set",""]
+{
+  "message": "create Optimzation set_file_artifacts - [\"272\",\"Best Pass set_file\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-137.set\",\"\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:27:21",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:27:21 => [Information] {"rowcount": 1, "lastrowid": 272, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 272, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:27:21",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:27:21 => [Information] Pass Number: 145, Optimization Pass ID: 15144
+{
+  "message": "Pass Number: 145, Optimization Pass ID: 15144",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:27:21",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:27:21 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "19:27:21",
+  "fileName": "SelectBestPass",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/21/2025 19:37:28 => [Information] Extract Best Pass Backtest Report to DB - ["C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-145-backtest_report.htm","272","Best Pass Backtest Report","PX3.71","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-145.set","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db","_summary_metrics.csv","","C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx"]
+{
+  "message": "Extract Best Pass Backtest Report to DB - [\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-145-backtest_report.htm\",\"272\",\"Best Pass Backtest Report\",\"PX3.71\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-145.set\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\EA_Automation.db\",\"_summary_metrics.csv\",\"\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\UiPath\\\\MT4 Backtesting Automation\\\\Data\\\\Config.xlsx\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:37:28",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:37:28 => [Information] {"result": "success"}
+{
+  "message": "{\"result\": \"success\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:37:28",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:37:28 => [Information] Create Best Pass Backtest Complete Steps - ["126",2,"Best Pass Backtest Completed","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-145.set","Best Pass set file C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-145.set at: 2025-08-21 19:37:28","V1.0","","Completed"]
+{
+  "message": "Create Best Pass Backtest Complete Steps - [\"126\",2,\"Best Pass Backtest Completed\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-145.set\",\"Best Pass set file C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-145.set at: 2025-08-21 19:37:28\",\"V1.0\",\"\",\"Completed\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:37:28",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:37:28 => [Information] {"rowcount": 1, "lastrowid": 273, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 273, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:37:28",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:37:28 => [Information] create Optimzation set_file_artifacts - ["273","Best Pass set_file","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-145.set",""]
+{
+  "message": "create Optimzation set_file_artifacts - [\"273\",\"Best Pass set_file\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-145.set\",\"\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:37:28",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:37:28 => [Information] {"rowcount": 1, "lastrowid": 273, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 273, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:37:28",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:37:28 => [Information] Pass Number: 147, Optimization Pass ID: 15145
+{
+  "message": "Pass Number: 147, Optimization Pass ID: 15145",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:37:28",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:37:28 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "19:37:28",
+  "fileName": "SelectBestPass",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/21/2025 19:47:37 => [Information] Extract Best Pass Backtest Report to DB - ["C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-147-backtest_report.htm","273","Best Pass Backtest Report","PX3.71","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-147.set","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db","_summary_metrics.csv","","C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx"]
+{
+  "message": "Extract Best Pass Backtest Report to DB - [\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-147-backtest_report.htm\",\"273\",\"Best Pass Backtest Report\",\"PX3.71\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-147.set\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\EA_Automation.db\",\"_summary_metrics.csv\",\"\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\UiPath\\\\MT4 Backtesting Automation\\\\Data\\\\Config.xlsx\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:47:37",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:47:38 => [Information] {"result": "success"}
+{
+  "message": "{\"result\": \"success\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:47:38",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:47:38 => [Information] Create Best Pass Backtest Complete Steps - ["126",2,"Best Pass Backtest Completed","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-147.set","Best Pass set file C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-147.set at: 2025-08-21 19:47:38","V1.0","","Completed"]
+{
+  "message": "Create Best Pass Backtest Complete Steps - [\"126\",2,\"Best Pass Backtest Completed\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-147.set\",\"Best Pass set file C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-147.set at: 2025-08-21 19:47:38\",\"V1.0\",\"\",\"Completed\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:47:38",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:47:38 => [Information] {"rowcount": 1, "lastrowid": 274, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 274, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:47:38",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:47:38 => [Information] create Optimzation set_file_artifacts - ["274","Best Pass set_file","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-147.set",""]
+{
+  "message": "create Optimzation set_file_artifacts - [\"274\",\"Best Pass set_file\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-147.set\",\"\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:47:38",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:47:38 => [Information] {"rowcount": 1, "lastrowid": 274, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 274, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:47:38",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:47:38 => [Information] Pass Number: 120, Optimization Pass ID: 15148
+{
+  "message": "Pass Number: 120, Optimization Pass ID: 15148",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:47:38",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:47:38 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "19:47:38",
+  "fileName": "SelectBestPass",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/21/2025 19:57:08 => [Information] Extract Best Pass Backtest Report to DB - ["C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-120-backtest_report.htm","274","Best Pass Backtest Report","PX3.71","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-120.set","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db","_summary_metrics.csv","","C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx"]
+{
+  "message": "Extract Best Pass Backtest Report to DB - [\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-120-backtest_report.htm\",\"274\",\"Best Pass Backtest Report\",\"PX3.71\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-120.set\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\EA_Automation.db\",\"_summary_metrics.csv\",\"\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\UiPath\\\\MT4 Backtesting Automation\\\\Data\\\\Config.xlsx\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:57:08",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:57:08 => [Information] {"result": "success"}
+{
+  "message": "{\"result\": \"success\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:57:08",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:57:08 => [Information] Create Best Pass Backtest Complete Steps - ["126",2,"Best Pass Backtest Completed","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-120.set","Best Pass set file C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-120.set at: 2025-08-21 19:57:08","V1.0","","Completed"]
+{
+  "message": "Create Best Pass Backtest Complete Steps - [\"126\",2,\"Best Pass Backtest Completed\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-120.set\",\"Best Pass set file C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-120.set at: 2025-08-21 19:57:08\",\"V1.0\",\"\",\"Completed\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:57:08",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:57:08 => [Information] {"rowcount": 1, "lastrowid": 275, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 275, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:57:08",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:57:08 => [Information] create Optimzation set_file_artifacts - ["275","Best Pass set_file","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-120.set",""]
+{
+  "message": "create Optimzation set_file_artifacts - [\"275\",\"Best Pass set_file\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-120.set\",\"\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:57:08",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:57:08 => [Information] {"rowcount": 1, "lastrowid": 275, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 275, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:57:08",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:57:08 => [Information] Pass Number: 110, Optimization Pass ID: 15147
+{
+  "message": "Pass Number: 110, Optimization Pass ID: 15147",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "19:57:08",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 19:57:08 => [Trace] Audit: Using Desktop App. App: C:\\Program Files (x86)\\Vantage International MT4\\terminal.exe Arguments:
+{
+  "message": "Audit: Using Desktop App. App: C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe Arguments: ",
+  "level": "Trace",
+  "logType": "Default",
+  "timeStamp": "19:57:08",
+  "fileName": "SelectBestPass",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "applicationExe": "C:\\\\Program Files (x86)\\\\Vantage International MT4\\\\terminal.exe",
+  "auditMessage": true,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92",
+  "activityType": "Use Application",
+  "applicationArguments": ""
+}
+08/21/2025 20:06:23 => [Information] Extract Best Pass Backtest Report to DB - ["C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-110-backtest_report.htm","275","Best Pass Backtest Report","PX3.71","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-110.set","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\EA_Automation.db","_summary_metrics.csv","","C:\\Users\\Philip\\Documents\\UiPath\\MT4 Backtesting Automation\\Data\\Config.xlsx"]
+{
+  "message": "Extract Best Pass Backtest Report to DB - [\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-110-backtest_report.htm\",\"275\",\"Best Pass Backtest Report\",\"PX3.71\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-110.set\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\EA_Automation.db\",\"_summary_metrics.csv\",\"\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\UiPath\\\\MT4 Backtesting Automation\\\\Data\\\\Config.xlsx\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "20:06:23",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 20:06:23 => [Information] {"result": "success"}
+{
+  "message": "{\"result\": \"success\"}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "20:06:23",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 20:06:23 => [Information] Create Best Pass Backtest Complete Steps - ["126",2,"Best Pass Backtest Completed","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-110.set","Best Pass set file C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-110.set at: 2025-08-21 20:06:23","V1.0","","Completed"]
+{
+  "message": "Create Best Pass Backtest Complete Steps - [\"126\",2,\"Best Pass Backtest Completed\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-110.set\",\"Best Pass set file C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-110.set at: 2025-08-21 20:06:23\",\"V1.0\",\"\",\"Completed\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "20:06:23",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 20:06:23 => [Information] {"rowcount": 1, "lastrowid": 276, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 276, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "20:06:23",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 20:06:23 => [Information] create Optimzation set_file_artifacts - ["276","Best Pass set_file","C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-110.set",""]
+{
+  "message": "create Optimzation set_file_artifacts - [\"276\",\"Best Pass set_file\",\"C:\\\\Users\\\\Philip\\\\Documents\\\\GitHub\\\\EA_Automation\\\\02_backtest\\\\PX3.71_EURJPY_M30_1500_P535_DD441_20220822-20250821_SL500_WR80.37_PF1.65_T428_M953855629_V1_S265-AI-Suggest-Opt-110.set\",\"\"]",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "20:06:23",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 20:06:23 => [Information] {"rowcount": 1, "lastrowid": 276, "success": true}
+{
+  "message": "{\"rowcount\": 1, \"lastrowid\": 276, \"success\": true}",
+  "level": "Information",
+  "logType": "User",
+  "timeStamp": "20:06:23",
+  "fileName": "MainSequence2",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}
+08/21/2025 20:06:25 => [Information] MT4 Backtesting Automation execution ended in: 01:41:27
+{
+  "message": "MT4 Backtesting Automation execution ended",
+  "level": "Information",
+  "logType": "Default",
+  "timeStamp": "20:06:25",
+  "fileName": "MainSequence2",
+  "totalExecutionTimeInSeconds": 6087,
+  "totalExecutionTime": "01:41:27",
+  "jobId": "1cbed842-d7f4-4120-ada4-46d80dfc7108",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "378fbadfb92b47a8b46822481dc5d85f-6a9fed6a8ba24f58a33fa653dfff2e92"
+}

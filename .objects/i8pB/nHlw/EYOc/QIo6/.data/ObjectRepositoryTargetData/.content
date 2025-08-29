@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N_xIfEjKw0mWQrjFnQpS5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="71d2bdeb-fa72-4689-8d91-2591086a16a2" CvElementArea="228, 184, 196, 25" CvType="InputBox" DesignTimeRectangle="229, 185, 193, 23" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;wnd cls='#32770' title='Testing' /&gt;&lt;wnd ctrlid='1240' /&gt;" FuzzySelectorArgument="&lt;wnd cls='#32770' title='Testing' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlid='1240' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="708fc14b-ad2a-49e7-af52-49d906622235" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32770' title='Ace Phoenix Std v3.71' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="71d2bdeb-fa72-4689-8d91-2591086a16a2" CvTextArea="95, 190, 127, 15" CvTextArgument="Optimized parameter:" CvType="Text" DesignTimeRectangle="37, 189, 184, 19" ElementType="Text" FullSelectorArgument="&lt;wnd cls='#32770' title='Testing' /&gt;&lt;wnd cls='Static' title='Optimized parameter:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='#32770' title='Testing' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Static' title='Optimized parameter:' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Optimized parameter:' /&gt;" Guid="94cc05e0-e194-4f02-967a-f47791c4aa3e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="aaf20b911ca5a3a9f23dece353fca98f.png" xmlns="">0C7jdRTGMl0aMAx-aGRYrRQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,188 @@
+08/18/2025 00:27:57 => [Warning] Target was found using fallback method 'Computer Vision'.
+{
+  "message": "Target was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "00:27:57",
+  "fileName": "MT4backtest",
+  "jobId": "416ea66f-909e-46c6-ae41-9635f9106033",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "21c3b275afe94aaf9943294c23ad6f53-8a547e46159c4ecba86f9c676b892027"
+}
+08/18/2025 00:28:31 => [Warning] Anchor 1 '' was found using fallback method 'Computer Vision'.
+{
+  "message": "Anchor 1 '' was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "00:28:31",
+  "fileName": "MT4backtest",
+  "jobId": "416ea66f-909e-46c6-ae41-9635f9106033",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "21c3b275afe94aaf9943294c23ad6f53-8a547e46159c4ecba86f9c676b892027"
+}
+08/18/2025 00:29:26 => [Warning] Target was found using fallback method 'Computer Vision'.
+{
+  "message": "Target was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "00:29:26",
+  "fileName": "MT4backtest",
+  "jobId": "416ea66f-909e-46c6-ae41-9635f9106033",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "21c3b275afe94aaf9943294c23ad6f53-8a547e46159c4ecba86f9c676b892027"
+}
+08/18/2025 00:29:26 => [Warning] A selector based target was recovered based on the method 'Computer Vision'
+{
+  "message": "A selector based target was recovered based on the method 'Computer Vision'",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "00:29:26",
+  "fileName": "MT4backtest",
+  "jobId": "416ea66f-909e-46c6-ae41-9635f9106033",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "21c3b275afe94aaf9943294c23ad6f53-8a547e46159c4ecba86f9c676b892027"
+}
+08/18/2025 00:36:10 => [Warning] Target was found using fallback method 'Computer Vision'.
+{
+  "message": "Target was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "00:36:10",
+  "fileName": "MT4backtest",
+  "jobId": "416ea66f-909e-46c6-ae41-9635f9106033",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "21c3b275afe94aaf9943294c23ad6f53-8a547e46159c4ecba86f9c676b892027"
+}
+08/18/2025 00:36:44 => [Warning] Anchor 1 '' was found using fallback method 'Computer Vision'.
+{
+  "message": "Anchor 1 '' was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "00:36:44",
+  "fileName": "MT4backtest",
+  "jobId": "416ea66f-909e-46c6-ae41-9635f9106033",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "21c3b275afe94aaf9943294c23ad6f53-8a547e46159c4ecba86f9c676b892027"
+}
+08/18/2025 00:37:35 => [Warning] Target was found using fallback method 'Computer Vision'.
+{
+  "message": "Target was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "00:37:35",
+  "fileName": "MT4backtest",
+  "jobId": "416ea66f-909e-46c6-ae41-9635f9106033",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "21c3b275afe94aaf9943294c23ad6f53-8a547e46159c4ecba86f9c676b892027"
+}
+08/18/2025 00:37:35 => [Warning] A selector based target was recovered based on the method 'Computer Vision'
+{
+  "message": "A selector based target was recovered based on the method 'Computer Vision'",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "00:37:35",
+  "fileName": "MT4backtest",
+  "jobId": "416ea66f-909e-46c6-ae41-9635f9106033",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "21c3b275afe94aaf9943294c23ad6f53-8a547e46159c4ecba86f9c676b892027"
+}
+08/18/2025 00:48:20 => [Warning] Anchor 1 '' was found using fallback method 'Computer Vision'.
+{
+  "message": "Anchor 1 '' was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "00:48:20",
+  "fileName": "SelectBestPass",
+  "jobId": "416ea66f-909e-46c6-ae41-9635f9106033",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "21c3b275afe94aaf9943294c23ad6f53-8a547e46159c4ecba86f9c676b892027"
+}
+08/18/2025 00:53:36 => [Warning] Target was found using fallback method 'Computer Vision'.
+{
+  "message": "Target was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "00:53:36",
+  "fileName": "MT4backtest",
+  "jobId": "416ea66f-909e-46c6-ae41-9635f9106033",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "21c3b275afe94aaf9943294c23ad6f53-8a547e46159c4ecba86f9c676b892027"
+}
+08/18/2025 00:54:10 => [Warning] Anchor 1 '' was found using fallback method 'Computer Vision'.
+{
+  "message": "Anchor 1 '' was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "00:54:10",
+  "fileName": "MT4backtest",
+  "jobId": "416ea66f-909e-46c6-ae41-9635f9106033",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "21c3b275afe94aaf9943294c23ad6f53-8a547e46159c4ecba86f9c676b892027"
+}
+08/18/2025 10:13:36 => [Warning] Anchor 1 '' was found using fallback method 'Computer Vision'.
+{
+  "message": "Anchor 1 '' was found using fallback method 'Computer Vision'.",
+  "level": "Warning",
+  "logType": "Default",
+  "timeStamp": "10:13:36",
+  "fileName": "MT4backtest",
+  "jobId": "416ea66f-909e-46c6-ae41-9635f9106033",
+  "robotName": "philiplau114@gmail.com-attended",
+  "machineId": 5234691,
+  "userKey": "eea6d066-4b2b-4e34-b53b-2c5cb6ab4610",
+  "processVersion": "1.0.0",
+  "organizationUnitId": 6964879,
+  "businessOperationId": "21c3b275afe94aaf9943294c23ad6f53-8a547e46159c4ecba86f9c676b892027"
+}
+08/18/2025 10:14:15 => [Error] Get Text 'Status: downloading': Could not find the user-interface (UI) element for this action.
+
+Possible solutions:
+ •  Ensure application is opened and the UI element is visible on the screen at execution time
+ •  Edit the Target of the UI activity and use Validation to debug the issue.
+ •  If needed, re-indicate the element as its properties might have changed
+ •  Use "Check state" activity to check the application state before executing the action
+ •  Increase the "Delay before" value to allow time to the application to render entirely and become responsive

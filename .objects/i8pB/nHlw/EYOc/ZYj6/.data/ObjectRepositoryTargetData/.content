@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tO1_0OZd7UiGTTT9A5fxWQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="70f501f0-c744-4f97-a8cf-216757265e63" CvTextArea="7, 241, 167, 13" CvTextArgument="M Strategy Tester Ctrl+R" CvType="Text" DesignTimeRectangle="3, 237, 182, 23" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='View' role='popup menu' /&gt;&lt;ctrl automationid='33315' /&gt;" FuzzySelectorArgument="&lt;ctrl name='View' role='popup menu' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='33315' role='menu item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Strategy Tester&amp;#x9;Ctrl+R' /&gt;" Guid="b4e3856d-9c52-4bb1-b1ac-35a4d68a7914" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="1196097e35ba94ddd81975514c138fb5.png" xmlns="">03al5AAxOEUGpdier0FLiRg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

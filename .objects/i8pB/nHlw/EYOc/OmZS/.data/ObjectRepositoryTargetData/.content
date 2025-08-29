@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="F5JKvXx8cU6wW4Mh4aO0dQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2deafefb-9a9f-4958-9d93-9b1b720525ee" CvElementArea="1763, 784, 153, 25" CvTextArea="1799, 789, 82, 14" CvTextArgument="Expert properties" CvType="Button" DesignTimeRectangle="1765, 785, 150, 23" ElementType="Button" FullSelectorArgument="&lt;wnd cls='Button' title='Expert properties' /&gt;" Guid="60da3881-f6c7-430e-b11e-3c941a80fea7" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1f1c93e244d18e12805e6150457b4d7b.png" xmlns="">0uOw_QYirAEOQKP2SYThYmQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yNd2VpDo5UmX-BnQf4eESw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="210, 574, 258, 24" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' /&gt;&lt;wnd aaname='標題控制項' cls='SysHeader32' /&gt;&lt;ctrl automationid='Header' /&gt;&lt;ctrl automationid='HeaderItem 1' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='標題控制項' cls='SysHeader32' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl automationid='Header' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl automationid='HeaderItem 1' role='column header' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Time' /&gt;" Guid="652bb420-3221-49b6-b0e2-62eb48d58051" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="b74eb782b01488e4041da6f04af75363.png" xmlns="">0TOSBDXRCuk64oZ14m98mDg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

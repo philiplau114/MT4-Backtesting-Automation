@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Login to Trade Account",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "Gt_l1utDWUiIzv8wam6smQ",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/Gt_l1utDWUiIzv8wam6smQ",
+  "ParentRef": "EoK9QnnZwUOAEw3B5dGgtA/EYOcM0uOCU2G8d1ODrJiow",
+  "Created": "2025-08-25T14:34:06.9837438Z",
+  "Updated": "2025-08-25T14:34:06.9837438Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

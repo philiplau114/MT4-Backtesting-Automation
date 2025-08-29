@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="q4XxNzG0c0Kb9SZcY4YrjA" Reference="EoK9QnnZwUOAEw3B5dGgtA/6WQUTMzlFkiiClj1aGijCQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a3417468-f238-409d-814a-699725419089" DesignTimeRectangle="46, 1551, 4021, 39" ElementType="ListItem" FuzzySelectorArgument="&lt;wnd cls='SysListView32' /&gt;&lt;ctrl role='list item' /&gt;" Guid="f4b99312-e36e-42a8-8699-34479d3a55a5" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0728391d-a011-459b-a825-f8137830aedc" CvTextArea="29, 782, 42, 12" CvTextArgument="Pass" CvType="Text" DesignTimeRectangle="46, 1513, 273, 38" FuzzySelectorArgument="&lt;wnd aaname='標題控制項' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' cls='SysHeader32' /&gt;&lt;ctrl automationid='Header' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl automationid='HeaderItem 0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' role='column header' check:text='Pass' /&gt;" Guid="85c9a2c4-f524-4d44-88f6-867e0b9dc433" ImageBase64="" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="9d6a0fce77f363d0b2dc76e1fd062381.png" xmlns="">0M8SOVDvdx0ODb5IJpyxaRQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5IKduNDZs0SFWeSlnQMgsw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="4014b5ca-5ac1-421b-b32c-3df4001ca456" CvTextArea="45, 804, 1855, 14" CvTextArgument="56 930.51 747 1.58 1.25 542.83 36.14 Trailing_Start1=15; DrawDown_SL_Money=375; Lot_Multiplier=1.8; Full_Speed=1; EnterMode=1; TradeMode=2; TradeType=0; Maximum_Spread=5; Magic=115604536; RSI_Filter=1; RSI_Timeframe=0;..." CvType="Text" DesignTimeRectangle="24, 801, 1883, 20" DesignTimeScaleFactor="1" ElementType="ListItem" FullSelectorArgument="&lt;wnd cls='SysListView32' idx='12' /&gt;&lt;ctrl name='56' role='list item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='SysListView32' /&gt;&lt;ctrl name='56' role='list item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='56' /&gt;" Guid="5e7d0260-5e54-4163-9e62-b1f6226ea3eb" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="909460aea4655ff372fdb698afaebe68.png" xmlns="">02div9WXAt0WGz6_Fr1ro3A</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

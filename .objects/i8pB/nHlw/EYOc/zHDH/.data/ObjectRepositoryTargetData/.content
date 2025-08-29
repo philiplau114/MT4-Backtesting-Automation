@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pZnZuq2k3Um5-u_P71A9aQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="d7a855ac-2d31-4e6a-86db-2230e2980722" CvTextArea="31, 797, 1872, 12" CvTextArgument="Bars in test 118447 Ticks modelled 41330108 Modelling quality 99.90%" CvType="Text" DesignTimeRectangle="24, 794, 1883, 20" DesignTimeScaleFactor="1" ElementType="ListItem" FullSelectorArgument="&lt;wnd cls='SysListView32' idx='14' /&gt;&lt;ctrl name='Bars in test' role='list item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='SysListView32' /&gt;&lt;ctrl name='Bars in test' role='list item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Bars in test' /&gt;" Guid="a0bfc1bc-09a2-40c0-bcc6-1f1057007628" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="ce237f145942b25852fd66c3c8568d58.png" xmlns="">0Vji4nFxbIketXMeBkl2S0Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

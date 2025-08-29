@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Button '關閉'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "gsymL5Bt9EWVQDabWPEoSA",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/gsymL5Bt9EWVQDabWPEoSA",
+  "ParentRef": "EoK9QnnZwUOAEw3B5dGgtA/IaStN1LZb0edWgZwlVM_ag",
+  "Created": "2025-08-01T09:26:56.0662125Z",
+  "Updated": "2025-08-01T09:26:56.0662125Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

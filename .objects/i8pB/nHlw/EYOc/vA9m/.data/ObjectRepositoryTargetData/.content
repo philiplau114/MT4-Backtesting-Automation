@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UdriNBzg3EGUwm2QF-3ojw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1470, 786, 15, 18" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' /&gt;&lt;wnd cls='ComboBox' /&gt;&lt;ctrl automationid='DropDown' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='ComboBox' /&gt;&lt;ctrl automationid='DropDown' role='push button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='開啟' /&gt;" Guid="268d2ddb-e4a8-4124-a8c0-e78afa6e2265" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="a7f615c388cf64fcc014df026a166f9c.png" xmlns="">0H6GS3sxnYUWF8fKS5QMmMw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

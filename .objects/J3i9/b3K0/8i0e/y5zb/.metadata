@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Status: downloading",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "y5zb74hi_U-6a_TZyIUBRA",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/y5zb74hi_U-6a_TZyIUBRA",
+  "ParentRef": "EoK9QnnZwUOAEw3B5dGgtA/8i0eyUJUS0ieuKCOTDip0Q",
+  "Created": "2025-08-15T05:18:11.0739722Z",
+  "Updated": "2025-08-15T05:18:11.0739722Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

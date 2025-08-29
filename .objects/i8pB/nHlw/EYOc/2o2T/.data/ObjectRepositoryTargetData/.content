@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nH8sCciZFkO_DCw9IRlv-g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2f784187-b189-42ac-bb47-c34cb2c6c03f" CvTextArea="120, 139, 53, 15" CvTextArgument="1/8/2025" CvType="Text" DesignTimeRectangle="54, 138, 108, 17" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd aaname='行事曆控制項' cls='SysMonthCal32' /&gt;&lt;ctrl name='今日按鈕' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='行事曆控制項' cls='SysMonthCal32' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='今日按鈕' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='今日按鈕' /&gt;" Guid="3e113675-f9ab-4bec-b013-e85f3c17d071" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='DropDown' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="2cb38361e2e822e99ec8fe05bf5928df.png" xmlns="">02Q4d74FkNU6g5y8ie8hLCA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

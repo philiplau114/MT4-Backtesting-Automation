@@ -1,0 +1,14 @@
+﻿{
+  "Name": "892422018: VantageInter…",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "g-NQcpoV6k2X5eSvXHjorg",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/g-NQcpoV6k2X5eSvXHjorg",
+  "ParentRef": "EoK9QnnZwUOAEw3B5dGgtA/EYOcM0uOCU2G8d1ODrJiow",
+  "Created": "2025-08-01T02:13:47.742805Z",
+  "Updated": "2025-08-01T02:13:47.742805Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

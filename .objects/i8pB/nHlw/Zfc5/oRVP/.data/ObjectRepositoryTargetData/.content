@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Y0OeZMK1vEK_f7g5yoZIDA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b064fb12-3808-460d-9680-ce7ff0ad01f9" CvTextArea="34, 86, 86, 15" CvTextArgument="Save as Report" CvType="Text" DesignTimeRectangle="3, 81, 223, 23" FullSelectorArgument="&lt;ctrl name='路徑位置' role='popup menu' /&gt;&lt;ctrl automationid='35499' /&gt;" Guid="8f94ef7f-856f-490d-a310-b0465c3a601f" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="148410e8fd3d056564388e84f8ca783f.png" xmlns="">0O9b1O16lBku0Tuo-Ch8YQA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

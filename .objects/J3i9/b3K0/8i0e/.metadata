@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Tick Data Manager",
+  "Type": "Screen",
+  "Id": "8i0eyUJUS0ieuKCOTDip0Q",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/8i0eyUJUS0ieuKCOTDip0Q",
+  "ParentRef": "EoK9QnnZwUOAEw3B5dGgtA/b3K0qZmOHkmGrpNwz7ZjYQ",
+  "Created": "2025-08-15T05:17:44.5910373Z",
+  "Updated": "2025-08-15T05:17:44.5910373Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "MT4",
+  "Type": "App",
+  "Id": "i8pBBYoIsUenrBpkbrE4uw",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/i8pBBYoIsUenrBpkbrE4uw",
+  "Created": "2025-08-01T01:41:35.1003518Z",
+  "Updated": "2025-08-25T14:30:54.0168299Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

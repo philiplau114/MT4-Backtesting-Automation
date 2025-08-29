@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="x5XnPrdByECQ3_NHG2Sj3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f58446b3-15bc-4075-97f9-8ca53fb73366" CvElementArea="154, 801, 1350, 23" CvType="InputBox" DesignTimeRectangle="161, 806, 1323, 14" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='Ace Bubo v1.2.ex4' cls='Edit' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='Ace Bubo v1.2.ex4' /&gt;" Guid="e312c293-fb4c-44a7-a42d-f84844540b69" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f58446b3-15bc-4075-97f9-8ca53fb73366" CvElementArea="30, 802, 121, 22" CvType="InputBox" DesignTimeRectangle="31, 803, 120, 20" ElementType="DropDown" FullSelectorArgument="&lt;wnd cls='ComboBox' idx='2' /&gt;" Guid="ee1aa9ef-9d6e-4cc2-a530-ead591985cb9" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f7bbb3a01ddf5b7bde2c73a019d878f.png" xmlns="">0Qyua8GWlrUKVJo7hl145cw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

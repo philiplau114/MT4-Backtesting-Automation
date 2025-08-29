@@ -1,0 +1,16 @@
+﻿{
+  "Name": "MT4",
+  "Type": "Screen",
+  "Id": "EYOcM0uOCU2G8d1ODrJiow",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/EYOcM0uOCU2G8d1ODrJiow",
+  "ParentRef": "EoK9QnnZwUOAEw3B5dGgtA/nHlwUdT9r0eWQcOu3WVAeA",
+  "Created": "2025-08-01T01:41:35.1223808Z",
+  "Updated": "2025-08-25T14:31:20.8648683Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NY8TM1os5UmNToUjRLH-QA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="aaab9750-32c4-4b1f-895f-fad598d6001c" CvElementArea="1880, 9, 47, 22" CvType="CloseButton" DesignTimeRectangle="1880, 8, 48, 22" ElementType="Button" FullSelectorArgument="&lt;ctrl name='關閉' role='push button' /&gt;" Guid="ce364a63-acb7-4b9e-a88a-5011bdcf421e" ScopeSelectorArgument="&lt;wnd app='tick data manager.exe' cls='HwndWrapper*' title='數據管理器' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="555c1e0e60fb7692605c86c8f791c4f6.png" xmlns="">0lriCPogVKEKq7eBF3QyF-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lAdTglX2NEyeG3FPIeFvkw" Reference="EoK9QnnZwUOAEw3B5dGgtA/xmGuI6preUqL40j6pXLppA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ff26dd02-82c9-41af-b7f2-891b6ecca091" CvElementArea="156, 831, 1349, 22" CvType="InputBox" DesignTimeRectangle="314, 1666, 2949, 32" ElementType="DropDown" FuzzySelectorArgument="&lt;wnd aaname='Symbol:' cls='ComboBox' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="6c631def-b3e9-4f37-888d-0eec2bc5e5d3" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ff26dd02-82c9-41af-b7f2-891b6ecca091" CvTextArea="110, 835, 41, 14" CvTextArgument="Symbol:" CvType="Text" DesignTimeRectangle="60, 1674, 240, 32" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='Static' title='Symbol:' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Symbol:' /&gt;" Guid="9f15eb0f-6539-4534-8440-14c2617037fa" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="d97d20e0ba7a7bd092a35a86caac30fd.png" xmlns="">0wAWsHkv9V0aNzOnh3rsRGA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

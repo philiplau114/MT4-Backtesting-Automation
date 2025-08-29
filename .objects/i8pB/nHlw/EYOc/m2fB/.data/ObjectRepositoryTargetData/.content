@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mPOjfv82E0yWsyqqngOUaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="5881d202-7c4e-4d97-a7ae-c5a787c1a5b7" CvTextArea="285, 893, 56, 12" CvTextArgument="2024.01.15" CvType="Text" DesignTimeRectangle="285, 890, 120, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname='From:' cls='SysDateTimePick32' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='From:' cls='SysDateTimePick32' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="cd6eb6d8-72c9-47f0-a60e-bc2ad1e2836b" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5881d202-7c4e-4d97-a7ae-c5a787c1a5b7" CvTextArea="248, 893, 29, 12" CvTextArgument="From:" CvType="Text" DesignTimeRectangle="158, 894, 120, 16" ElementType="Text" FullSelectorArgument="&lt;wnd cls='Static' title='From:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Static' title='From:' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='From:' /&gt;" Guid="1b0254a4-6b26-4021-ad42-684290cdf20f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="3eff3006cd13c92bd90835b11a26df2a.png" xmlns="">0b3SMhETqW0uYArHVTI_lHg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

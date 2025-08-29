@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2BjRdRE0kUS4Ch4qTHRcZA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="36c81166-a7ca-4743-af42-c28a8f143dd5" CvElementArea="470, 390, 74, 21" CvTextArea="497, 394, 20, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="471, 391, 72, 19" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='BtnOk' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='BtnOk' role='push button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='OK' /&gt;" Guid="8234233b-ee8c-4779-8876-0d81833e0c23" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='HwndWrapper*' title='Tick data settings' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="36c81166-a7ca-4743-af42-c28a8f143dd5" CvElementArea="470, 390, 74, 21" CvTextArea="497, 394, 20, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="498, 393, 18, 15" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='BtnOk' /&gt;&lt;ctrl name='OK' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='BtnOk' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl name='OK' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='OK' /&gt;" Guid="965b9ada-f6c7-4124-98bf-f891402e18e7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="763abde19ab9085e81c9e0fe2262b907.png" xmlns="">0OlpGWsBzE0yuBW1RuruaCw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

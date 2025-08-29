@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'Ace Phoenix Std v3.71.e…'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "PggzC5DxE0K_3rONqiNBfA",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/PggzC5DxE0K_3rONqiNBfA",
+  "ParentRef": "EoK9QnnZwUOAEw3B5dGgtA/EYOcM0uOCU2G8d1ODrJiow",
+  "Created": "2025-08-01T02:03:39.9297117Z",
+  "Updated": "2025-08-01T02:03:39.9297117Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

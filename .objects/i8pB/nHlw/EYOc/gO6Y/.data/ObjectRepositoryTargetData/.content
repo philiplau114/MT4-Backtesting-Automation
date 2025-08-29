@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mTgCofw7hU2k33k-pbjn7g" Reference="EoK9QnnZwUOAEw3B5dGgtA/gO6Y1OIA7Uay-SpybS1yig" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="39b023bd-e199-41c1-a24e-18ae9c53465a" CvElementArea="25, 989, 66, 23" CvTextArea="35, 994, 280, 15" CvTextArgument="Settings Results Graph Report Journal" CvType="Button" DesignTimeRectangle="35, 990, 280, 22" FullSelectorArgument="&lt;wnd cls='AfxWnd140s' idx='9' /&gt;" Guid="5f77b5f8-d699-4aa4-b769-53ac8c843766" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="39b023bd-e199-41c1-a24e-18ae9c53465a" CvElementArea="25, 989, 66, 23" CvTextArea="35, 994, 280, 15" CvTextArgument="Settings Results Graph Report Journal" CvType="Button" DesignTimeRectangle="24, 991, 1900, 21" FullSelectorArgument="&lt;wnd cls='AfxWnd140s' idx='9' /&gt;" Guid="3828cd7b-ddb8-4440-9f4d-322649c3679d" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="29ca3bf076c9edbf2675bee0bf519142.png" xmlns="">0KFjkx3YcEUi4PneOo11xpw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

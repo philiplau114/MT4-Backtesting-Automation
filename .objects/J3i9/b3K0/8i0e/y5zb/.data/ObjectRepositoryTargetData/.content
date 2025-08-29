@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9NunIPPyTEerab2Ty0pYQg" Reference="EoK9QnnZwUOAEw3B5dGgtA/y5zb74hi_U-6a_TZyIUBRA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="3546086a-635b-4798-bb31-48898a27d473" CvType="AnyWordGroup" DesignTimeRectangle="3750, 2040, 123, 30" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='TxtStatus' /&gt;" Guid="67e7a8c5-cd00-4481-aaa4-9e478f897548" ScopeSelectorArgument="&lt;wnd app='tick data manager.exe' cls='HwndWrapper*' title='Tick Data Manager' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="3883, 2037, 2, 36" FullSelectorArgument="&lt;ctrl idx='2' role='separator' /&gt;" Guid="466d0201-9521-40c1-ad72-6cf924847da7" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="1b8a0f2f5dde10303872e79aee9bae8f.png" xmlns="">0acALLkODJk2xX4mSGEf-xQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

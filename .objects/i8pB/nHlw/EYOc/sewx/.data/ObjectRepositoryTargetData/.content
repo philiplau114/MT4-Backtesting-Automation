@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="S5jE4452e06ub8Oj5GocrA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="56219b46-54f6-4e2c-9640-20ae87174aa0" CvElementArea="824, 113, 19, 18" CvType="Icon" DesignTimeRectangle="825, 114, 17, 16" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='QuickDownloadButton' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='QuickDownloadButton' role='push button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="3c1efb71-f89e-4ed5-8ea9-895cba34acd9" ScopeSelectorArgument="&lt;wnd app='tick data manager.exe' cls='HwndWrapper*' title='數據管理器' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="2df8a0da495d36b7dd4662825abd0f9e.png" xmlns="">0-q0NstGB5EuZIhN-ICGcLA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

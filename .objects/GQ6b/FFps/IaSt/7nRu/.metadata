@@ -1,0 +1,13 @@
+﻿{
+  "Name": "數據管理器",
+  "Type": "Element",
+  "Id": "7nRuoyfmyk26fDMOIcujWg",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/7nRuoyfmyk26fDMOIcujWg",
+  "ParentRef": "EoK9QnnZwUOAEw3B5dGgtA/IaStN1LZb0edWgZwlVM_ag",
+  "Created": "2025-08-01T05:46:18.2262948Z",
+  "Updated": "2025-08-01T05:46:18.2262948Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

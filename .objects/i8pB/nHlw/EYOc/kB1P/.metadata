@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Navigator",
+  "Type": "Element",
+  "Id": "kB1PgRstqk68u8jzZALSIA",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/kB1PgRstqk68u8jzZALSIA",
+  "ParentRef": "EoK9QnnZwUOAEw3B5dGgtA/EYOcM0uOCU2G8d1ODrJiow",
+  "Created": "2025-08-08T15:17:59.1789749Z",
+  "Updated": "2025-08-08T15:17:59.1789749Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,461 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TickData" this:TickData.td_symbol="USDHUF" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="td_symbol" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>System.Windows</x:String>
+      <x:String>System.Windows.Media.Animation</x:String>
+      <x:String>System.Windows.Media</x:String>
+      <x:String>System.Windows.Threading</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Windows.Presentation</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TickData" sap:VirtualizedContainerService.HintSize="1019,3857" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="scg:IEnumerable(ui:UiElement)" Name="DukascopyImg" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="686,3834" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="數據管理器" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="652,3751" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="a0953e7c-4d56-48f4-8a35-fefae8ad94c6" Version="V2" WindowResize="Maximize">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="618,3459" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NCheckState DisplayName="Check App State '數據管理器'" EnableIfNotExists="False" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="584,3397" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="a0953e7c-4d56-48f4-8a35-fefae8ad94c6" Timeout="30" Version="V5">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="540,3153" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'editable text TxtFilter'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="506,190" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a0953e7c-4d56-48f4-8a35-fefae8ad94c6" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="14bfdd26-6106-4257-8332-ce5ef91e18cc" ContentHash="7n7D3HfJlE2dIb9ClDPfdQ" CvElementArea="1717, 35, 133, 28" CvType="InputBox" DesignTimeRectangle="1718, 36, 130, 25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='TxtFilter' /&gt;" Guid="48bc43d7-e800-45f5-b11c-0921b1e18ec1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIYAAAAdCAYAAABv2BQRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEySURBVGhD7dkhi4VQEIbh+3ctChaDFi36C8QgCDZZTItgsFgFozaTQRCzBsMsJ9zL7nh2WdRydr8Hpoxz2tt8EIDEgy8AhFcYb/k7BiMPA/43hAFSCAOkEAZInQojz3NK0/RXU5Ylfw4KOBVG27bkui5pmvbjBEFAXdfx56CAU2EITdOQYRiHGJ7jeR4Nw8CfgSJOhyFkWXYI4jlVVfFzUMilMMZxJN/3D1HEcUzbtvFzUMilMIS6rr9EYds29X3Pz0Axl8PY952SJHmFURQFPwEFXQ5DWJaFdF0ny7JoXVf+GRR0SxiCaZoURRFfg6IQBkghDJBCGCB1WxiO41AYhnwNirotDPFfZJ5nvgZF3RbGNE18BQq7LQz4WxAGSCEMkEIYIPVtGBjMIQyAzxAGSH0AJJn4T5n3DzYAAAAASUVORK5CYII=" InformativeScreenshot="fe488b28be0567976c670cc640882864.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/rUHvtIPZ40SbTyMpP8UDnQ" ScopeSelectorArgument="&lt;wnd app='tick data manager.exe' cls='HwndWrapper*' title='數據管理器' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                              <uix:Target CVScreenId="14bfdd26-6106-4257-8332-ce5ef91e18cc" CvElementArea="1851, 37, 25, 24" CvType="Button" DesignTimeRectangle="1853, 39, 22, 20" ElementType="Button" FullSelectorArgument="&lt;ctrl idx='9' role='push button' /&gt;" Guid="9f21eda9-043e-4146-a629-6261af700c54" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAYCAYAAADkgu3FAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE+SURBVEhL7ZOhq4RAEMYFg2CwXTswCAbBJhgEg2C32QSD3WITLtxfYL4umG12wWYQbP4tc3wL93jn+ni46L3yFr6w3+zMjxlmJfrQkdbGWecLlOf5KdoELctyqP5BVFUVeZ5H1+uVTNOksixpHEfu3Vq7QGmakiRJpGkaOY7DYLgbhkHDMHDvhUCPx4MVDcPwrQN0BN/3fS5HCIRxoZOtMQEiyzL1fc/FdoMwJtd1OR+63W6sq7quudhukGVZpOs650NJkjBQ27ZcbDeoKApW7H6/v/ld15GqqmTbNpcjBJqmiRUDLAgCNi50Agi8KIq4HCEQhBWO45gtBYpjAbDml8uF3bH+6xwh0EvzPFPTNKxL3DG+32BCoC19h2VZxsUPA0EvmKIorOvTQBA+NIBr/3DQT/p70BniQGefj4GeWD8jwAbrpQUAAAAASUVORK5CYII=" SearchSteps="Selector, Image, CV" />
+                              <uix:Target CVScreenId="73984e17-748e-4de7-ac43-2f0f4eb4cb37" CvElementArea="1877, 37, 25, 23" CvType="Button" DesignTimeRectangle="1879, 39, 22, 20" ElementType="Button" FullSelectorArgument="&lt;ctrl idx='10' role='push button' /&gt;" Guid="94c34e8d-9f95-4513-a4fd-65e54c723611" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAYCAYAAADkgu3FAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADZSURBVEhL7ZIxCsMgFEAF90D2bIEMmXMF95wkeABPkDlDSPZALuCQE7hlD3iWXxQUqqVYG0NL++GB/u/3qYjgokBuIlVYEaU0CQ9FUspT+Yui+Q7RsiwaIYRXc4kW7fsOCCHNOI5e3eVzRcdxQNu2UBSFFeV5DlVVwbZt3vqXRcMwQN/3esw5B0KIFdV1DdM06dq6rnZdlEjdIMsyO1cfoCxLwBjrQ5i8OYDbHy0ysnme73KniNQG6lme0TTNOaJQ3P5gEWMMuq4Lxu0PFr3LD4lS4IlSx2WiG39THzrvwq1cAAAAAElFTkSuQmCC" SearchSteps="Selector, Image, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'editable text TxtFilter'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="506,288" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="a0953e7c-4d56-48f4-8a35-fefae8ad94c6" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable CVScreenId="14bfdd26-6106-4257-8332-ce5ef91e18cc" ContentHash="7n7D3HfJlE2dIb9ClDPfdQ" CvElementArea="1717, 35, 133, 28" CvType="InputBox" DesignTimeRectangle="1718, 36, 130, 25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='TxtFilter' /&gt;" Guid="48bc43d7-e800-45f5-b11c-0921b1e18ec1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIYAAAAdCAYAAABv2BQRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEySURBVGhD7dkhi4VQEIbh+3ctChaDFi36C8QgCDZZTItgsFgFozaTQRCzBsMsJ9zL7nh2WdRydr8Hpoxz2tt8EIDEgy8AhFcYb/k7BiMPA/43hAFSCAOkEAZInQojz3NK0/RXU5Ylfw4KOBVG27bkui5pmvbjBEFAXdfx56CAU2EITdOQYRiHGJ7jeR4Nw8CfgSJOhyFkWXYI4jlVVfFzUMilMMZxJN/3D1HEcUzbtvFzUMilMIS6rr9EYds29X3Pz0Axl8PY952SJHmFURQFPwEFXQ5DWJaFdF0ny7JoXVf+GRR0SxiCaZoURRFfg6IQBkghDJBCGCB1WxiO41AYhnwNirotDPFfZJ5nvgZF3RbGNE18BQq7LQz4WxAGSCEMkEIYIPVtGBjMIQyAzxAGSH0AJJn4T5n3DzYAAAAASUVORK5CYII=" InformativeScreenshot="fe488b28be0567976c670cc640882864.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/rUHvtIPZ40SbTyMpP8UDnQ" ScopeSelectorArgument="&lt;wnd app='tick data manager.exe' cls='HwndWrapper*' title='數據管理器' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                              <uix:Target CVScreenId="14bfdd26-6106-4257-8332-ce5ef91e18cc" CvElementArea="1851, 37, 25, 24" CvType="Button" DesignTimeRectangle="1853, 39, 22, 20" ElementType="Button" FullSelectorArgument="&lt;ctrl idx='9' role='push button' /&gt;" Guid="9f21eda9-043e-4146-a629-6261af700c54" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAYCAYAAADkgu3FAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE+SURBVEhL7ZOhq4RAEMYFg2CwXTswCAbBJhgEg2C32QSD3WITLtxfYL4umG12wWYQbP4tc3wL93jn+ni46L3yFr6w3+zMjxlmJfrQkdbGWecLlOf5KdoELctyqP5BVFUVeZ5H1+uVTNOksixpHEfu3Vq7QGmakiRJpGkaOY7DYLgbhkHDMHDvhUCPx4MVDcPwrQN0BN/3fS5HCIRxoZOtMQEiyzL1fc/FdoMwJtd1OR+63W6sq7quudhukGVZpOs650NJkjBQ27ZcbDeoKApW7H6/v/ld15GqqmTbNpcjBJqmiRUDLAgCNi50Agi8KIq4HCEQhBWO45gtBYpjAbDml8uF3bH+6xwh0EvzPFPTNKxL3DG+32BCoC19h2VZxsUPA0EvmKIorOvTQBA+NIBr/3DQT/p70BniQGefj4GeWD8jwAbrpQUAAAAASUVORK5CYII=" SearchSteps="Selector, Image, CV" />
+                              <uix:Target CVScreenId="73984e17-748e-4de7-ac43-2f0f4eb4cb37" CvElementArea="1877, 37, 25, 23" CvType="Button" DesignTimeRectangle="1879, 39, 22, 20" ElementType="Button" FullSelectorArgument="&lt;ctrl idx='10' role='push button' /&gt;" Guid="94c34e8d-9f95-4513-a4fd-65e54c723611" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAYCAYAAADkgu3FAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADZSURBVEhL7ZIxCsMgFEAF90D2bIEMmXMF95wkeABPkDlDSPZALuCQE7hlD3iWXxQUqqVYG0NL++GB/u/3qYjgokBuIlVYEaU0CQ9FUspT+Yui+Q7RsiwaIYRXc4kW7fsOCCHNOI5e3eVzRcdxQNu2UBSFFeV5DlVVwbZt3vqXRcMwQN/3esw5B0KIFdV1DdM06dq6rnZdlEjdIMsyO1cfoCxLwBjrQ5i8OYDbHy0ysnme73KniNQG6lme0TTNOaJQ3P5gEWMMuq4Lxu0PFr3LD4lS4IlSx2WiG39THzrvwq1cAAAAAElFTkSuQmCC" SearchSteps="Selector, Image, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">td_symbol</CSharpValue>
+                        </InArgument>
+                      </uix:NTypeInto.Text>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''push button''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="506,227" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a0953e7c-4d56-48f4-8a35-fefae8ad94c6" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="d0ebab6a-b317-41c7-989d-5fe406942d78" ContentHash="x3gnr_Ujo0ODU3613708iQ" CvElementArea="1851, 37, 25, 24" CvType="Button" DesignTimeRectangle="1853, 39, 22, 20" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl idx='9' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='' role='push button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="f21843a0-c8a4-435c-8154-7643738bbca7" InformativeScreenshot="022bf8bc4379bc64acbf3050f6de19ff.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/UUI0pE90DUyOME6A4B-jzA" ScopeSelectorArgument="&lt;wnd app='tick data manager.exe' cls='HwndWrapper*' title='數據管理器' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''push button QuickDownlo…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="506,227" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a0953e7c-4d56-48f4-8a35-fefae8ad94c6" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="d519a5c7-4c80-45c0-af3f-3a70b7ede349" ContentHash="-yHKVVl0jkatlvSkcmJdKA" CvElementArea="824, 137, 19, 18" CvType="Button" DesignTimeRectangle="825, 139, 17, 16" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='QuickDownloadButton' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='QuickDownloadButton' role='push button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="ed895e4b-70d3-40c6-9e48-33738f60721f" InformativeScreenshot="1eb7f23b1f4cc0901702c1a9fc0772c0.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/cAHz9LsrLk6NUOA9XqWJ8Q" ScopeSelectorArgument="&lt;wnd app='tick data manager.exe' cls='HwndWrapper*' title='數據管理器' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <Delay Duration="00:00:30" sap:VirtualizedContainerService.HintSize="506,123" sap2010:WorkflowViewState.IdRef="Delay_4" />
+                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="506,635" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                      <TryCatch.Try>
+                        <ui:FindImageMatches DisplayName="Find Image Matches 'tick data'" sap:VirtualizedContainerService.HintSize="468,107" sap2010:WorkflowViewState.IdRef="FindImageMatches_1">
+                          <ui:FindImageMatches.Image>
+                            <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEIAAAASCAYAAADv2ggfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFpSURBVFhH7ZaLrcMgDEU9FjOxj5dhFJZxZT7h2tAmUSs9vSRXqtQYbPAxJiF5VETecFc9IJp+CiJFkpi89X8IQGThQEJkf2cSuxCIIJxxOElUIAezuzAIlcJY2WddHAQmqFCiYK6YvAGRWQKRhBYwcxgth7RSHPbAsi3f/KcWxfkuVl3ftvjYt8+tzuvuh0BoEjWhgyBKEjAvs8QtMG7Axcu5gij+i71M9hqrw9b1CcdhfikEFkDH4PkQiFMnIkZb2SZzIqDCdfO2pQZ4q6VdT0hzXrXmu737ufsgTHX3QVAIUzXVjgn4TXQbtdjLhN/ZD4MAf83JFesziNanI3h9i2zPbtzS7/9tL1qfJLxqGd8CmYVXdhe7FgISLPcJFq4WMi6A7XxH2OoXucuNfWtsDj1elIQXn/M5fYm6y3I6aYyX7HzCJ1hNP/2y/GutWsPLt2nXvUD4txnoJiB6m86t0nUpEN/oAdH0AijbywqlqVj2AAAAAElFTkSuQmCC" />
+                          </ui:FindImageMatches.Image>
+                          <ui:FindImageMatches.Matches>
+                            <OutArgument x:TypeArguments="scg:IEnumerable(ui:UiElement)">
+                              <CSharpReference x:TypeArguments="scg:IEnumerable(ui:UiElement)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">DukascopyImg</CSharpReference>
+                            </OutArgument>
+                          </ui:FindImageMatches.Matches>
+                          <ui:FindImageMatches.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bc620ad5-048a-482f-af25-eedce98866bc" Selector="&lt;ctrl automationid='ListboxQueue' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:FindImageMatches.Target>
+                        </ui:FindImageMatches>
+                      </TryCatch.Try>
+                      <TryCatch.Catches>
+                        <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                          <ActivityAction x:TypeArguments="s:Exception">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,166" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_2">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="scg:IEnumerable(ui:UiElement)">
+                                    <CSharpReference x:TypeArguments="scg:IEnumerable(ui:UiElement)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">DukascopyImg</CSharpReference>
+                                  </OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="scg:IEnumerable(ui:UiElement)">
+                                    <CSharpValue x:TypeArguments="scg:IEnumerable(ui:UiElement)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">null</CSharpValue>
+                                  </InArgument>
+                                </Assign.Value>
+                              </Assign>
+                            </Sequence>
+                          </ActivityAction>
+                        </Catch>
+                      </TryCatch.Catches>
+                      <TryCatch.Finally>
+                        <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="468,166" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_1">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="scg:IEnumerable(ui:UiElement)">
+                                <CSharpReference x:TypeArguments="scg:IEnumerable(ui:UiElement)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">DukascopyImg</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="scg:IEnumerable(ui:UiElement)">
+                                <CSharpValue x:TypeArguments="scg:IEnumerable(ui:UiElement)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">null</CSharpValue>
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </TryCatch.Finally>
+                    </TryCatch>
+                    <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="506,940" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
+                      <ui:InterruptibleWhile.Body>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="504,809" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Delay Duration="00:01:00" sap:VirtualizedContainerService.HintSize="470,123" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="470,626" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                            <TryCatch.Try>
+                              <ui:FindImageMatches DisplayName="Find Image Matches 'tick data'" sap:VirtualizedContainerService.HintSize="468,107" sap2010:WorkflowViewState.IdRef="FindImageMatches_3">
+                                <ui:FindImageMatches.Image>
+                                  <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEIAAAASCAYAAADv2ggfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFpSURBVFhH7ZaLrcMgDEU9FjOxj5dhFJZxZT7h2tAmUSs9vSRXqtQYbPAxJiF5VETecFc9IJp+CiJFkpi89X8IQGThQEJkf2cSuxCIIJxxOElUIAezuzAIlcJY2WddHAQmqFCiYK6YvAGRWQKRhBYwcxgth7RSHPbAsi3f/KcWxfkuVl3ftvjYt8+tzuvuh0BoEjWhgyBKEjAvs8QtMG7Axcu5gij+i71M9hqrw9b1CcdhfikEFkDH4PkQiFMnIkZb2SZzIqDCdfO2pQZ4q6VdT0hzXrXmu737ufsgTHX3QVAIUzXVjgn4TXQbtdjLhN/ZD4MAf83JFesziNanI3h9i2zPbtzS7/9tL1qfJLxqGd8CmYVXdhe7FgISLPcJFq4WMi6A7XxH2OoXucuNfWtsDj1elIQXn/M5fYm6y3I6aYyX7HzCJ1hNP/2y/GutWsPLt2nXvUD4txnoJiB6m86t0nUpEN/oAdH0AijbywqlqVj2AAAAAElFTkSuQmCC" />
+                                </ui:FindImageMatches.Image>
+                                <ui:FindImageMatches.Matches>
+                                  <OutArgument x:TypeArguments="scg:IEnumerable(ui:UiElement)">
+                                    <CSharpReference x:TypeArguments="scg:IEnumerable(ui:UiElement)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">DukascopyImg</CSharpReference>
+                                  </OutArgument>
+                                </ui:FindImageMatches.Matches>
+                                <ui:FindImageMatches.Target>
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bc620ad5-048a-482f-af25-eedce98866bc" Selector="&lt;ctrl automationid='ListboxQueue' /&gt;">
+                                    <ui:Target.TimeoutMS>
+                                      <InArgument x:TypeArguments="x:Int32" />
+                                    </ui:Target.TimeoutMS>
+                                    <ui:Target.WaitForReady>
+                                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                                    </ui:Target.WaitForReady>
+                                  </ui:Target>
+                                </ui:FindImageMatches.Target>
+                              </ui:FindImageMatches>
+                            </TryCatch.Try>
+                            <TryCatch.Catches>
+                              <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+                                <ActivityAction x:TypeArguments="s:Exception">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,166" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_3">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="scg:IEnumerable(ui:UiElement)">
+                                          <CSharpReference x:TypeArguments="scg:IEnumerable(ui:UiElement)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_11">DukascopyImg</CSharpReference>
+                                        </OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="scg:IEnumerable(ui:UiElement)">
+                                          <CSharpValue x:TypeArguments="scg:IEnumerable(ui:UiElement)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">null</CSharpValue>
+                                        </InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                  </Sequence>
+                                </ActivityAction>
+                              </Catch>
+                            </TryCatch.Catches>
+                            <TryCatch.Finally>
+                              <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="468,166" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_4">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="scg:IEnumerable(ui:UiElement)">
+                                      <CSharpReference x:TypeArguments="scg:IEnumerable(ui:UiElement)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_12">DukascopyImg</CSharpReference>
+                                    </OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="scg:IEnumerable(ui:UiElement)">
+                                      <CSharpValue x:TypeArguments="scg:IEnumerable(ui:UiElement)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">null</CSharpValue>
+                                    </InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                              </Sequence>
+                            </TryCatch.Finally>
+                          </TryCatch>
+                        </Sequence>
+                      </ui:InterruptibleWhile.Body>
+                      <ui:InterruptibleWhile.Condition>
+                        <CSharpValue x:TypeArguments="x:Boolean" DisplayName="C sharp value" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">DukascopyImg != null &amp;&amp; DukascopyImg.Any()</CSharpValue>
+                      </ui:InterruptibleWhile.Condition>
+                    </ui:InterruptibleWhile>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="506,280" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,169" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,109" sap2010:WorkflowViewState.IdRef="MessageBox_3">
+                            <ui:MessageBox.Text>
+                              <InArgument x:TypeArguments="x:Object">
+                                <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">DukascopyImg != null &amp;&amp; DukascopyImg.Any() ? DukascopyImg.FirstOrDefault().Selector.ToString() : "No image found"</CSharpValue>
+                              </InArgument>
+                            </ui:MessageBox.Text>
+                          </ui:MessageBox>
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                    </ui:CommentOut>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '關閉'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="506,183" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a0953e7c-4d56-48f4-8a35-fefae8ad94c6" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable CVScreenId="c831fcc6-9c38-4fc4-a6de-6ecbe1088409" ContentHash="MvnFQulFUUaK3Xe9gtlODw" CvElementArea="1893, 9, 19, 18" CvType="CloseButton" DesignTimeRectangle="1880, 8, 48, 22" ElementType="Button" FullSelectorArgument="&lt;ctrl name='關閉' role='push button' /&gt;" Guid="491da415-76c7-4b2e-a92c-2ac45db1ac75" InformativeScreenshot="7136aa4443883238850b6af2bf8f2d30.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/QCy85ylXrUe0SmS7hpAuIw" ScopeSelectorArgument="&lt;wnd app='tick data manager.exe' cls='HwndWrapper*' title='數據管理器' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,92" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable CVScreenId="556da65d-496b-480f-8a42-53d8a3383dd1" ContentHash="vYhSzhwczUmn5mGlv_x-8A" CvElementArea="1717, 35, 133, 28" CvType="InputBox" DesignTimeRectangle="1718, 36, 130, 25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='TxtFilter' /&gt;" Guid="7388378e-b9cb-489d-ae9d-8fba44d46b80" InformativeScreenshot="d660e86bce92d0cd08d954d9afa9cfe4.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/7nRuoyfmyk26fDMOIcujWg" ScopeSelectorArgument="&lt;wnd app='tick data manager.exe' cls='HwndWrapper*' title='數據管理器' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="3">
+                        <uix:Target CVScreenId="556da65d-496b-480f-8a42-53d8a3383dd1" CvElementArea="1851, 37, 25, 24" CvType="Button" DesignTimeRectangle="1853, 39, 22, 20" ElementType="Button" FullSelectorArgument="&lt;ctrl idx='9' role='push button' /&gt;" Guid="396138a7-fe8b-4f0f-b244-6fbdf91b4cc2" SearchSteps="Selector, CV" />
+                        <uix:Target CVScreenId="556da65d-496b-480f-8a42-53d8a3383dd1" CvElementArea="1877, 37, 25, 23" CvType="Button" DesignTimeRectangle="1879, 39, 22, 20" ElementType="Button" FullSelectorArgument="&lt;ctrl idx='10' role='push button' /&gt;" Guid="c79fdf10-5397-4e6e-a43b-5b2d4aba3aed" SearchSteps="Selector, CV" />
+                        <uix:Target CVScreenId="556da65d-496b-480f-8a42-53d8a3383dd1" CvElementArea="1901, 37, 25, 23" CvType="Button" DesignTimeRectangle="1903, 39, 22, 20" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='BtnOptions' /&gt;" Guid="0932f5be-0e40-44f7-acf4-4cd14c8e069c" SearchSteps="Selector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NCheckState.Target>
+              </uix:NCheckState>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="2SnLOkuHOkyvCMYkneHqGw" FilePath="C:\\Program Files (x86)\\eareview.net\\Tick Data Suite\\tick data manager.exe" IconBase64="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" InformativeScreenshot="53856699ccecaa8a6639d65497e6e0a9.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/IaStN1LZb0edWgZwlVM_ag" Selector="&lt;wnd app='tick data manager.exe' cls='HwndWrapper*' title='數據管理器' /&gt;" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

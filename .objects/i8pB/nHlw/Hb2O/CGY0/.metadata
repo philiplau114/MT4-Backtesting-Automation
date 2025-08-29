@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Alpari MT4",
+  "Type": "Element",
+  "Id": "CGY0k_Z9DkaFBy51uHvp-Q",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/CGY0k_Z9DkaFBy51uHvp-Q",
+  "ParentRef": "EoK9QnnZwUOAEw3B5dGgtA/Hb2OFiauz02wLCWLz7fcWA",
+  "Created": "2025-08-25T14:26:03.5677822Z",
+  "Updated": "2025-08-25T14:26:03.5677822Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

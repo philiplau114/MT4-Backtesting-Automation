@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Element 'Save as Report'(1)",
+  "Type": "Element",
+  "Id": "1l1Q6hEZW0mzOcmrhJ8oRA",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/1l1Q6hEZW0mzOcmrhJ8oRA",
+  "ParentRef": "EoK9QnnZwUOAEw3B5dGgtA/EYOcM0uOCU2G8d1ODrJiow",
+  "Created": "2025-08-01T08:54:06.4524454Z",
+  "Updated": "2025-08-01T08:54:06.4524454Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

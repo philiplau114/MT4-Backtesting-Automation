@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="O7TstK7ITU2eykaOx0Flng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="174325fc-23f8-4cdd-a791-c3ee1b8ce9bb" CvElementArea="203, 951, 1496, 26" CvType="InputBox" DesignTimeRectangle="216, 957, 1459, 15" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="d8625d7f-3c99-48dc-84f0-24436ad945e1" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32770' title='開啟' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="174325fc-23f8-4cdd-a791-c3ee1b8ce9bb" CvTextArea="137, 956, 71, 16" CvTextArgument="IESH(N):" CvType="Text" DesignTimeRectangle="138, 956, 69, 15" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlid='1090' title='檔案名稱(&amp;amp;N):' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1090' title='檔案名稱(&amp;amp;N):' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='檔案名稱(&amp;amp;N):' /&gt;" Guid="e3fcb770-48e5-4699-af6f-7fefb42423b7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="9006afb58e7312baf396b76a145d92ba.png" xmlns="">0zXbHvqtXF0OqPOOF1vrh0Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

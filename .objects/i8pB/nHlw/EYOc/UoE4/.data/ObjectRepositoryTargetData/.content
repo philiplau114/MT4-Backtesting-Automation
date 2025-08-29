@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Ii5SRulLK06yBd5mXyRR5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="4ca3f4ef-5817-41c6-ae48-313a54efc966" CvElementArea="412, 115, 68, 23" CvTextArea="430, 119, 29, 15" CvTextArgument="2(Y)" CvType="Button" DesignTimeRectangle="412, 115, 68, 23" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd aaname='確認另存新檔' cls='DirectUIHWND' /&gt;&lt;wnd aaname='是(Y)' cls='Button' title='是(&amp;amp;Y)' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='確認另存新檔' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='是(Y)' cls='Button' title='是(&amp;amp;Y)' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='是(&amp;amp;Y)' /&gt;" Guid="7a96048c-3b00-463e-aa8f-669db8bf5b6c" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32770' title='確認另存新檔' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="1ddbbeaadb8cc37f4e41c86f804da790.png" xmlns="">07R_m8N8-VEy9HerskWnlEg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

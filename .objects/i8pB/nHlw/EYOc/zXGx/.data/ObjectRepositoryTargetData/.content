@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zIv7c7OUykiKU6nS2Dz0Ng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="5b619df6-51ef-4a29-beb4-8345909e6568" CvElementArea="1706, 980, 90, 27" CvTextArea="1730, 986, 40, 15" CvTextArgument="¿E(S)" CvType="Button" DesignTimeRectangle="1707, 981, 88, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='存檔(&amp;amp;S)' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='存檔(&amp;amp;S)' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='存檔(&amp;amp;S)' /&gt;" Guid="ca9cddcb-0588-4e00-8c90-01ae7a833f7d" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32770' title='另存新檔' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="089d4f0c79f6eb5b8308454a1f2ccf6d.png" xmlns="">0eyz7zPjsTki24yCdWYzDIg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

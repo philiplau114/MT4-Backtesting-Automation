@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GZEkc1D6mkmbKOcWpJgaXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2d74d130-a0d7-4cb7-a228-9a29553352b5" CvTextArea="539, 893, 55, 12" CvTextArgument="2025.08.01" CvType="Text" DesignTimeRectangle="539, 890, 120, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname='To:' cls='SysDateTimePick32' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='To:' cls='SysDateTimePick32' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="22c29b3d-bfde-49ba-b364-cd24f4e77019" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2d74d130-a0d7-4cb7-a228-9a29553352b5" CvTextArea="515, 893, 17, 12" CvTextArgument="To:" CvType="Text" DesignTimeRectangle="412, 894, 120, 16" ElementType="Text" FullSelectorArgument="&lt;wnd cls='Static' title='To:' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Static' title='To:' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='To:' /&gt;" Guid="177a8a2b-bea2-4883-bc05-673b33d5676c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="45cb254dbd5572154c5711eaf5d29029.png" xmlns="">0w834Tj8IHkWXjiF9Fdxlxg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

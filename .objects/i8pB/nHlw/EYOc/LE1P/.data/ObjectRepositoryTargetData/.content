@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ELynmijx-UOrlZnOqOUPTQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="63d28581-d74f-4659-9b13-1b94300f774b" CvElementArea="16, 40, 53, 23" CvTextArea="21, 45, 43, 15" CvTextArgument="Testing" CvType="Button" DesignTimeRectangle="17, 41, 53, 20" DesignTimeScaleFactor="1" ElementType="TabPage" FullSelectorArgument="&lt;wnd ctrlid='12320' /&gt;&lt;ctrl name='Testing' role='page tab' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='12320' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;ctrl name='Testing' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Testing' /&gt;" Guid="4ae255b5-d509-4fa3-b9fa-a634f6ce18e9" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32770' title='Ace Phoenix Std v3.71' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="bd6f46fe981fc3e3e3b618509850a719.png" xmlns="">0GyaJ-4MJr0yXPyu1VtwZ1g</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

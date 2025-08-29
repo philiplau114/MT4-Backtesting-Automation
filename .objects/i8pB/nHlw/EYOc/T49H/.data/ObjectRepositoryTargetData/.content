@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ApfllUcTf06a4CdpINxoWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b9ca8b07-59e4-41c0-a35d-020ec26907b0" CvElementArea="141, 876, 17, 17" CvTextArea="99, 879, 41, 12" CvTextArgument="Use date" CvType="CheckBox" DesignTimeRectangle="38, 876, 120, 20" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' /&gt;&lt;wnd cls='Button' title='Use date' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Button' title='Use date' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='checked' /&gt;" Guid="09982709-4b37-47f7-9005-4da7470dd7bd" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="d10443de5a8f7125354d1ee120b59713.png" xmlns="">0F6uBwQNQPkOSDjcW1g8lXg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

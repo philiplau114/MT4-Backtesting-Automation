@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dwDpSadbHUqpLIqn3xwdWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="1a054e24-92e5-4208-9499-ceacf92f4a70" CvElementArea="124, 877, 1780, 24" CvType="InputBox" DesignTimeRectangle="136, 881, 1751, 17" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname='檔案總管窗格' cls='DirectUIHWND' /&gt;&lt;wnd aaname='檔案名稱:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='檔案總管窗格' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='檔案名稱:' cls='ComboBox' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd ctrlid='1001' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="3f8ed5d6-d591-45f0-904d-04fb7c51d1be" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32770' title='另存新檔' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1a054e24-92e5-4208-9499-ceacf92f4a70" CvTextArea="58, 882, 70, 16" CvTextArgument="FESH(N):" CvType="Text" DesignTimeRectangle="18, 878, 115, 23" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='檔案總管窗格' cls='DirectUIHWND' /&gt;&lt;ctrl name='檔案總管窗格' role='pane' /&gt;&lt;ctrl name='[資料夾配置] 窗格' role='pane' /&gt;&lt;ctrl name='詳細資料窗格' role='pane' /&gt;&lt;ctrl name='檔案名稱:' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='檔案總管窗格' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='檔案總管窗格' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='[資料夾配置] 窗格' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='詳細資料窗格' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='檔案名稱:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='檔案名稱:' /&gt;" Guid="1ca3fee8-c125-48fa-ae85-3f9fbc7bcfc7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="2b3527f0a7566ca01dadd5efc659612e.png" xmlns="">04qN1ewvnTkCASdkGoRll2g</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

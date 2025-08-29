@@ -1,0 +1,14 @@
+﻿{
+  "Name": "開啟",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "vA9mQsiwpEuMOsSX2VraAA",
+  "Reference": "EoK9QnnZwUOAEw3B5dGgtA/vA9mQsiwpEuMOsSX2VraAA",
+  "ParentRef": "EoK9QnnZwUOAEw3B5dGgtA/EYOcM0uOCU2G8d1ODrJiow",
+  "Created": "2025-08-01T01:41:59.0800066Z",
+  "Updated": "2025-08-01T01:41:59.0800066Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

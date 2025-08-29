@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KMVJBNacYkmhH68Vjnq1Mw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="857330e5-72c7-4ffc-8691-55c8640fa2ab" CvElementArea="10, 390, 118, 21" CvTextArea="13, 393, 109, 16" CvTextArgument="Tick Data Manager" CvType="Button" DesignTimeRectangle="15, 393, 106, 15" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='BtnTickDataManager' /&gt;&lt;ctrl name='Tick Data Manager' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='BtnTickDataManager' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl name='Tick Data Manager' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Tick Data Manager' /&gt;" Guid="73a3d15c-475f-421d-941e-1e6be678881b" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='HwndWrapper*' title='Tick data settings' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="857330e5-72c7-4ffc-8691-55c8640fa2ab" CvElementArea="10, 390, 118, 21" CvTextArea="13, 393, 109, 16" CvTextArgument="Tick Data Manager" CvType="Button" DesignTimeRectangle="10, 391, 116, 19" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='BtnTickDataManager' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='BtnTickDataManager' role='push button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Tick Data Manager' /&gt;" Guid="e18287e1-0730-422b-8d24-895a4bae369d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="a1b3f112ab1a40b1ac457429e493140e.png" xmlns="">0L6-ry3xA1EOMiLJztT0jzA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

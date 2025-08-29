@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eU8w02zXLk2DC6joCJC7MA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c2231760-2c63-4866-aca8-aaef28da061c" CvTextArea="31, 797, 1872, 12" CvTextArgument="Bars in test*" CvType="Text" DesignTimeRectangle="24, 794, 1883, 20" ElementType="ListItem" FullSelectorArgument="&lt;wnd cls='SysListView32' idx='14' /&gt;&lt;ctrl name='Bars in test' role='list item' /&gt;" Guid="8c91899a-b419-474e-a664-5cb6d4c5f36d" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="db50f8a4778c0519ada549d138926f0d.png" xmlns="">01I4akEDDnUmPJ5WOIDAuRg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

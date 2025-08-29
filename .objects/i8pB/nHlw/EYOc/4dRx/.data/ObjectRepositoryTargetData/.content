@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nZd03YLhKkm9FtmrxxZNyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="73f414f3-1be3-4ca0-8516-8532fa56e799" CvElementArea="1493, 783, 121, 24" CvTextArea="1512, 788, 82, 14" CvTextArgument="Tick data settings" CvType="Button" DesignTimeRectangle="1493, 784, 120, 23" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' /&gt;&lt;wnd cls='Button' title='Tick data settings' /&gt;" FuzzySelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Button' title='Tick data settings' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Tick data settings' /&gt;" Guid="60c6c9d3-108d-4ed4-a6b1-09dea5836f07" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="c4cb51eb8adaa36cf9700ab571466f9c.png" xmlns="">0Z29esB8930KQRxsX0qx2og</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yj4IYrhS00OQtrVhDr9BSQ" Reference="EoK9QnnZwUOAEw3B5dGgtA/rquUJx-MmUWId2swd5wC5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="59d235e0-0c15-462d-9b9a-40e2ed6188f6" CvElementArea="3528, 1661, 245, 38" CvType="InputBox" DesignTimeRectangle="3531, 1666, 240, 32" ElementType="DropDown" FuzzySelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Period:' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' cls='ComboBox' /&gt;" Guid="f230202d-42aa-47ac-bb71-622f186a267f" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="59d235e0-0c15-462d-9b9a-40e2ed6188f6" CvTextArea="3449, 1672, 70, 24" CvTextArgument="Period:" CvType="Text" DesignTimeRectangle="3277, 1674, 240, 32" ElementType="Text" FuzzySelectorArgument="&lt;wnd title='Terminal' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Static' title='Period:' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Period:' /&gt;" Guid="e393f05a-59da-400a-bfdf-90c16a8917c0" ImageBase64="" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="a99e3c98b3f3442b363994534f85e6b3.png" xmlns="">0tr-bHTvsY0u_QiFMlaanYw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

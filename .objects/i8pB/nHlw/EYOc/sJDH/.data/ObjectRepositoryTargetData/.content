@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="f1nIr7YOKk-phVzkLz20uA" Reference="EoK9QnnZwUOAEw3B5dGgtA/sJDHMNHEhUqpjBaQrWBSRA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="70db7b0a-2675-4f06-822e-e636b250d7c8" CvElementArea="1764, 960, 153, 25" CvType="Button" DesignTimeRectangle="1765, 961, 150, 23" ElementType="Button" FullSelectorArgument="&lt;wnd cls='Button' idx='12' /&gt;" Guid="d60d27cb-324c-442e-a661-0de2c54a2eb3" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="70db7b0a-2675-4f06-822e-e636b250d7c8" CvElementArea="1763, 887, 154, 26" CvTextArea="1804, 893, 70, 14" CvTextArgument="Modify expert" CvType="Button" DesignTimeRectangle="1765, 889, 150, 23" ElementType="Button" FuzzySelectorArgument="&lt;wnd cls='Button' title='Modify expert' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='unchecked' /&gt;" Guid="98ca6d2f-c2a4-466e-b0b3-a52bc714ca64" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJoAAAAbCAYAAACEE5ZqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEzSURBVHhe7ZQBCoMwDEV7/1N4RG+wsYFD/pJURxfT7QUeJr+/VfRju1FUQjUVKOob9QrasiwAwzGDtq4rwDAIGqRA0CAFggYpEDRIYdqgtdaeqN5bUyxvb4bzTBu0B14APN0j8m9rkecqKj6Tx/RB05dtaT0if7R2NZWfTfmLoG3aGd1aV6/Onu7NSu8Mb6/evyLTBy26an/Eox/P26+9pX3aW5r21lwZghZ4tFfNW9tjrammvXdGtLc6PxG0o/1+PuLRXrVozUKDo/7oXEvXuTIELfBo73k8/dPe0rS35spMG7THS97o6Za217devd6+vd9C90Szdw/VLJ/OlZk2aFcy8uOOPKsyBO0Eo/8g1l/qVyFokAJBgxQIGqRA0CAFggYpuEEDGM1b0Cjqm0XQqJS6A6QRDXwYqNWRAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="52da86f853993fd10478c9b00deb83fc.png" xmlns="">0Yp1uIkTWPkaFxinPqPB4ng</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
