@@ -288,11 +288,10 @@
       <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
       <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
-	  <!-- Add the following line if it's missing: -->
-	  <AssemblyReference>System.Xml.ReaderWriter</AssemblyReference>
+      <AssemblyReference>System.Xml.ReaderWriter</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="&#xA;" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1114.888888888889,21241.777777777777" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="&#xA;" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1347,21799" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="s:String[]" Name="symbolList" />
       <Variable x:TypeArguments="x:String" Name="BacktestStatus" />
@@ -304,19 +303,19 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="697.3333333333334,21173.777777777777" sap2010:WorkflowViewState.IdRef="Sequence_13">
+    <Sequence sap:VirtualizedContainerService.HintSize="1098,21731.5" sap2010:WorkflowViewState.IdRef="Sequence_13">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="MT4" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="663.5555555555555,21090.666666666668" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" ScopeGuid="a6a5efe5-d532-4fc3-aad9-33b3ffdf93ea" Timeout="120" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="MT4" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1064,21648.5" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" ScopeGuid="a6a5efe5-d532-4fc3-aad9-33b3ffdf93ea" Timeout="120" Version="V2" WindowResize="Maximize">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="629.7777777777778,20798.666666666668" sap2010:WorkflowViewState.IdRef="Sequence_15">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1030,21355.5" sap2010:WorkflowViewState.IdRef="Sequence_15">
               <Sequence.Variables>
                 <Variable x:TypeArguments="scg:IEnumerable(ui:UiElement)" Name="children" />
               </Sequence.Variables>
@@ -325,7 +324,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''892422018: VantageInter…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="596,227.11111111111111" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6a5efe5-d532-4fc3-aad9-33b3ffdf93ea" Version="V5">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''892422018: VantageInter…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="996,228" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6a5efe5-d532-4fc3-aad9-33b3ffdf93ea" Version="V5">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable ContentHash="B5p8-1o0E0ubPhTw6P0D2g" DesignTimeRectangle="0, 0, 1936, 1048" DesignTimeScaleFactor="1" Guid="0f3aa9b8-aa21-4828-aeae-86c1919d7aec" InformativeScreenshot="d42a58d2d66462df53c93cda576ec1d0.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/g-NQcpoV6k2X5eSvXHjorg" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive">
                     <uix:TargetAnchorable.PointOffset>
@@ -344,51 +343,97 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <Sequence DisplayName="Open Strategy Sequence" sap:VirtualizedContainerService.HintSize="596,540.8888888888889" sap2010:WorkflowViewState.IdRef="Sequence_71">
+              <ui:RetryScope DisplayName="Strategy Tester Scope" sap:VirtualizedContainerService.HintSize="996,1096" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3">
+                <ui:RetryScope.ActivityBody>
+                  <ActivityAction>
+                    <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="954,590" sap2010:WorkflowViewState.IdRef="Sequence_83">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Sequence DisplayName="Open Strategy Sequence" sap:VirtualizedContainerService.HintSize="450,530" sap2010:WorkflowViewState.IdRef="Sequence_71">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'View'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6a5efe5-d532-4fc3-aad9-33b3ffdf93ea" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable CVScreenId="9aeee886-0b86-46e8-a6f8-c2c7548301b3" ContentHash="p1OWpPoZk0Obkb5aFYpvug" CvTextArea="71, 34, 30, 12" CvTextArgument="View" CvType="Text" DesignTimeRectangle="45, 31, 45, 19" FullSelectorArgument="&lt;ctrl automationid='MenuBar' name='應用程式' role='menu bar' /&gt;&lt;ctrl name='View' role='menu item' /&gt;" Guid="1c8e52e3-c5f7-4bf6-a34a-136e3c88490d" InformativeScreenshot="3dd0a97e15674a96367b9149ea9916f0.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/1b8l49zSy0WzXtdWaGBV2w" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Strategy Tester Ctrl+R'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,219" sap2010:WorkflowViewState.IdRef="NClick_30" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6a5efe5-d532-4fc3-aad9-33b3ffdf93ea" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable CVScreenId="70f501f0-c744-4f97-a8cf-216757265e63" ContentHash="tO1_0OZd7UiGTTT9A5fxWQ" CvTextArea="7, 241, 167, 13" CvTextArgument="M Strategy Tester Ctrl+R" CvType="Text" DesignTimeRectangle="3, 237, 182, 23" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='View' role='popup menu' /&gt;&lt;ctrl automationid='33315' /&gt;" FuzzySelectorArgument="&lt;ctrl name='View' role='popup menu' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='33315' role='menu item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Strategy Tester&amp;#x9;Ctrl+R' /&gt;" Guid="b4e3856d-9c52-4bb1-b1ac-35a4d68a7914" InformativeScreenshot="1196097e35ba94ddd81975514c138fb5.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/ZYj6cuUpYkKWiHAqGEyWUg" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                              </uix:TargetAnchorable.Anchors>
+                              <uix:TargetAnchorable.PointOffset>
+                                <uix:PointOffset />
+                              </uix:TargetAnchorable.PointOffset>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                              <uix:VerifyExecutionOptions.Retry>
+                                <InArgument x:TypeArguments="x:Boolean" />
+                              </uix:VerifyExecutionOptions.Retry>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                      </Sequence>
+                    </Sequence>
+                  </ActivityAction>
+                </ui:RetryScope.ActivityBody>
+                <ui:RetryScope.Condition>
+                  <ActivityFunc x:TypeArguments="x:Boolean">
+                    <uix:NCheckState DisplayName="Check App State 'Ace Phoenix Std v3.71.e…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="954,312.5" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="a6a5efe5-d532-4fc3-aad9-33b3ffdf93ea" Version="V5">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,92.5" sap2010:WorkflowViewState.IdRef="Sequence_84">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,92.5" sap2010:WorkflowViewState.IdRef="Sequence_85">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable ContentHash="OBY0P4mrN0mGUjqObo9oIw" DesignTimeRectangle="46, 1558, 4055, 429" FullSelectorArgument="&lt;wnd cls='AfxWnd140s' idx='5' /&gt;" Guid="9cfacc3d-18bd-4347-9a9d-5b0bbe51bc42" InformativeScreenshot="64e0e8fd8ccc4a61259570be181579e3.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/KL0pBlh2MEmI-t-9y8TMBw" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892615151: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                  </ActivityFunc>
+                </ui:RetryScope.Condition>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'View'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,227.11111111111111" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6a5efe5-d532-4fc3-aad9-33b3ffdf93ea" Version="V5">
-                  <uix:NClick.Target>
-                    <uix:TargetAnchorable CVScreenId="9aeee886-0b86-46e8-a6f8-c2c7548301b3" ContentHash="p1OWpPoZk0Obkb5aFYpvug" CvTextArea="71, 34, 30, 12" CvTextArgument="View" CvType="Text" DesignTimeRectangle="45, 31, 45, 19" FullSelectorArgument="&lt;ctrl automationid='MenuBar' name='應用程式' role='menu bar' /&gt;&lt;ctrl name='View' role='menu item' /&gt;" Guid="1c8e52e3-c5f7-4bf6-a34a-136e3c88490d" InformativeScreenshot="3dd0a97e15674a96367b9149ea9916f0.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/1b8l49zSy0WzXtdWaGBV2w" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                  </uix:NClick.Target>
-                  <uix:NClick.VerifyOptions>
-                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                      <uix:VerifyExecutionOptions.Retry>
-                        <InArgument x:TypeArguments="x:Boolean" />
-                      </uix:VerifyExecutionOptions.Retry>
-                      <uix:VerifyExecutionOptions.Timeout>
-                        <InArgument x:TypeArguments="x:Double" />
-                      </uix:VerifyExecutionOptions.Timeout>
-                    </uix:VerifyExecutionOptions>
-                  </uix:NClick.VerifyOptions>
-                </uix:NClick>
-                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Strategy Tester Ctrl+R'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NClick_30" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6a5efe5-d532-4fc3-aad9-33b3ffdf93ea" Version="V5">
-                  <uix:NClick.Target>
-                    <uix:TargetAnchorable CVScreenId="70f501f0-c744-4f97-a8cf-216757265e63" ContentHash="tO1_0OZd7UiGTTT9A5fxWQ" CvTextArea="7, 241, 167, 13" CvTextArgument="M Strategy Tester Ctrl+R" CvType="Text" DesignTimeRectangle="3, 237, 182, 23" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='View' role='popup menu' /&gt;&lt;ctrl automationid='33315' /&gt;" FuzzySelectorArgument="&lt;ctrl name='View' role='popup menu' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='33315' role='menu item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Strategy Tester&amp;#x9;Ctrl+R' /&gt;" Guid="b4e3856d-9c52-4bb1-b1ac-35a4d68a7914" InformativeScreenshot="1196097e35ba94ddd81975514c138fb5.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/ZYj6cuUpYkKWiHAqGEyWUg" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
-                      <uix:TargetAnchorable.Anchors>
-                        <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
-                      </uix:TargetAnchorable.Anchors>
-                      <uix:TargetAnchorable.PointOffset>
-                        <uix:PointOffset />
-                      </uix:TargetAnchorable.PointOffset>
-                    </uix:TargetAnchorable>
-                  </uix:NClick.Target>
-                  <uix:NClick.VerifyOptions>
-                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                      <uix:VerifyExecutionOptions.Retry>
-                        <InArgument x:TypeArguments="x:Boolean" />
-                      </uix:VerifyExecutionOptions.Retry>
-                      <uix:VerifyExecutionOptions.Timeout>
-                        <InArgument x:TypeArguments="x:Double" />
-                      </uix:VerifyExecutionOptions.Timeout>
-                    </uix:VerifyExecutionOptions>
-                  </uix:NClick.VerifyOptions>
-                </uix:NClick>
-              </Sequence>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Label 'Ace Phoenix Std v3.71.e…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="596,228" sap2010:WorkflowViewState.IdRef="NClick_35" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6a5efe5-d532-4fc3-aad9-33b3ffdf93ea" Version="V5">
+              </ui:RetryScope>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Label 'Ace Phoenix Std v3.71.e…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="996,228" sap2010:WorkflowViewState.IdRef="NClick_35" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6a5efe5-d532-4fc3-aad9-33b3ffdf93ea" Version="V5">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable CVScreenId="85a46be6-241f-4a97-acc8-a6d10b2114cc" ContentHash="WrrfaJlWhUG0e45Zh5795g" CvElementArea="155, 783, 1332, 22" CvType="InputBox" DesignTimeRectangle="161, 788, 1305, 14" ElementType="Text" FullSelectorArgument="&lt;wnd cls='AfxControlBar140s' title='Terminal' /&gt;&lt;wnd aaname='*' cls='Edit' /&gt;" Guid="d85c9514-a189-4760-af45-ae389e9a043b" InformativeScreenshot="0e7f9552a2c700b0d69f62713559d8ee.png" Reference="EoK9QnnZwUOAEw3B5dGgtA/PggzC5DxE0K_3rONqiNBfA" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892422018: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -409,9 +454,9 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="596,2312.4444444444443" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+              <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="996,2312.5" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
                 <ui:InterruptibleWhile.Body>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="593.7777777777778,2181.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="594,2181" sap2010:WorkflowViewState.IdRef="Sequence_19">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="currentEA2" />
                       <Variable x:TypeArguments="x:String" Name="currentEA3" />

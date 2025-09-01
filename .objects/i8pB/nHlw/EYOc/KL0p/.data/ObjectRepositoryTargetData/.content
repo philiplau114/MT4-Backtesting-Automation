@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OBY0P4mrN0mGUjqObo9oIw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="46, 1558, 4055, 429" FullSelectorArgument="&lt;wnd cls='AfxWnd140s' idx='5' /&gt;" Guid="9cfacc3d-18bd-4347-9a9d-5b0bbe51bc42" ScopeSelectorArgument="&lt;wnd app='terminal.exe' cls='MetaQuotes::MetaTrader*' title='892615151: VantageInternational-Demo - Demo Account - Vantage In*' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="64e0e8fd8ccc4a61259570be181579e3.png" xmlns="">0e-9--BJ9a0uCUG4aCMeK3w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

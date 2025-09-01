@@ -76,6 +76,9 @@
           },
           "in_TaskId": {
             "type": "string"
+          },
+          "in_OutputJsonPath": {
+            "type": "string"
           }
         },
         "required": []
