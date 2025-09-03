@@ -1,5 +1,6 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="MainSequence2" this:MainSequence2.in_TaskId="1" this:MainSequence2.in_InputSetFilePath="C:\Users\Philip\Documents\GitHub\EA_Automation\01_user_inputs\PX3.71_GBPUSD_M30_1500_P4606_DD691_20220822-20250822_SL800_WR60.67_PF1.98_T539_M454776070_V1_S307.set" this:MainSequence2.in_JobId="1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:p="http://schemas.uipath.com/workflow/activities/python" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:sds="clr-namespace:System.Data.SQLite;assembly=System.Data.SQLite" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uwaj="clr-namespace:UiPath.Web.Activities.JSON;assembly=UiPath.Web.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="MainSequence2" this:MainSequence2.in_ConfigPath="C:\Users\Philip\Documents\UiPath\Packages\Config.xlsx" this:MainSequence2.in_TaskId="1" this:MainSequence2.in_InputSetFilePath="C:\Users\Philip\Documents\GitHub\EA_Automation\01_user_inputs\PX3.71_GBPUSD_M30_1500_P4606_DD691_20220822-20250822_SL800_WR60.67_PF1.98_T539_M454776070_V1_S307.set" this:MainSequence2.in_JobId="1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:p="http://schemas.uipath.com/workflow/activities/python" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:sds="clr-namespace:System.Data.SQLite;assembly=System.Data.SQLite" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uwaj="clr-namespace:UiPath.Web.Activities.JSON;assembly=UiPath.Web.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
+    <x:Property Name="in_ConfigPath" Type="InArgument(x:String)" />
     <x:Property Name="in_OutputJsonPath" Type="InArgument(x:String)" />
     <x:Property Name="in_TaskId" Type="InArgument(x:String)" />
     <x:Property Name="out_ErrorMessage" Type="OutArgument(x:String)" />
@@ -168,7 +169,7 @@
       <AssemblyReference>UiPath.GSuite</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="MainSequenceCLI" sap:VirtualizedContainerService.HintSize="1218,7710" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="MainSequenceCLI" sap:VirtualizedContainerService.HintSize="1347,7712" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Name="outputDict">
         <Variable.Default>
@@ -239,7 +240,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="592,7687" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="592,7689" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -256,7 +257,9 @@
           <OutArgument x:TypeArguments="sd:DataTable" x:Key="dtSettings">
             <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">dtSettings</CSharpReference>
           </OutArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="ConfigPath">.\data\config.xlsx</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="ConfigPath">
+            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_450">in_ConfigPath</CSharpValue>
+          </InArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
       <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="558,57" sap2010:WorkflowViewState.IdRef="CommentOut_23">
@@ -2854,7 +2857,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:CommentOut>
-      <Assign sap:VirtualizedContainerService.HintSize="558,115" sap2010:WorkflowViewState.IdRef="Assign_87">
+      <Assign sap:VirtualizedContainerService.HintSize="558,115.5" sap2010:WorkflowViewState.IdRef="Assign_87">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">
             <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_211">CurrentFile</CSharpReference>
@@ -2866,7 +2869,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
           </InArgument>
         </Assign.Value>
       </Assign>
-      <Assign sap:VirtualizedContainerService.HintSize="558,115" sap2010:WorkflowViewState.IdRef="Assign_92">
+      <Assign sap:VirtualizedContainerService.HintSize="558,115.5" sap2010:WorkflowViewState.IdRef="Assign_92">
         <Assign.To>
           <OutArgument x:TypeArguments="x:String">
             <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_214">out_Status</CSharpReference>
@@ -2876,7 +2879,7 @@ Path.Combine(settingsDict["ProcessedFolder"], Path.GetFileName(CurrentFile.ToStr
           <InArgument x:TypeArguments="x:String">In Progress</InArgument>
         </Assign.Value>
       </Assign>
-      <Assign sap:VirtualizedContainerService.HintSize="558,116" sap2010:WorkflowViewState.IdRef="Assign_100">
+      <Assign sap:VirtualizedContainerService.HintSize="558,117" sap2010:WorkflowViewState.IdRef="Assign_100">
         <Assign.To>
           <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:String)">
             <CSharpReference x:TypeArguments="scg:Dictionary(x:String, x:String)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_223">settingsDict</CSharpReference>

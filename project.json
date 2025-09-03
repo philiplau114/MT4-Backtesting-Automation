@@ -9,16 +9,16 @@
     "UiPath.GSuite.Activities": "[3.3.1-preview]",
     "UiPath.MicrosoftOffice365.Activities": "[3.3.2-preview]",
     "UiPath.Python.Activities": "[2.0.0-preview]",
-    "UiPath.System.Activities": "[25.6.1]",
-    "UiPath.UIAutomation.Activities": "25.10.8",
-    "UiPath.WebAPI.Activities": "[2.0.0-preview]",
+    "UiPath.System.Activities.Runtime": "[25.6.1]",
+    "UiPath.UIAutomation.Activities.Runtime": "25.10.8",
+    "UiPath.WebAPI.Activities.Runtime": "[2.0.0-preview]",
     "Witrics.SQLite.Activities": "[2.0.2]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "25.0.172.0",
-  "projectVersion": "1.0.2",
+  "projectVersion": "1.0.3",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -35,7 +35,8 @@
     "readyForPiP": false,
     "startsInPiP": false,
     "mustRestoreAllDependencies": true,
-    "pipType": "ChildSession"
+    "pipType": "ChildSession",
+    "robotVersion": "25.0.172"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -50,19 +51,258 @@
     "fileInfoCollection": [],
     "saveToCloud": false
   },
+  "arguments": {
+    "input": [
+      {
+        "name": "in_InputSetFilePath",
+        "displayName": "in_InputSetFilePath",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": false,
+        "hasDefault": true,
+        "defaultValue": "C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\01_user_inputs\\PX3.71_GBPUSD_M30_1500_P4606_DD691_20220822-20250822_SL800_WR60.67_PF1.98_T539_M454776070_V1_S307.set"
+      },
+      {
+        "name": "in_JobId",
+        "displayName": "in_JobId",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": false,
+        "hasDefault": true,
+        "defaultValue": "1"
+      },
+      {
+        "name": "in_TaskId",
+        "displayName": "in_TaskId",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": false,
+        "hasDefault": true,
+        "defaultValue": "1"
+      },
+      {
+        "name": "in_OutputJsonPath",
+        "displayName": "in_OutputJsonPath",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": false,
+        "hasDefault": false
+      },
+      {
+        "name": "in_ConfigPath",
+        "displayName": "in_ConfigPath",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+        "required": false,
+        "hasDefault": true,
+        "defaultValue": "C:\\Users\\Philip\\Documents\\UiPath\\Packages\\Config.xlsx"
+      }
+    ],
+    "output": [
+      {
+        "name": "out_ErrorMessage",
+        "displayName": "out_ErrorMessage",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      },
+      {
+        "name": "out_Artifacts",
+        "displayName": "out_Artifacts",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      },
+      {
+        "name": "out_Status",
+        "displayName": "out_Status",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      },
+      {
+        "name": "out_worker_JobId",
+        "displayName": "out_worker_JobId",
+        "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+      }
+    ]
+  },
   "expressionLanguage": "CSharp",
   "entryPoints": [
     {
       "filePath": "MT4backtest.xaml",
       "uniqueId": "db840873-8a34-4304-a2ea-1bc315414a89",
-      "input": [],
+      "input": [
+        {
+          "name": "mode",
+          "displayName": "mode",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "Optimization"
+        },
+        {
+          "name": "InitialDeposit",
+          "displayName": "InitialDeposit",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "\"1000\""
+        },
+        {
+          "name": "OptimizedParameter",
+          "displayName": "OptimizedParameter",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "Balance"
+        },
+        {
+          "name": "OptimizationReportPath",
+          "displayName": "OptimizationReportPath",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\03_optimization\\Arian PX3.71 AUDCAD M5 2500 P3036 DD461 20230101 20250421 (SL 300)-OptimizationReport.htm"
+        },
+        {
+          "name": "BacktestReportPath",
+          "displayName": "BacktestReportPath",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\02_backtest\\Arian PX3.71 AUDCAD M5 2500 P3036 DD461 20230101 20250421 (SL 300)-backtest_report.htm"
+        },
+        {
+          "name": "SettingsFilePath",
+          "displayName": "SettingsFilePath",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\01_user_inputs\\Arian PX3.71 AUDCAD M5 2500 P3036 DD461 20230101 20250421 (SL 300).set"
+        },
+        {
+          "name": "DateTo",
+          "displayName": "DateTo",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "01.2025.08"
+        },
+        {
+          "name": "DateFrom",
+          "displayName": "DateFrom",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "01.2024.01"
+        },
+        {
+          "name": "Spread",
+          "displayName": "Spread",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "20"
+        },
+        {
+          "name": "Period",
+          "displayName": "Period",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "M5"
+        },
+        {
+          "name": "btSymbol",
+          "displayName": "btSymbol",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "AUDCAD"
+        },
+        {
+          "name": "TargetEA",
+          "displayName": "TargetEA",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "Ace Phoenix Std v3.71.ex4"
+        },
+        {
+          "name": "CloseMT4",
+          "displayName": "CloseMT4",
+          "type": "UiPath.UIAutomationNext.Enums.NAppCloseMode, UiPath.UIAutomationNext, Version=25.10.8.0, Culture=neutral, PublicKeyToken=null",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "NAppCloseMode.Never"
+        },
+        {
+          "name": "dtSymbol",
+          "displayName": "dtSymbol",
+          "type": "System.Data.DataTable, System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "new System.Data.DataTable()"
+        }
+      ],
       "output": []
     },
     {
       "filePath": "MainSequenceCLI.xaml",
       "uniqueId": "650dbe7f-b6ca-4b19-8897-6a94de15b08b",
-      "input": [],
-      "output": []
+      "input": [
+        {
+          "name": "in_InputSetFilePath",
+          "displayName": "in_InputSetFilePath",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "C:\\Users\\Philip\\Documents\\GitHub\\EA_Automation\\01_user_inputs\\PX3.71_GBPUSD_M30_1500_P4606_DD691_20220822-20250822_SL800_WR60.67_PF1.98_T539_M454776070_V1_S307.set"
+        },
+        {
+          "name": "in_JobId",
+          "displayName": "in_JobId",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "1"
+        },
+        {
+          "name": "in_TaskId",
+          "displayName": "in_TaskId",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "1"
+        },
+        {
+          "name": "in_OutputJsonPath",
+          "displayName": "in_OutputJsonPath",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "in_ConfigPath",
+          "displayName": "in_ConfigPath",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": true,
+          "defaultValue": "C:\\Users\\Philip\\Documents\\UiPath\\Packages\\Config.xlsx"
+        }
+      ],
+      "output": [
+        {
+          "name": "out_ErrorMessage",
+          "displayName": "out_ErrorMessage",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        },
+        {
+          "name": "out_Artifacts",
+          "displayName": "out_Artifacts",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        },
+        {
+          "name": "out_Status",
+          "displayName": "out_Status",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        },
+        {
+          "name": "out_worker_JobId",
+          "displayName": "out_worker_JobId",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+        }
+      ]
     }
   ],
   "isTemplate": false,

@@ -79,6 +79,9 @@
           },
           "in_OutputJsonPath": {
             "type": "string"
+          },
+          "in_ConfigPath": {
+            "type": "string"
           }
         },
         "required": []
